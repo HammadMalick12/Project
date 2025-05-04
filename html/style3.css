@@ -1,0 +1,1058 @@
+
+.email i{
+    margin-right: 10px;
+    color: orange;
+}
+.call i{
+    color: orange;
+    margin-right: 10px;
+} 
+.Contact-info{
+    background-color: black;
+    color: white;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between; 
+    padding-left: 30;
+    padding-right: 30;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content .heading1{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-headfirst{
+    background-color: rgb(211, 253, 255);
+    color:  rgb(69, 148, 227);
+    display: flex;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    padding-left: 40;
+    padding-right: 40;
+    margin-left: auto;
+    margin-right: auto;
+}
+.list-items a:hover{
+    background-color: rgb(27, 99, 171);
+}
+.navbar-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 10;
+    color:  rgb(69, 148, 227);
+    gap: 30px;
+}
+.list-items a{
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+    box-shadow: 4 6px 10px  black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1.1rem;
+    display: none;
+}
+#checkbtn{
+    margin-bottom: 22px;
+    font-size: 1.7rem;
+    color: black;
+    display: flex;
+    display: none;
+}
+#check{
+    display: none;
+}
+.info{
+    padding-left: 7rem;
+    padding-top: 25px;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 7%;
+}
+.forms{
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 4 6px 10px whitesmoke;
+    max-width: 450px;
+    width: 95%;
+}
+.forms input[type="text"], 
+.forms input[name="Name"]{
+
+    width: 95%;
+    padding: 15px;
+    margin: 5px;
+    border: whitesmoke;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 4 10px 16px whitesmoke;
+    border-color: whitesmoke;
+} 
+.formsinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.map{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 4 6px 10px whitesmoke;
+    width: 90%;
+    height: 55%;
+    max-width: 475px;
+    border-color: whitesmoke;
+    padding-bottom: 40px;
+    margin-bottom: 12px;
+}
+iframe{
+    filter: invert(100%);
+}
+textarea{
+    padding-left: 25px;
+}
+.lastbutton button{
+    background-color: blue;
+    font-size: 16px;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+    width: 130px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: blue;
+    border-radius: 5px;
+}
+.lastbutton button:hover{
+    background-color: whitesmoke;
+    color: blue;
+    box-shadow: 4 6px 10px blue;
+}
+.lastbutton{
+    padding-top: 25px;
+    margin-top: 6px;
+    padding-left: 230px;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.footersection{
+    background-color: rgb(2, 2, 91);
+    border-radius: 3px;
+}
+.fheading{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 50px;
+    margin-top: 20px;
+}
+.button10 button{
+    background-color: blue;
+    font-size: 25px;
+    color: whitesmoke;
+    padding: 25px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 500px;
+    border-color: navy
+}
+.button10 button:hover{
+    background-color: orange;
+    box-shadow: 4 6px 10px blue;
+}
+.hline1 hr{
+    color: whitesmoke;
+    width: 200px;
+    font-size: 5px;
+    background-color:whitesmoke;
+    border-radius: 2px;
+    
+}
+.hline{
+    margin-top: 50px;
+}
+.buttons{
+    display: flex;
+    padding-left: 300px;
+    margin-left: 40px;
+}
+.button11 button{
+    background-color: blue;
+    font-size: 25px;
+    color: whitesmoke;
+    padding: 25px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 500px;
+    border-color: navy
+}
+.button11 button:hover{
+    background-color: orange;
+    box-shadow: 4 6px 10px blue;
+}
+.hline2 hr{
+    color: whitesmoke;
+    width: 200px;
+    font-size: 5px;
+    background-color:whitesmoke;
+    border-radius: 2px;
+    
+}
+.hline2nd{
+    margin-top: 50px;
+}
+.button12 button{
+    background-color: blue;
+    font-size: 25px;
+    color: whitesmoke;
+    padding: 25px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 500px;
+    border-color: navy
+}
+.button12 button:hover{
+    background-color: orange;
+    box-shadow: 4 6px 10px blue;
+}
+.lasttext{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 160px;
+}
+.firsttext{
+    font-size: 16px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.secondtext{
+    font-size: 16px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.thirdtext{
+    font-size: 16px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.follow{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+.combinedicons{
+    display: flex;
+    border-color: whitesmoke;
+    box-shadow: 4 6px 10px whitesmoke;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    margin: 5px;
+    font-size: 1.1rem;
+    border-radius: 3px;
+    color: blue;
+}
+.combinedicons .a:hover{
+    color: orange;
+    box-shadow: 4 6px 10px orange;
+}
+.lastline hr{
+    width: 750px;
+    font-weight: bold;
+    font-size: 5px;
+    border-color: whitesmoke;
+    border-radius: 3px;
+}
+.lastline{
+    padding-bottom: 25px;
+    margin-bottom: 5px;
+}
+.line{
+    text-align: center;
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+.empty{
+    background-color: whitesmoke;
+    padding-top: 50px;
+    margin-top: 10px;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+}
+.navbar-headfirst .menu-icon
+{
+    display: block;
+}
+.spacing{
+    display: none;
+}
+.button10text, .button11text, .button12text{
+    display: none;
+} 
+.f2{
+    padding-right: 50px;
+}
+.f3{
+    padding-right: 110px;
+}
+.f1{
+    padding-left: 15px;
+}
+@media screen and (min-width: 0px) and (max-width: 655px){
+  
+    .overflow{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        flex-direction: column;
+        width: 100%;
+        overflow: hidden;
+        background-color: rgb(89, 89, 89);
+    }
+   .Contact-info{
+    flex-direction: column;
+    text-align: center;
+    font-size: 0.8rem;
+    box-sizing: border-box;
+   }
+   .navbar-headfirst{
+    flex-direction: column;
+    font-size: 0.8rem;
+    box-sizing: border-box;
+   }
+   .navbar-list{
+    box-sizing: border-box;
+    text-align: center;
+    flex-direction: column;
+    font-size: 0.8rem;
+   }
+   .section5{
+    padding-top: 100px;
+    display: block;
+    flex-direction: column;
+}
+.spacing{
+    width: 100%;
+    height: 100px;
+    background-color: whitesmoke;
+}
+  .footersection{
+    margin-top: -5%;
+    display: block;
+    flex-direction: column;
+  }
+  .lasttext{
+    display: none;
+}
+.lastline hr{
+    width: 350px;
+    font-weight: bold;
+    font-size: 10px;
+    border-color: whitesmoke;
+    border-radius: 2px;
+}
+.info h2{
+    text-align: center;
+    transform: translateX(-10%);
+    padding-right: 90px;
+    font-size: 1.5rem;
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+  .endcontentofsection .formsinfo{
+    flex-direction: column;
+    min-width: 50%;
+    margin: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .formsinfo{
+    flex-direction: column;
+    padding: 5px;
+  }
+  .forms input[type="text"], 
+.forms textarea{
+   font-size: 1rem;
+   width: 90%;
+}
+  .section5{
+    margin-top: -20%;
+  }
+  .button10text, .button11text, .button12text {
+    display: block;
+    color: whitesmoke;
+}
+  .buttons{
+    display: block;
+    margin-left: -5%;
+  }
+  .map iframe{
+    margin-top: 0px;
+    flex-direction: column;
+    padding: 0px;
+    margin-left: 18px;
+    width: 100%;
+    min-width: 50%;
+  }
+  .lastbutton button{
+    font-size: 1.1rem;
+    font-style: bold;
+    width: 30%;
+    transform: translateX(115%);
+  }
+  .lastbutton{
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+  .hline1 hr{
+    display: none;        
+  }
+.hline2 hr{
+    display: none;      
+}
+.button10text, .button11text, .button12text{
+    display: inline-block;
+}
+.buttons{
+    flex-direction: column;
+    padding-left: 10px;
+    margin-left: 0px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.lastline hr{
+    width: 100%;
+}
+}
+@media screen and (min-width: 656px) and (max-width:1024px)
+{
+    .overall{
+    }
+   .Contact-info{
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+   }
+   .navbar-headfirst{
+    flex-direction: column;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+   }
+   .navbar-list{
+    box-sizing: border-box;
+    text-align: center;
+    flex-direction: column;
+    font-size: 1.2rem;
+    margin-right: 5%;
+   }
+   .info{
+    text-align: center;
+    margin-right: 110px;
+    font-size: 1.5rem;
+  }
+  .endcontentofsection{
+    justify-content: center;
+    align-items: center;
+  }
+  .forms{
+    max-width: 100%;
+    width: 85%;
+    justify-content: center;
+    align-items: center;
+  }
+  .endcontentofsection .formsinfo{
+    display: block;
+    flex-direction: column;
+    box-sizing: border-box;
+    text-align: end;
+    padding: 5rem;
+    margin-left: 2.5rem;
+
+  }
+  .forms textarea{
+    width: 96%; 
+    max-width: 100%; 
+    text-align: start; 
+}
+.maparea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    padding: 1rem;
+    margin-left: 1rem;
+    width: 100%;
+}
+.map iframe {
+    margin-top: 2rem;
+    max-width: 25rem;
+    width: 100%;
+    height: 20rem;
+    border: 5px solid whitesmoke;
+    box-sizing: border-box;
+    padding: 0;
+}
+.lastbutton button{
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+    font-style: bold;
+    margin-top: -100px;
+    margin-bottom: 350px;
+    margin-left: 4%;
+  }
+  .section5 .lastbutton{
+    margin-top: 10px;
+    margin-left: 15%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+   .footersection{
+    margin-top: -32%;
+    display: block;
+    flex-direction: column;
+  }
+  .lasttext{
+    display: none;
+}
+.lastline hr{
+    width: 500px;
+    font-style: bold;
+    height: 2px;
+    border-color: whitesmoke;
+    border-radius: 2px;
+    color: whitesmoke;
+    background-color: whitesmoke;
+}
+.firsttext{
+    font-size: 1.1rem;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button10text, .button11text, .button12text{
+    display: inline-block;
+}
+.button10 .button10text,.button11 .button11text,.button12 .button12text{
+    text-align: center;
+    color: whitesmoke;
+}
+  .buttons{
+    display: block;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  .hline1 hr{
+    display: none;        
+}
+.hline2 hr{
+    display: none;      
+}   
+}
+@media screen and (min-width: 5470px) and (max-width: 6550px)
+{
+    /*25%*/
+    .Contact-info{
+        font-size: 3rem;
+        height: 7vh;
+    }
+    .navbar-list .list-items a{
+        display: inline-flex;
+        font-size: 3.5rem;
+        display: none;
+    }
+    .navbar-headfirst{
+        font-size: 3.5rem;
+    }
+    .overall{
+        position: relative;
+        height: 100vh;
+    }
+    .info {
+        font-size: 2.5rem;
+        margin-left: 40%;
+        margin-bottom: 5%;
+    }
+    .lastbutton button{
+        margin-top: 3%;
+        margin-left: 39.5%;
+        font-size: 2rem;
+        padding-left: 0.3%;
+        padding-right: 0.3%;
+        width: 3vw;
+        margin-bottom: 5%;
+    }
+    .fheading h2{
+        font-size: 3.5rem;
+    }
+    .buttons{
+        position: relative;
+        margin: 0 auto;
+        max-width: 400px;
+        width: 100%;
+        transform: translateX(-48%);
+    }
+    .firsttext p,.secondtext p,.thirdtext p{
+        font-size: 1.5rem;
+    }
+    .combinedicons{
+        font-size: 2.5rem;
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+    }
+    .follow{
+        font-size: 4rem;
+    }
+    .line p{
+        font-size: 3rem;
+    }
+    .button10 button, .button11 button, .button12 button{
+        font-size: 1.8rem;
+    }
+}
+@media screen and (min-width: 4281px) and (max-width: 5470px)
+{/*33%*/   
+    .Contact-info{
+        font-size: 2.5rem;
+        height: 7vh;
+    }
+    .navbar-list .list-items a{
+        display: inline-flex;
+        font-size: 2.5rem;
+        display: none;
+    }
+    .navbar-headfirst{
+        font-size: 3rem;
+    }
+    .overall{
+        position: relative;
+        height: 100vh;
+    }
+    .info {
+        font-size: 2.5rem;
+        margin-left: 37%;
+        margin-bottom: 5%;
+        margin-top: 2%;
+    }
+    .lastbutton button{
+        margin-top: 3%;
+        margin-left: 35%;
+        font-size: 2rem;
+        padding-left: 0.3%;
+        padding-right: 0.3%;
+        width: 3.5vw;
+        margin-bottom: 5%;
+    }
+    .fheading h2{
+        font-size: 3.5rem;
+    }
+    .buttons{
+        position: relative;
+        margin: 0 auto;
+        max-width: 400px;
+        width: 100%;
+        transform: translateX(-48%);
+    }
+    .firsttext p,.secondtext p,.thirdtext p{
+        font-size: 1.5rem;
+    }
+    .secondtext{
+        position: relative;
+        transform: translateX(-15%);
+    }
+    .thirdtext{
+        position: relative;
+        transform: translateX(-40%);
+    }
+    .combinedicons{
+        font-size: 2.5rem;
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+    }
+    .follow{
+        font-size: 3rem;
+    }
+    .line p{
+        font-size: 2rem;
+    }
+    .button10 button, .button11 button, .button12 button{
+        font-size: 1.8rem;
+    }
+}
+@media screen and (min-width: 2950px) and (max-width: 3250px)
+{
+    /*50%*/
+    .Contact-info{
+        font-size: 1.8rem;
+        height: 7vh;
+    }
+    .navbar-list .list-items a{
+        display: inline-flex;
+        font-size: 2.0rem;
+        display: none;
+    }
+    .navbar-headfirst{
+        font-size: 2rem;
+    }
+    .overall{
+        position: relative;
+        height: 100vh;
+    }
+    .info {
+        font-size: 2.0rem;
+        margin-left: 30%;
+        margin-bottom: 5%;
+        margin-top: 2%;
+    }
+    .lastbutton button{
+        margin-top: 3%;
+        margin-left: 27%;
+        font-size: 1.5rem;
+        padding-left: 0.3%;
+        padding-right: 0.3%;
+        width: 5vw;
+        margin-bottom: 5%;
+    }
+    .fheading h2{
+        font-size: 3rem;
+    }
+    .buttons{
+        position: relative;
+        margin: 0 auto;
+        max-width: 400px;
+        width: 100%;
+        transform: translateX(-48%);
+    }
+    .firsttext p,.secondtext p,.thirdtext p{
+        font-size: 1.2rem;
+    }
+    .secondtext{
+        position: relative;
+        transform: translateX(-15%);
+    }
+    .thirdtext{
+        position: relative;
+        transform: translateX(-40%);
+    }
+    .combinedicons{
+        font-size: 2rem;
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+    }
+    .follow{
+        font-size: 2.5rem;
+    }
+    .line p{
+        font-size: 1.5rem;
+    }
+    .button10 button, .button11 button, .button12 button{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 2001px) and (max-width: 2950px)
+{
+        /*67*/
+        .Contact-info{
+            font-size: 1.5rem;
+            height: 7vh;
+        }
+        .navbar-list .list-items a{
+            display: inline-flex;
+            font-size: 1.5rem;
+            display: none;
+        }
+        .navbar-headfirst{
+            font-size: 1.5rem;
+        }
+        .overall{
+            position: relative;
+            height: 100vh;
+        }
+        .info {
+            font-size: 1.5rem;
+            margin-left: 22%;
+            margin-bottom: 5%;
+            margin-top: 2%;
+        }
+        .lastbutton button{
+            margin-top: 3%;
+            margin-left: 18%;
+            font-size: 1.5rem;
+            padding-left: 0.3%;
+            padding-right: 0.3%;
+            width: 6.5vw;
+            margin-bottom: 5%;
+        }
+        .fheading h2{
+            font-size: 2rem;
+        }
+        .buttons{
+            position: relative;
+            margin: 0 auto;
+            max-width: 400px;
+            width: 100%;
+            transform: translateX(-48%);
+        }
+        .firsttext p,.secondtext p,.thirdtext p{
+            font-size: 1.2rem;
+        }
+        .secondtext{
+            position: relative;
+            transform: translateX(-15%);
+        }
+        .thirdtext{
+            position: relative;
+            transform: translateX(-40%);
+        }
+        .combinedicons{
+            font-size: 1.8rem;
+            padding-left: 0.5%;
+            padding-right: 0.5%;
+        }
+        .follow{
+            font-size: 2rem;
+        }
+        .line p{
+            font-size: 1.2rem;
+        }
+        .button10 button, .button11 button, .button12 button{
+            font-size: 1.4rem;
+        }
+
+}
+
+@media screen and (min-width: 1950px) and (max-width: 2000px)
+{
+    /*67*/
+    .Contact-info{
+        font-size: 1.2rem;
+        height: 7vh;
+    }
+    .navbar-list .list-items a{
+        display: inline-flex;
+        font-size: 1.2rem;
+        display: none;
+    }
+    .navbar-headfirst{
+        font-size: 1.2rem;
+    }
+    .overall{
+        position: relative;
+        height: 100vh;
+    }
+    .info {
+        font-size: 1.3rem;
+        margin-left: 18%;
+        margin-bottom: 5%;
+        margin-top: 2%;
+    }
+    .lastbutton button{
+        margin-top: 3%;
+        margin-left: 13%;
+        font-size: 1.3rem;
+        padding-left: 0.3%;
+        padding-right: 0.3%;
+        width: 6.5vw;
+        margin-bottom: 5%;
+    }
+    .fheading h2{
+        font-size: 2rem;
+    }
+    .buttons{
+        position: relative;
+        margin: 0 auto;
+        max-width: 400px;
+        width: 100%;
+        transform: translateX(-48%);
+    }
+    .firsttext p,.secondtext p,.thirdtext p{
+        font-size: 1.0rem;
+    }
+    .secondtext{
+        position: relative;
+        transform: translateX(0%);
+    }
+    .thirdtext{
+        position: relative;
+        transform: translateX(-5%);
+    }
+    .combinedicons{
+        font-size: 1.2rem;
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+    }
+    .follow{
+        font-size: 1.5rem;
+    }
+    .line p{
+        font-size: 1.2rem;
+    }
+    .button10 button, .button11 button, .button12 button{
+        font-size: 1.4rem;
+    }
+}
+@media screen and (min-width: 1800px) and (max-width: 1949px)
+{
+    /*75%*/
+    .Contact-info{
+        font-size: 1.2rem;
+        height: 7vh;
+    }
+    .navbar-list .list-items a{
+        display: inline-flex;
+        font-size: 1.2rem;
+        display: none;
+    }
+    .navbar-headfirst{
+        font-size: 1.2rem;
+    }
+    .overall{
+        position: relative;
+        height: 100vh;
+    }
+    .info {
+        font-size: 1.3rem;
+        margin-left: 16%;
+        margin-bottom: 5%;
+        margin-top: 2%;
+    }
+    .lastbutton button{
+        margin-top: 3%;
+        margin-left: 10%;
+        font-size: 1.2rem;
+        padding-left: 0.3%;
+        padding-right: 0.3%;
+        width: 6.5vw;
+        margin-bottom: 5%;
+    }
+    .fheading h2{
+        font-size: 2rem;
+    }
+    .buttons{
+        position: relative;
+        margin: 0 auto;
+        max-width: 400px;
+        width: 100%;
+        transform: translateX(-48%);
+    }
+    .firsttext p,.secondtext p,.thirdtext p{
+        font-size: 1.0rem;
+    }
+    .secondtext{
+        position: relative;
+        transform: translateX(0%);
+    }
+    .thirdtext{
+        position: relative;
+        transform: translateX(-5%);
+    }
+    .combinedicons{
+        font-size: 1.2rem;
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+    }
+    .follow{
+        font-size: 1.5rem;
+    }
+    .line p{
+        font-size: 1.2rem;
+    }
+    .button10 button, .button11 button, .button12 button{
+        font-size: 1.4rem;
+    }
+}
+@media screen and (min-width: 1600px) and (max-width: 1799px)
+{
+    .Contact-info{
+        font-size: 1.0rem;
+        height: 7vh;
+    }
+    .navbar-list .list-items a{
+        display: inline-flex;
+        font-size: 1.0rem;
+        display: none;
+    }
+    .navbar-headfirst{
+        font-size: 1.0rem;
+    }
+    .overall{
+        position: relative;
+        height: 100vh;
+    }
+    .info {
+        font-size: 1.2rem;
+        padding-left: 18.5%;
+        margin: 0px auto;
+        margin-bottom: 5%;
+        margin-top: 2%;
+    }
+    .lastbutton button{
+        margin-top: 3%;
+        margin-left: 5%;
+        font-size: 1.1rem;
+        padding-left: 0.3%;
+        padding-right: 0.3%;
+        width: 8vw;
+        margin-bottom: 5%;
+    }
+    .fheading h2{
+        font-size: 2rem;
+    }
+    .buttons{
+        position: relative;
+        margin: 0 auto;
+        max-width: 400px;
+        width: 100%;
+        transform: translateX(-48%);
+    }
+    .firsttext p,.secondtext p,.thirdtext p{
+        font-size: 1.0rem;
+    }
+    .secondtext{
+        position: relative;
+        transform: translateX(0%);
+    }
+    .thirdtext{
+        position: relative;
+        transform: translateX(-5%);
+    }
+    .combinedicons{
+        font-size: 1.1rem;
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+    }
+    .follow{
+        font-size: 1.3rem;
+    }
+    .line p{
+        font-size: 1.1rem;
+    }
+    .button10 button, .button11 button, .button12 button{
+        font-size: 1.3rem;
+    }
+}

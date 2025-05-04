@@ -1,0 +1,895 @@
+.email i{
+    margin-right: 10px;
+    color: orange;
+}
+.call i{
+    color: orange;
+    margin-right: 10px;
+} 
+.Contact-info{
+    background-color: black;
+    color: white;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between; 
+    padding-left: 30;
+    padding-right: 30;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content .heading1{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-headfirst{
+    background-color: rgb(211, 253, 255);
+    color:  rgb(69, 148, 227);
+    display: flex;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 40;
+    padding-right: 40;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
+    height: 20vh;
+}
+.navbar-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 10;
+    color:  rgb(69, 148, 227);
+    gap: 30px;
+    display: none;
+}
+.list-items a{
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+    box-shadow: 4 6px 10px  black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+#checkbtn{
+    margin-bottom: 22px;
+    font-size: 1.7rem;
+    color: black;
+    display: flex;
+    display: none;
+}
+#check{
+    display: none;
+}
+.section{
+    height: 105vh;
+}
+.section2{
+    margin-top: -705px;
+}
+.maincontent1{
+    display: flex;
+    flex: 1;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    margin-top: 1px;
+    align-items: start;
+    gap: 120px;
+    height: 80vh;
+    top: 10px;
+}
+.content1{
+    margin-top: 20px;
+    padding-top: 100px;
+    padding-left: 150px;
+    font-size: 25px;
+    color: black;
+}
+.content1 h1 {
+    margin: 0px auto; /* Center the heading */
+    padding-right: 20px;
+    font-size: 1.4rem;
+    text-align: start; /* Center the text */
+    padding: 10px;
+}
+.button2 button{
+  margin-top: 12px;
+  background-color: blue;
+  color: white;
+  padding: 14px;
+  width: 150px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  border-radius: 5px;
+  border-color: blue;
+}
+.button2 button:hover{
+    background-color: azure;
+    color: blue;
+}
+.paragraphcontent1{
+    margin-top: 18px;
+    width: 500px;
+    text-align: justify;
+    font-size: large;
+    font-weight: lighter;
+    line-height: 1.4;   
+}
+.img1{
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 90px;
+    width: 50%;
+    height: 70%;
+    max-width: fit-content;
+    max-height: 90vh;
+    padding-right: 75px;
+    object-fit: cover;
+    padding-left: 1px;
+    border-color: whitesmoke;
+    margin-top: 15px;
+}
+
+.footersection{
+    background-color: rgb(2, 2, 91);
+    border-radius: 3px;
+}
+.fheading{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 50px;
+    margin-top: 20px;
+}
+.button10 button{
+    background-color: blue;
+    font-size: 25px;
+    color: whitesmoke;
+    padding: 25px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 500px;
+    border-color: navy
+}
+.button10 button:hover{
+    background-color: orange;
+    box-shadow: 4 6px 10px blue;
+}
+.hline1 hr{
+    color: whitesmoke;
+    width: 200px;
+    font-size: 5px;
+    background-color:whitesmoke;
+    border-radius: 2px;
+    
+}
+.hline{
+    margin-top: 50px;
+}
+.buttons{
+    display: flex;
+    padding-left: 300px;
+    margin-left: 40px;
+}
+.button11 button{
+    background-color: blue;
+    font-size: 25px;
+    color: whitesmoke;
+    padding: 25px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 500px;
+    border-color: navy
+}
+.button11 button:hover{
+    background-color: orange;
+    box-shadow: 4 6px 10px blue;
+}
+.hline2 hr{
+    color: whitesmoke;
+    width: 200px;
+    font-size: 5px;
+    background-color:whitesmoke;
+    border-radius: 2px;
+    
+}
+.hline2nd{
+    margin-top: 50px;
+}
+.button12 button{
+    background-color: blue;
+    font-size: 25px;
+    color: whitesmoke;
+    padding: 25px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 500px;
+    border-color: navy
+}
+.button12 button:hover{
+    background-color: orange;
+    box-shadow: 4 6px 10px blue;
+}
+.lasttext{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 160px;
+}
+.firsttext{
+    font-size: 16px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.secondtext{
+    font-size: 16px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.thirdtext{
+    font-size: 16px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.follow{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+.combinedicons{
+    display: flex;
+    border-color: whitesmoke;
+    box-shadow: 4 6px 10px whitesmoke;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 3px;
+    color: blue;
+}
+.combinedicons .a:hover{
+    color: orange;
+    box-shadow: 4 6px 10px orange;
+}
+.lastline hr{
+    width: 750px;
+    font-weight: bold;
+    font-size: 5px;
+    border-color: whitesmoke;
+    border-radius: 3px;
+}
+.lastline{
+    padding-bottom: 25px;
+    margin-bottom: 5px;
+}
+.line{
+    text-align: center;
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+.empty{
+    background-color: whitesmoke;
+    padding-top: 50px;
+    margin-top: 10px;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+}
+.navbar-headfirst .menu-icon
+{
+    display: block;
+}
+.spacing{
+    display: none;
+}
+.button10text, .button11text, .button12text{
+    display: none;
+} 
+.f2{
+    padding-right: 50px;
+}
+.f3{
+    padding-right: 110px;
+}
+.f1{
+    padding-left: 15px;
+}
+.section2{
+    margin-bottom: 5%;
+}
+@media screen and (min-width: 310px) and (max-width: 655px) {
+    
+    .Contact-info{
+        flex-direction: column;
+        text-align: center;
+        color: whitesmoke;
+    }
+    .content1 h1 {
+        font-size: 1.2rem;
+        text-align: center; /* Center the heading on smaller screens */
+        padding-right: 0; /* Remove extra padding */
+        margin-right: 9.5rem;
+    }
+    .navbar-headfirst {
+        flex-direction: column;
+        font-size: 1rem;
+        height: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .section2{
+        margin-top: -36.5rem;
+    }
+    .navbar-list {
+        display: flex;
+        flex-direction: column;
+        gap: 15px; /* Adjust spacing for smaller screens */
+        text-align: center;
+        display: none;
+    }
+    .maincontent1 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .paragraphcontent1 {
+        width: 100%;
+        font-size: 1rem; /* Reduce font size for smaller screens */
+        padding: 0px 0px; /* Add padding for better readability */
+        text-align: center;
+        max-width: 100%;
+        margin-left: -4.5rem;
+    }
+    .ab{
+        padding: 10px;
+        margin-left: 0px;
+        
+    }
+    .img1 {
+        margin-top: -5rem;
+        width: 80%;
+        height: auto;
+        padding-right: 0;
+        padding-left: 0;
+        margin-left: 12%;
+        margin-bottom: 3rem;
+    }
+    .button2 button {
+        width: 40%;
+        font-size: 0.9rem;
+    }
+    .button2{
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0px;
+        width: 15rem;
+        font-size: 1rem;
+    }
+    .footersection, .lasttext, .combinedicons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .lasttext{
+        display: none;
+    }
+    .buttons{
+        flex-direction: column;
+        padding: 10px;
+        margin: auto;
+    }
+    .button10 button, .button11 button,.button12 button{
+        margin: auto;
+    }
+    .button10, .button11, .button12 {
+        font-size: 1rem;
+        color: whitesmoke;
+        display: block;
+    }
+    .hline1, .hline2{
+        display: none;
+    }
+    .lastline hr {
+        width: 100%;
+    }
+    .button10text p, .button11text p, .button12text p{
+        display: block;
+        color: whitesmoke;
+    }
+}
+@media screen and (min-width: 655px) and (max-width: 1024px){
+   .Contact-info{
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+   }
+   .navbar-headfirst{
+    flex-direction: column;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+   }
+   .navbar-list{
+    box-sizing: border-box;
+    text-align: center;
+    flex-direction: column;
+    font-size: 1.2rem;
+    margin-right: 8%;
+   }
+   .content1 h1{
+    font-size: 2.2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 65px;
+    margin-left: 70px;
+   }
+   .content1 .button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    margin-left: 7%;
+    box-sizing: border-box;
+}
+.maincontent1{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: block;
+    padding-left: -20px;
+    margin-left:  -15px;
+    margin-top: 300px;
+    padding-top: 150px;
+    text-align: center;
+    flex-direction: column;
+    font-size: 1.2rem;
+    margin-bottom: 300px;
+    padding: 10%;
+}
+.maincontent1 .content1{
+    box-sizing: border-box;
+    width: 100%;
+    height: 55vh;
+    text-align: start;
+    padding-left: -15%;
+    margin-left: -15%;
+    display: block;
+    margin-top: -100px;
+}
+.maincontent1 .img1 {
+    max-width: 75%;
+    width: 75%;                 /* Responsive width */
+    height: 60vh;               /* Maintain aspect ratio */
+    margin-top: 73%;             /* Reduce margin-top for better fit */
+    margin-bottom: 15%;          /* Reduce margin-bottom for better fit */
+    padding-left: 5%;           /* Adjust padding-left */
+    padding-bottom: 3%;
+    margin-left: 12%;         /* Adjust padding-bottom */
+}
+.content1 .paragraphcontent1{
+    text-align: start;
+    line-height: 1.5;
+    box-sizing: border-box;
+    padding: 1.5rem;
+    padding-left: 50px;
+    margin-left:10%;
+    font-size: 1.5rem;
+    width: 100%;
+}
+.section2{
+    background-color: whitesmoke;
+    text-align: start;
+    flex-direction: column;
+    font-size: 1.2rem;    
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transform: translateY(-12%)
+}
+   .footersection{
+    transform: translateY(-39%);
+    display: block;
+    flex-direction: column;
+  }
+  .lasttext{
+    display: none;
+}
+.lastline hr{
+    width: 500px;
+    font-style: bold;
+    height: 2px;
+    border-color: whitesmoke;
+    border-radius: 2px;
+    color: whitesmoke;
+    background-color: whitesmoke;
+}
+.firsttext{
+    font-size: 1.1rem;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button10text, .button11text, .button12text{
+    display: inline-block;
+}
+.button10 .button10text{
+    margin-left: -30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    font-weight: bolder;
+    color: white;
+    text-align: start;
+  }
+  .button11 .button11text{
+    padding-left: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    font-weight: bolder;
+    color: white;
+    text-align: start;
+    margin-left: -30px;
+  }
+  .button12 .button12text{
+    padding-left: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    font-weight: bolder;
+    color: white;
+    text-align: start;
+    margin-left: -30px;
+
+  }
+  .buttons {
+    text-align: start;
+    flex-direction: column;               /* Ensure block display */
+    margin: 0 auto;                 /* Center align with auto margins */
+    width: fit-content;             /* Adjust width to fit content */
+    padding-right: 5.5rem;            /* Add padding on the right */
+    box-sizing: border-box;         /* Include padding in width calculation */
+}
+.button10 button, .button11 button,.button12 button{
+    margin: auto;
+}
+
+  .hline1 hr{
+    display: none;        
+}
+.hline2 hr{
+    display: none;      
+}
+}
+
+@media screen and (min-width: 4281px) and (max-width: 5470px)
+{
+    /*33*/
+    .Contact-info{
+        font-size: 3rem;
+        height: 7vh;
+    }
+    .navbar-list .list-items a{
+        display: flex;
+        font-size: 2.5rem;
+    }
+    .navbar-headfirst h3 p{
+        font-size: 4rem;
+    }
+    .paragraphcontent1{
+        font-size: 3.5rem;
+        line-height: 1.5;
+        text-align: justify;
+    }
+    .content1 h1{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    .button2 button{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 3rem;
+        width: 8vw;
+    }
+    .buttons{
+        margin-left: 34.5%;
+        max-width: 3560px;
+        width: 3560px;
+    }
+    .fheading{
+        font-size: 2rem;
+    }
+    .line p{
+        font-size: 2rem;
+    }
+    .maincontent1{
+        padding-left: 10%;
+    }
+    .section2{
+        position: relative;
+    }
+    .maincontent1{
+        position: relative;
+        transform: translateY(-80%);
+    }
+    .overall{
+        position: relative;
+        height: 100vh;
+    }
+    .footersection{
+        position: relative;
+        transform: translateY(-140%);
+    }
+    .fheading{
+        font-size: 3rem;
+    }
+    .follow p{
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width: 5470px) and (max-width: 6550px)
+{/* 25 %*/
+    .Contact-info{
+        font-size: 3.5rem;
+        height: 7vh;
+    }
+    .navbar-list .list-items a{
+        display: flex;
+        font-size: 3rem;
+    }
+    .navbar-headfirst h3 p{
+        font-size: 5rem;
+    }
+    .paragraphcontent1{
+        font-size: 3.0rem;
+        line-height: 1.5;
+        text-align: justify;
+    }
+    .content1{
+        margin-top: 5%;
+        box-sizing: border-box;
+        margin-bottom: 20%;
+    }
+    .content1 h1{
+        font-size: 4rem;
+        font-weight: bold;
+    }
+    .button2 button{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 3rem;
+        width: 6vw;
+    }
+    .buttons{
+        margin-left: 38%;
+        max-width: 3560px;
+        width: 3560px;
+    }
+    .fheading{
+        font-size: 2rem;
+    }
+    .line p{
+        font-size: 2rem;
+    }
+    .maincontent1{
+        padding-left: 15%;
+    }
+    .section2{
+        position: relative;
+    }
+    .maincontent1{
+        position: relative;
+        transform: translateY(-92%);
+    }
+    .overall{
+        position: relative;
+        height: 100vh;
+    }
+    .footersection{
+        position: relative;
+        transform: translateY(-180%);
+    }
+    .button10 button, .button11 button, .button12 button{
+        font-size: 2.5rem;
+    }
+    .combinedicons{
+        gap: 20px;
+        font-size: 3rem;
+    }
+    .follow p{
+        font-size: 7rem;
+    }
+    .fheading{
+        font-size: 3.5rem;
+    }
+    .maincontent1 .img1{
+        margin-top: 2%;
+    }
+} 
+@media screen and (min-width: 2950px) and (max-width: 3400px)
+{
+    /*50%*/
+    .Contact-info{
+        font-size: 2rem;
+        height: 7vh;
+    }
+    .navbar-list .list-items a{
+        display: flex;
+        font-size: 2rem;
+    }
+    .navbar-headfirst h3 p{
+        font-size: 3rem;
+    }
+    .paragraphcontent1{
+        font-size: 2.5rem;
+        line-height: 1.4;
+        text-align: justify;
+        margin-left: 50%;
+    }
+    .content1 h1{
+        margin-left: 50%;
+    }
+    .button2 button{
+        margin-left: 50%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 2rem;
+        width: 8vw;
+    }
+    .buttons{
+        margin-left: 26.5%;
+    }
+    .overall{
+        position: relative;
+        height: 100vh;
+    }
+    .section2{
+        position: relative;
+        transform: translateY(-61%);
+    }
+    .footersection{
+        transform: translateY(-85%);
+    }
+}
+@media screen and (min-width: 2000px) and (max-width: 2950px)
+{
+    /*67*/
+    .Contact-info{
+        font-size: 1.5rem;
+        height: 7vh;
+    }
+    .navbar-list .list-items a{
+        display: flex;
+        font-size: 1.5rem;
+    }
+    .navbar-headfirst h3 p{
+        font-size: 2rem;
+    }
+    .paragraphcontent1{
+        font-size: 1.8rem;
+        line-height: 1.4;
+        text-align: justify;
+    }
+    .overall{
+        position: relative;
+        height: 100vh;
+    }
+    .section2{
+        padding: relative;
+        transform: translateY(-40%);
+    }
+    .footersection{
+        position: relative;
+        transform: translateY(-55%);
+    }
+    .buttons{
+        margin-left: 19%;
+    }
+}
+@media screen and (min-width: 1950px) and (max-width: 2000px)
+{ /*75*/
+    .Contact-info{
+        font-size: 1.5rem;
+        height: 7vh;
+    }
+    .navbar-list .list-items a{
+        display: flex;
+        font-size: 1.3rem;
+    }
+    .navbar-headfirst h3 p{
+        font-size: 2rem;
+    }
+    .paragraphcontent1{
+        font-size: 1.5rem;
+        line-height: 1.4;
+        text-align: justify;
+    }
+    .overall{
+        position: relative;
+        height: 100vh;
+    }
+    .section2{
+        padding: relative;
+        transform: translateY(-27%);
+    }
+    .footersection{
+        position: relative;
+        transform: translateY(-25%);
+    }    
+    .buttons{
+        margin-left: 15%;
+    }
+}
+@media screen and (min-width: 1800px) and (max-width: 1950px)
+{/*80*/
+    .Contact-info{
+        font-size: 1.2rem;
+        height: 7vh;
+    }
+    .navbar-list .list-items a{
+        display: flex;
+        font-size: 1.2rem;
+    }
+    .navbar-headfirst h3 p{
+        font-size: 1.5rem;
+    }
+    .paragraphcontent1{
+        font-size: 1.5rem;
+        line-height: 1.4;
+        text-align: justify;
+    }
+    .overall{
+        position: relative;
+        height: 100vh;
+    }
+    .section2{
+        padding: relative;
+        transform: translateY(-26%);
+    }
+    .footersection{
+        position: relative;
+        transform: translateY(-22%);
+    }
+    .buttons{
+        margin-left: 12.5%;
+    }
+    .overall{
+        position: relative;
+        height: 100vh;
+    }
+}
+@media screen and (min-width: 1600px) and (max-width: 1800px)
+{
+    /*90*/
+    .overall{
+        position: relative;
+        height: 100vh;
+    }
+    .section2{
+        padding: relative;
+        transform: translateY(-13%);
+    }
+    .navbar-headfirst h3 p{
+        font-size: 1.5rem;
+    }
+    .footersection{
+        position: relative;
+        transform: translateY(-12%);
+    }
+    .buttons{
+        margin-left: 7.5%;
+    }
+    .paragraphcontent1{
+        text-align: justify;
+    }
+}

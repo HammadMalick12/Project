@@ -1,0 +1,3543 @@
+
+html{
+    scroll-behavior: smooth;
+}
+.email i{
+    margin-right: 10px;
+    color: orange;
+}
+.call i{
+    color: orange;
+    margin-right: 10px;
+} 
+.Contact-info{
+    background-color: black;
+    color: white;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between; 
+    padding-left: 30;
+    padding-right: 30;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content .heading1{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(211, 253, 255);
+    color: rgb(39, 39, 218);
+    padding: 0.5rem;
+    max-width: 100%;
+    width: 98.9%;
+}
+nav ul{
+    margin-top: 1rem;
+    display: flex;
+    margin-right: 1rem;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-inline: 1.2rem;
+    color: rgb(93, 93, 93);
+    font-size: 1.2rem;
+    margin-right: 1.2rem;
+    font-weight: bold;
+}
+ul li .btn{
+    padding: 0.5rem;
+    background-color:  rgb(211, 253, 255);
+    color: white;
+    font-size: 1rem;
+}
+ul li a:hover, ul li .active{
+    background-color: white;
+    border-bottom: 0.2rem solid white;
+}
+.logo{
+    margin-left: 0.8rem;
+    font-size: 1.2rem;
+}
+.icon{
+    align-items: center;
+    font-size: 2rem;
+    margin-right: 0.8rem;
+    display: none;
+}
+.section{
+    height: 105vh;
+}
+.button1 button{
+    margin-top: 12px;
+  background-color: orange;
+  color: white;
+  padding: 14px;
+  width: 160px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  border-radius: 5px;
+  border-color: orange;
+}
+.button1 button:hover{
+    background-color: whitesmoke;
+    color: orange;
+}
+.maincontent{
+    flex: 1;
+    margin-top: 1px;
+    background-color: rgb(211, 253, 255);
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+    height: 77vh;
+    text-align: start;
+    bottom: 10px;
+}
+.img{
+    justify-content: start;
+    align-items: flex-start;
+    object-fit: cover;
+    opacity: 1.0;
+    padding-top: 25px;
+    margin-top: 25px;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-right: 115px;
+    height: 60vh;
+    max-height: 60vh;
+    width: 600px;
+    max-width: 600px;
+    margin-right: 30px;
+}
+.paragraphcontent{
+    margin-top: 50px;
+    width: 500px;
+    text-align: start;
+    font-size: large;
+    font-weight: lighter;
+    line-height: 1.4;
+}
+.content{
+    margin-top: 55px;
+    text-align: start;
+    font-size: 18px;
+    width: 500px;
+    padding-left: 120px;
+    line-height: 0.55;
+}
+.b{
+    height: 50px;
+    width: 100%;
+    max-width: 100%;
+    background-color:  rgb(211, 253, 255);
+}
+.maincontent1{
+    display: flex;
+    flex: 1;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    margin-top: 1px;
+    align-items: start;
+    gap: 120px;
+    height: 80vh;
+    top: 10px;
+}
+.content1{
+    margin-top: 20px;
+    padding-top: 100px;
+    padding-left: 150px;
+    font-size: 25px;
+    color: black;
+}
+.content1 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+.button2 button{
+  margin-top: 12px;
+  background-color: blue;
+  color: white;
+  padding: 14px;
+  width: 150px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  border-radius: 5px;
+  border-color: blue;
+}
+.button2 button:hover{
+    background-color: azure;
+    color: blue;
+}
+.paragraphcontent1{
+    margin-top: 18px;
+    width: 500px;
+    text-align: start;
+    font-size: large;
+    font-weight: lighter;
+    line-height: 1.4;   
+}
+.img1{
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 90px;
+    width: 50%;
+    height: 70%;
+    max-width: fit-content;
+    max-height: 90vh;
+    padding-right: 75px;
+    object-fit: cover;
+    padding-left: 1px;
+    border-color: whitesmoke;
+    margin-top: 15px;
+}
+.submaincontent{
+    background-color: rgb(211, 253, 255);
+    display: flex;
+    flex: 1;
+    gap: 180px;
+    justify-content: center;
+    align-items: center;
+}
+.btn1 button{
+    position: absolute;
+    top: 685px;
+    left: 135px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    width: 300px;
+    box-shadow: 8 16px 20px whitesmoke;
+}
+.btn1 button:hover{
+    background-color: rgb(254, 178, 37);
+}
+.btn2 button{
+    position: absolute;
+    top: 670px;
+    left: 585px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 50px;
+    color: whitesmoke;
+    background-color:  rgb(254, 178, 37);
+    border-color:  whitesmoke;
+    width: 300px;
+    box-shadow: 8 16px 20px whitesmoke;
+}
+.btn3 button{
+    position: absolute;
+    top: 670px;
+    left: 1030px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 50px;
+    background-color: whitesmoke;
+    border-color:  whitesmoke;
+    width: 300px;
+    box-shadow: 8 16px 20px whitesmoke;
+}
+.btn3 button:hover{
+    background-color: rgb(254, 178, 37);
+}
+.btn1 button i{
+    font-size: 50px;
+}
+.btn2 button i{
+    font-size: 50px;
+}
+.btn3 button i{
+    font-size: 50px;
+}
+.maincontent2{
+    display: flex;
+    flex: 1;
+    background-color:  rgb(211, 253, 255);
+    justify-content: space-between;
+    gap: 80px;
+    margin-top: 1px;
+    height: 80vh;
+    align-items: start;
+}
+.content2{
+    margin-top: 25px;
+    padding-top: 100px;
+    font-size: 16px;
+    line-height: 1.0;
+    padding-right: 180px;
+}
+.button3 button{
+    margin-top: 12px;
+    background-color: orange;
+    color: white;
+    padding: 14px;
+    width: 150px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    border-radius: 5px;
+    border-color: orange;      
+}
+.button3 button:hover{
+    background-color: whitesmoke;
+    color: orange;
+}
+.paragraphcontent2{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    max-width: 500px;
+    width: 470px;
+}
+.heading3{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:   rgb(2, 144, 245);
+    text-align: center;
+    font-size: 1.2rem;
+}
+.img2{
+    padding-left: 150px;
+    padding-top: 30px;
+    margin-top: 10px;
+    object-fit: cover;
+    width: 350px;
+    height: 83vh;
+    max-width: 400px;
+    max-height: 100vh;
+}
+.heading1{
+    font-weight: bold;
+    color:  rgb(2, 144, 245);
+}
+.buttonflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+}
+.heading4{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.button4 button{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 80px;
+    color: rgba(32, 31, 31, 0.53);
+    background-color:  whitesmoke;
+    border-color: whitesmoke;
+    box-shadow: 2px 8px 10px rgb(240, 235, 235);
+    width: 300px;
+}
+.button4 button:hover{
+    background-color: orange;
+    box-shadow: 2px 8px 10px rgb(240, 235, 235);
+}
+.button5 button{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 80px;
+    color:  rgba(32, 31, 31, 0.53);
+    background-color:  whitesmoke;
+    border-color: whitesmoke;
+    width: 300px;
+    box-shadow: 2px 8px 10px rgb(240, 235, 235);
+}
+.button5 button:hover{
+    background-color: orange;
+    box-shadow: 2px 8px 10px rgb(240, 235, 235);
+}
+.button6 button{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 80px;
+    color: rgba(32, 31, 31, 0.53);
+    background-color:  whitesmoke;
+    border-color: whitesmoke;
+    box-shadow: 2px 8px 10px rgb(240, 235, 235);
+    width: 300px;
+}
+.button6 button:hover{
+    background-color: orange;
+    box-shadow: 2px 8px 10px rgb(240, 235, 235);
+}
+.button4 .icon{
+    font-size: 50px;
+}
+.button5 .icon{
+    font-size: 50px;
+}
+.button6 .icon{
+    font-size: 50px;
+}
+.content3{
+    padding-top: 50px;
+    margin-top: 20px;
+}
+.button7 button{
+    margin-top: 12px;
+    background-color: blue;
+    color: white;
+    padding: 14px;
+    width: 150px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: blue;  
+}
+.button7 button:hover{
+    background-color: whitesmoke;
+    box-shadow: 2px 8px 10px rgb(240, 235, 235);
+    color: blue;
+}
+.section4button{
+    text-align: center;
+    align-items: center;
+}
+.heading5{
+    padding-top: 50px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.sliderbuttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.button8 button{
+    width: 400px;
+    padding: 30px;
+    margin: 20px;
+    text-align: start;
+    background-color: whitesmoke;
+    box-shadow: 0 6px 10px whitesmoke;
+    transition: box-shadow 0.3s ease; 
+    border-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.3;
+    cursor: pointer;
+}
+.button8 button:hover {
+    box-shadow: 0 6px 10px whitesmoke;
+}
+.img3{
+    border-radius: 45%;
+    object-fit: cover;
+    max-width: 20%;
+}
+.imageunderbutton{
+    display: flex;
+    gap: 25px;
+}
+.icon-row{
+    size: 15px;
+    gap: 10px;
+    color: orange;
+}
+.button9 button{
+    width: 400px;
+    padding: 30px;
+    margin: 20px;
+    text-align: start;
+    background-color: whitesmoke;
+    box-shadow: 0 6px 10px whitesmoke;
+    transition: box-shadow 0.3s ease; 
+    border-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.3;
+    cursor: pointer;
+}
+.button9 button:hover {
+    box-shadow: 0 6px 10px whitesmoke;
+}
+.img4{
+    border-radius: 45%;
+    object-fit: cover;
+    max-width: 24%;
+}
+.imageunderbutton1{
+    display: flex;
+    gap: 25px;
+}
+.icon-row1{
+    size: 15px;
+    gap: 10px;
+    color: orange;
+}
+.arrowbuttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.arrowbuttons button{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 12px;
+    margin: 8px;
+    cursor: pointer;
+    border-color: blue;
+    box-shadow: 4 6px 10px blue;
+    width: 50px;
+    
+}
+.info{
+    padding-left: 110px;
+    padding-top: 25px;
+    margin-top: 15px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.forms{
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 4 6px 10px whitesmoke;
+    max-width: 450px;
+    width: 95%;
+}
+.forms input[type="text"], 
+.forms input[name="Name"]{
+
+    width: 95%;
+    padding: 15px;
+    margin: 5px;
+    border: whitesmoke;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 4 10px 16px whitesmoke;
+    border-color: whitesmoke;
+} 
+.formsinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.map{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 4 6px 10px whitesmoke;
+    width: 90%;
+    height: 55%;
+    max-width: 475px;
+    border-color: whitesmoke;
+    padding-bottom: 40px;
+    margin-bottom: 12px;
+}
+iframe{
+    filter: invert(100%);
+}
+textarea{
+    padding-left: 25px;
+}
+.lastbutton button{
+    background-color: blue;
+    font-size: 16px;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+    width: 130px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: blue;
+    border-radius: 5px;
+}
+.lastbutton button:hover{
+    background-color: whitesmoke;
+    color: blue;
+    box-shadow: 4 6px 10px blue;
+}
+.lastbutton{
+    padding-top: 25px;
+    margin-top: 6px;
+    padding-left: 230px;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.footersection{
+    background-color: rgb(2, 2, 91);
+    border-radius: 3px;
+}
+.fheading{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 50px;
+    margin-top: 20px;
+}
+.button10 button{
+    background-color: blue;
+    font-size: 25px;
+    color: whitesmoke;
+    padding: 25px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 500px;
+    border-color: navy
+}
+.button10 button:hover{
+    background-color: orange;
+    box-shadow: 4 6px 10px blue;
+}
+.hline1 hr{
+    color: whitesmoke;
+    width: 200px;
+    font-size: 5px;
+    background-color:whitesmoke;
+    border-radius: 2px;
+}
+.hline{
+    margin-top: 50px;
+}
+.buttons{
+    display: flex;
+    padding-left: 300px;
+    margin-left: 40px;
+}
+.button11 button{
+    background-color: blue;
+    font-size: 25px;
+    color: whitesmoke;
+    padding: 25px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 500px;
+    border-color: navy
+}
+.button11 button:hover{
+    background-color: orange;
+    box-shadow: 4 6px 10px blue;
+}
+.hline2 hr{
+    color: whitesmoke;
+    width: 200px;
+    font-size: 5px;
+    background-color:whitesmoke;
+    border-radius: 2px;
+    
+}
+.hline2nd{
+    margin-top: 50px;
+}
+.button12 button{
+    background-color: blue;
+    font-size: 25px;
+    color: whitesmoke;
+    padding: 25px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 500px;
+    border-color: navy
+}
+.button12 button:hover{
+    background-color: orange;
+    box-shadow: 4 6px 10px blue;
+}
+.lasttext{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 160px;
+}
+.firsttext{
+    font-size: 16px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.secondtext{
+    font-size: 16px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.thirdtext{
+    font-size: 16px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.follow{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+.combinedicons{
+    display: flex;
+    border-color: whitesmoke;
+    box-shadow: 4 6px 10px whitesmoke;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 3px;
+    color: blue;
+}
+.combinedicons .a:hover{
+    color: orange;
+    box-shadow: 4 6px 10px orange;
+}
+.lastline hr{
+    width: 750px;
+    font-weight: bold;
+    font-size: 5px;
+    border-color: whitesmoke;
+    border-radius: 3px;
+}
+.lastline{
+    padding-bottom: 25px;
+    margin-bottom: 5px;
+}
+.line{
+    text-align: center;
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+.empty{
+    background-color: whitesmoke;
+    padding-top: 50px;
+    margin-top: 10px;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+}
+.navbar-headfirst .menu-icon
+{
+    display: block;
+}
+.spacing{
+    display: none;
+}
+.button10text, .button11text, .button12text{
+    display: none;
+} 
+.f2{
+    padding-right: 50px;
+}
+.f3{
+    padding-right: 110px;
+}
+.f1{
+    padding-left: 15px;
+}
+@media screen and (min-width: 310px) and (max-width: 655px){
+    * 
+    {            /*For space on the right side*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    }
+    html, body {
+    height: 100vh; 
+    overflow-x: hidden; 
+    }
+    .overall{
+
+    }
+   .Contact-info{
+    flex-direction: column;
+    text-align: center;
+    font-size: 0.8rem;
+    box-sizing: border-box;
+    height: 9vh;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+   }
+   /*claude ai*/
+   nav{
+    width: 100%;
+   } 
+   nav ul{
+    display: none;
+    }
+    .icon{
+    display: flex;
+    }
+    .showData{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 6.7rem;
+    background-color: rgb(211, 253, 255);
+    width: 90%;
+    text-align: center;
+    padding: 0px;
+    gap: 1.2rem;
+    height: 50vh;
+    margin-left: 1rem; 
+}
+     /*hamburger-menu*/
+   .maincontent{ /* It is the main content. set to 490px main height.*/
+    display: block;
+    padding-left: -120px;
+    margin-left: -85px;
+    padding-top: 30px;
+    text-align: start;
+    flex-direction: column;
+    font-size: 0.8rem;
+    box-sizing: border-box;
+   }
+   .heading1 h1{
+    font-size: 8vw;
+    line-height: 1.1;
+   }
+   .paragraphcontent p{
+    font-size: 3.5vw;
+    max-width: 100%;
+    min-width: 50%;
+    box-sizing: border-box;
+   }
+   .button1 button{
+    width: 35%;
+    font-size: 3.5vw;
+   }
+   .button1{
+    margin-bottom: 10%;
+   }
+   .section1{
+    display: block;
+    font-size: 0.8rem;
+    box-sizing: border-box;
+    }
+       .img {
+        width: 95%; /* Adjust width for smaller screens */
+        max-width: 100%; /* Ensure image does not exceed container width */
+        height: auto; /* Maintain aspect ratio */
+        padding-top: 0.6rem; /* Reduce top padding for smaller screens */
+        padding-bottom: 0.6rem; /* Reduce bottom padding */
+        padding-right: 0.5rem; /* Reduce right padding */
+        margin: 10px auto; /* Center the image horizontally */
+        transform: translateX(5%);
+    }
+    .maincontent1 {
+        flex-direction: column; /* Stack items vertically */
+        gap: 20px; /* Reduce gap between items */
+        height: auto; /* Allow height to adjust based on content */
+        align-items: center; /* Center items horizontally */
+        padding: 10px; /* Add padding for better spacing */
+        height: auto;
+    }
+
+    .content1 {
+        margin-top: 14rem;
+        padding-left: 0.6rem; /* Reduce left padding */
+        padding-right: 0.6rem; /* Add right padding */
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+        text-align: center; /* Center align text */
+    }
+    .content1 h1 {
+        font-size: 1.8rem; /* Adjust font size for smaller screens */
+    }
+    .button2 button {
+        width: 40%; /* Make button full width */
+        padding: 1rem; /* Adjust padding */
+        font-size: 1rem; /* Adjust font size */
+    }
+    .paragraphcontent1 {
+        width: 100%; /* Make paragraph full width */
+        margin: 0.6rem auto; /* Center paragraph and adjust margin */
+        font-size: 1rem; /* Adjust font size */
+        padding-left: 0; /* Remove left padding */
+        padding-right: 0; /* Remove right padding */
+        text-align: center;
+        word-spacing: 0.5rem;
+    }
+    .img1 {
+        text-align: center;
+        width: 100%; /* Make image full width */
+        height: auto; /* Maintain aspect ratio */
+        padding-right: 0; /* Remove right padding */
+        padding-left: 0; /* Remove left padding */
+        margin-bottom: 2rem;
+    }
+    .p1{
+        margin: auto;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section2{
+        background-color: whitesmoke;
+        margin-top: 2rem;
+        padding-top: 3rem;
+        text-align: start;
+        flex-direction: column;
+        font-size: 0.8rem;    
+        max-width: 100%;
+        height: auto;
+        display: block;
+        flex-grow: 1;
+        }
+        .section3 .maincontent2 {
+            flex-direction: column;
+            align-items: center;
+            padding: 0.8rem;
+        }
+        .section3 .maincontent2 {
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+        }
+        .section3 .img2 {
+            width: 100%;
+            margin-bottom: 1.25rem; 
+            text-align: start;
+            margin-left: 0;
+            padding: 0;
+        }
+        .section3 .img2 img {
+            max-width: 100%;
+            width: 100%; 
+            height: auto; 
+            margin-bottom: 1.5rem;
+            box-sizing: content-box;
+            height: 65vh; 
+        }
+        .section3 .content2 {
+            width: 90%; 
+            padding: 0px;
+            text-align: center;
+            margin-top: 5.5rem; 
+        }
+        .section3 .heading3 h1 {
+            font-size: 5vw; 
+            margin: 0 0 10px 0; 
+        }
+        .section3 .paragraphcontent2 
+        {
+            font-size: 4.5vw; 
+            margin: 1rem 0 20px 0; 
+            text-align: center;
+            width: 100%;
+            margin-top: 2rem;
+            padding-left: 1rem;
+        }
+        .section3 .button3 button {
+            width: 35%; 
+            font-size: 4.5vw; 
+            padding: 1rem;
+        }    
+        .button3{
+            text-align: center;
+            padding-left: 1rem;
+            padding-right: 0px;
+        }
+        .section4{
+            padding: 0px;
+            margin-top: 50rem;
+        flex-direction: column;
+        font-size: 0.8rem;
+      }
+      .heading4{
+        font-size: 4.5vw;
+        text-align: center;
+        padding-left: 2rem;
+        padding-right: 0;
+        margin: 0;
+      }
+      .content3 .buttonflex{
+        max-width: 100%;
+        width: 55%;
+        gap: 10px;
+        margin-left: 32%;
+      }
+      .submaincontent{
+        display: block;
+        box-sizing: border-box;
+      }
+      .btn1 button{
+        position: absolute;
+        top: 670px;
+        left: 110px;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: lighter;
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 50px;
+        background-color: whitesmoke;
+        border-color: whitesmoke;
+        width: 200px;
+        box-shadow: 8 16px 20px whitesmoke;
+    }
+    .btn1 button:hover{
+        background-color: rgb(254, 178, 37);
+    }
+    .btn2 button{
+        position: absolute;
+        top: 655px;
+        left: 575px;
+        text-align: center;
+        font-size: 1rem;
+        display: block;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 50px;
+        color: whitesmoke;
+        background-color:  rgb(254, 178, 37);
+        border-color:  whitesmoke;
+        width: 200px;
+        box-shadow: 8 16px 20px whitesmoke;
+    }
+    .btn3 button{
+        position: absolute;
+        top: 655px;
+        left: 1050px;
+        display: block;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 50px;
+        background-color: whitesmoke;
+        border-color:  whitesmoke;
+        width: 200px;
+        box-shadow: 8 16px 20px whitesmoke;
+    }
+    .btn3 button:hover{
+        background-color: rgb(254, 178, 37);
+    }
+    .buttonflex {
+        gap: 15px; /* Reduce gap for smaller screens */
+        padding: 0 5px; /* Reduce padding for smaller screens */
+    }
+    .button4 button,
+    .button5 button,
+    .button6 button {
+        width: 100%; /* Make buttons take up most of the width */
+        max-width: 20rem; /* Reduce the maximum width for smaller screens */
+        padding: 1rem;
+        height: 20vh;
+        gap: 1rem;
+    }
+    .button4 .icon, .button5 .icon, .button6 .icon{
+        font-size: 1.2rem;
+    }
+    .buttonflex {
+        gap: 15px; /* Adjust gap for smaller screens */
+        max-width: 95%; /* Ensure it stays within screen bounds */
+        padding: 0 5px; /* Reduce padding for smaller screens */
+        margin: 0 0 0 3%; /* Adjust margin to move left and keep it centered */
+        display: block;
+        transform: translateX(-12%);
+    }
+      .button7 button{
+        width: 40%;
+        text-align: center; 
+      }
+      .button7{
+        margin-top: 2rem;
+        text-align: center;
+        margin-left: 1rem;
+        padding: 0;
+      }
+    .content3{
+        padding-top: -6rem;
+        margin-top: -6rem;
+        flex-direction: column;
+        font-size: 0.8rem;
+      }
+      .heading5{
+        font-size: 1rem;
+        text-align: center;
+      }
+      .heading5 h1{
+        font-size: 6vw;
+        padding: 0;
+        margin-bottom: 3rem;
+      }
+      .sliderbuttons{
+        display: block;
+        flex-direction: column;
+        text-align:center;
+        padding: 0;
+        margin: 0;
+      }
+      .button8 button{
+        width: 17rem;
+        padding: 30px;
+        margin: 20px;
+        text-align: start;
+        background-color: whitesmoke;
+        box-shadow: 0 6px 10px whitesmoke;
+        transition: box-shadow 0.3s ease; 
+        border-color: whitesmoke;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.85rem;
+        line-height: 1.3;
+        cursor: pointer;
+    }
+    .button8 button:hover {
+        box-shadow: 0 6px 10px whitesmoke;
+    }
+    .button9 button{
+        width: 17rem;
+        padding: 30px;
+        margin: 20px;
+        text-align: start;
+        background-color: whitesmoke;
+        box-shadow: 0 6px 10px whitesmoke;
+        transition: box-shadow 0.3s ease; 
+        border-color: whitesmoke;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.85rem;
+        line-height: 1.3;
+        cursor: pointer;
+    }
+    .button9 button:hover {
+        box-shadow: 0 6px 10px whitesmoke;
+    }
+      .arrowbuttons{
+        padding-left: 4%;
+        display: none;
+      }
+      .info h2{
+        font-size: 5vw;
+        text-align: center;
+        padding-right: 3rem;
+        margin-right: 5rem;
+        padding-left: 0;
+        margin-left: 0;
+      }
+      .formsinfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;
+        width: 100%; 
+        padding: 0.5rem;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+    .forms ,.forms textarea{
+        width: 80%; 
+        max-width: 100%; 
+        text-align: center; 
+    }
+    .maparea {
+        width: 90%; 
+        max-width: 100%; 
+        margin: 1rem auto; 
+        text-align: center;
+        display: flex;
+        padding: 1rem;
+    }
+    .map iframe {
+        width: 100%;         
+        height: 20rem;
+        border: 5px solid whitesmoke;
+        box-sizing: border-box;
+        margin-left: 1.2rem;
+        padding: 0;
+        margin-right: 0;
+    }
+      .section5{
+        margin-top: -20%;
+      }
+      .lastbutton {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        width: 100%; 
+        margin: 2rem auto; 
+        padding: 1rem 0; 
+    }
+    .lastbutton button {
+        width: 40%; 
+        padding: 1rem 2rem; 
+        font-size: 1rem; 
+        border-radius: 5px; 
+        background-color: blue;
+        color: white; 
+        border: none; 
+        cursor: pointer; 
+    }
+      .button10 .button10text{
+        margin-left: -8%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.85rem;
+        box-sizing: border-box;
+        font-weight: bolder;
+        color: white;
+        text-align: start;
+      }
+      .button11 .button11text{
+        padding-left: 1%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.85rem;
+        box-sizing: border-box;
+        font-weight: bolder;
+        color: white;
+        text-align: start;
+      }
+      .button12 .button12text{
+        padding-left: 1%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.85rem;
+        box-sizing: border-box;
+        font-weight: bolder;
+        color: white;
+        text-align: start;
+      }
+      .buttons{
+        display: block;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem auto;
+      }
+      .hline1 hr{
+        display: none;        
+    }
+    .hline2 hr{
+        display: none;      
+    }
+    .section5{
+        padding-top: 100px;
+        display: block;
+        flex-direction: column;
+    }
+    .spacing{
+        width: 100%;
+        height: 100px;
+        background-color: whitesmoke;
+    }
+      .footersection{
+        margin-top: -5%;
+        display: block;
+        flex-direction: column;
+      }
+      .lasttext{
+        display: none;
+    }
+    .lastline hr{
+        width: 100%;
+        font-weight: bold;
+        font-size: 1rem;
+        height: 0.15rem;
+        background-color: whitesmoke;
+        border-color: whitesmoke;
+        border-radius: 2px;
+    }
+    #checkbtn{
+        align-items: center;
+        padding-top: 12px;
+        font-size: 2rem;
+        float: bottom;
+        display: block;
+        cursor: pointer;
+        box-sizing: border-box;
+        margin-bottom: 0.5rem;
+    }
+    .navbar-headfirst .navbar-list{
+        width: 100%;
+        height: 50vh;
+        background-color:  rgb(211, 253, 255);
+        position: fixed;
+        top: 125px;
+        right: 10%;
+        box-sizing: border-box;
+        padding-left: 45px;
+        margin-left: 10%;
+        margin-right: 10;
+        left: -110%;   
+    }
+    .navbar-headfirst ul li{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .firsttext{
+        font-size: 0.8rem;
+        color: whitesmoke;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+        .submaincontent{
+        display: none;
+    }
+    .paragraphcontent{
+        padding: 0.1rem;
+    }
+    .button10text, .button11text, .button12text{
+        display: inline-block;
+    }
+}
+@media screen and (min-width: 655px) and (max-width: 1024px)
+{
+    /*25%*/
+    * 
+    {            /*For space on the right side*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    }
+    html, body {
+    height: 100vh; 
+    overflow-x: hidden; 
+    }
+   .Contact-info{
+    flex-direction: column;
+    text-align: center;
+    font-size: 1rem;
+    box-sizing: border-box;
+    height: 10vh;
+    padding: 1rem;
+   }/*navbar menu*/
+   nav ul{
+    display: none;
+    }
+    .icon{
+    display: flex;
+    }
+    .showData{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 6.7rem;
+    background-color: rgb(211, 253, 255);
+    width: 90%;
+    text-align: center;
+    padding: 0px;
+    gap: 1.2rem;
+    height: 50vh;
+    padding-left: 2rem;
+    padding-right: 0;
+    margin-left: 1rem;
+    margin-right: 0px; 
+}/*navbar menu*/
+   .heading1 h1{
+    line-height: 1.0;
+   }
+   nav{
+    width: 100%;
+   }
+   .maincontent{ /* It is the main content. set to 490px main height.*/
+    display: block;
+    padding-left: -6rem;
+    margin-left: -6rem;
+    padding-top: 2rem;
+    text-align: start;
+    flex-direction: column;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    background-color:  rgb(211, 253, 255); 
+   }
+   .section1{
+    display: block;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    }
+    .maincontent .img {
+        max-width: 100%; /* Adjust max-width to fit within container */
+        width: 100%; /* Ensure full width within container */
+        height: auto; /* Maintain aspect ratio */
+        display: block; /* Ensure block-level element */
+        margin: 0 auto; /* Center horizontally */
+        position: relative; /* Ensure proper positioning */
+        padding: 0; /* Remove extra padding */
+        text-align: center; /* Center text if needed */
+        transform: translateX(0); /* Reset any previous translation */
+    }
+   .b{
+    box-sizing: border-box;
+   }
+   .paragraphcontent p{
+    font-size: 1.4rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+   }
+   .content{
+    margin-bottom: 2.5rem;
+   }        
+   .maincontent1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.maincontent1 .content1 {
+    width: 100%; /* Ensure content width is responsive */
+    margin-top: 30rem;
+    padding: 2rem 0; /* Add padding for spacing */
+    text-align: center;
+    background-color: whitesmoke;
+}
+.content1 h1 {
+    font-size: 2rem;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+.content1 .paragraphcontent1 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+.maincontent1 .img1 {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    box-sizing: content-box;
+    text-align: center;
+    transform: translateY(-10%);
+}
+.content1 .button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+}
+.section2 {
+    width: 100%;
+    padding: 1rem 0;
+    margin: 35rem auto;
+    text-align: center;
+    box-sizing: content-box;
+}   
+       .section3{
+        background-color:  solid blue;
+        padding-top: 10%;
+        margin-top: 5%;
+        display: block;
+        flex-direction: column;
+        font-size: 1.2rem;
+        width: 100%;
+        height: auto;
+        flex-grow: 1;
+       }
+      .maincontent2{ 
+        margin-top: -25rem;
+        box-sizing: border-box;
+        height: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        background-color: whitesmoke;
+        flex-grow: 1;
+      }
+      .heading3 h1{
+        padding: 2rem;
+        margin: 0px auto;
+        transform: translateX(40%);
+      }
+      .heading3{
+        margin-top: -5rem;
+      }
+      .maincontent2 .img2{
+        margin-top: 15rem;
+        max-width: 100%;
+        padding-top: 10rem;
+        width: 100%;
+        height: auto;
+        max-width: 70vh;
+        box-sizing: border-box;
+        margin: 10rem auto;
+        transform: translateX(-22%);
+      }
+      .maincontent2 .content2{
+        justify-content: center;
+        align-items: center;
+        max-width: 85%;
+        width: 70%;
+        padding-left: 75px;
+        margin-left: 4rem;
+        margin-bottom: 10rem;
+
+      }
+      .content2 .paragraphcontent2{
+        text-align: center;          /* Center text within the paragraph */
+        line-height: 1.5;            /* Maintain line height for readability */
+        font-size: 1.2rem;           /* Font size */
+        margin: 0 auto;              /* Center the paragraph horizontally */
+        padding: 1rem;               /* Padding around the content */
+        max-width: 100%;
+        width: 100%;             /* Ensure it does not exceed the screen width */
+        box-sizing: border-box;      /* Include padding in the element's total width */
+        transform: translateX(37%);
+        word-spacing: 0.5rem;
+    }    
+    .content2 .button3 button {
+        width: 50%;
+        font-size: 1.3rem;
+        display: block;
+        margin: 0 auto;
+        padding: 0.85rem;
+        transform: translateX(75%);
+    }
+    .heading4 h1{
+        text-align: center;
+        margin-left: 2rem;
+    }
+    .button3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem auto;
+        padding: 0;
+    }
+      .section4{
+        flex-direction: column;
+        font-size: 1.2rem;
+      }
+      .content3 .buttonflex{
+        margin-left: 35%;
+        max-width: 100%;
+        width: 55%;
+        gap: 10px;
+      }
+      .submaincontent{
+        display: block;
+        box-sizing: border-box;
+      }
+    .button4 button{
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 40px;
+        color: rgba(32, 31, 31, 0.53);
+        background-color:  whitesmoke;
+        border-color: whitesmoke;
+        box-shadow: 2px 8px 10px rgb(240, 235, 235);
+        width: 300px;
+    }
+    .button4 button:hover{
+        background-color: orange;
+        box-shadow: 2px 8px 10px rgb(240, 235, 235);
+    }
+    .button5 button{
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 40px;
+        color:  rgba(32, 31, 31, 0.53);
+        background-color:  whitesmoke;
+        border-color: whitesmoke;
+        width: 300px;
+        box-shadow: 2px 8px 10px rgb(240, 235, 235);
+    }
+    .button5 button:hover{
+        background-color: orange;
+        box-shadow: 2px 8px 10px rgb(240, 235, 235);
+    }
+    .button6 button{
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 40px;
+        color: rgba(32, 31, 31, 0.53);
+        background-color:  whitesmoke;
+        border-color: whitesmoke;
+        box-shadow: 2px 8px 10px rgb(240, 235, 235);
+        width: 300px;
+    }
+    .button6 button:hover{
+        background-color: orange;
+        box-shadow: 2px 8px 10px rgb(240, 235, 235);
+    }
+    .button4 .icon, .button5 .icon, .button6 .icon{
+        font-size: 40px;
+    }
+    content3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center; 
+        text-align: center; 
+        width: 100%; 
+        padding: 1rem; 
+    }
+
+    .heading4 h1 {
+        padding-left: 2rem;
+        padding-right: 0;
+        margin: 0; 
+        font-size: 2rem; 
+    }
+    .buttonflex {
+        max-width: 18rem; 
+        margin: 0 auto; 
+        display: block;
+    }
+    .button4 button, .button5 button, .button6 button {
+        width: 85%;
+        height: 30vh;
+        padding: 5rem;
+        margin-left: -3rem;
+        margin-right: 0;
+    }
+    .section4button {
+        margin-top: 2rem; /* Space above the section4button */
+    }
+    .button7 button {
+        width: 20%;
+        font-size: 1rem; /* Adjust font size if needed */
+        padding: 1rem; /* Padding inside the button */
+        box-sizing: border-box; /* Include padding and border in width */
+    }
+      .heading5{
+        font-size: 1.4rem;
+        text-align: center;
+        margin-bottom: 5%;
+      } 
+      .sliderbuttons 
+      {
+        padding: 4rem 2.5rem;
+        display: block;
+        margin: auto;
+    }
+    .button8, .button9 {
+        margin-bottom: 1.5rem; /* Slightly reduced gap for medium screens */
+        margin: 0 auto;
+        text-align: center;
+        padding-left: 1rem;
+    }
+    .button8 button, .button9 button {
+        padding: 1.5rem;
+        font-size: 1rem;
+    }
+      .arrowbuttons button{
+        padding-right: 2.5rem;
+        padding-left: 1.7rem;
+        font-size: 1.5rem;
+        text-align: center;
+        align-items: center;
+      }
+      .info{
+        text-align: center;
+        margin-right: 40px;
+        font-size: 1.8rem;
+        margin-right: 15%;
+      }
+      .endcontentofsection{
+        justify-content: center;
+        align-items: center;
+      }
+      .forms{
+        max-width: 100%;
+        width: 95%;
+        justify-content: center;
+        align-items: center;
+      }
+      .endcontentofsection .formsinfo{
+        display: block;
+        flex-direction: column;
+        box-sizing: border-box;
+        text-align: end;
+        padding: 5rem;
+        margin-left: 2.5rem;
+
+      }
+      .forms textarea{
+        width: 96%; 
+        max-width: 100%; 
+        text-align: start; 
+    }
+    .maparea {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+        padding: 1rem;
+        margin-left: 1rem;
+    }
+    .map iframe {
+        margin-top: 2rem;
+        max-width: 25rem;
+        width: 90%;
+        height: 20rem;
+        border: 5px solid whitesmoke;
+        box-sizing: border-box;
+        padding: 0;
+    }
+      .section4button{
+        margin-top: 7%;
+      }
+      .section5{
+        margin-top: -3rem;
+      }
+      .lastbutton button{
+        width: 11rem;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        font-size: 1.5rem;
+        font-style: bold;
+        margin-bottom: 5rem;
+        margin-top: -12%;
+      }
+      .section5 .lastbutton{
+        margin-top: 2rem;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 0;
+        text-align: center;
+      }
+      .button10 .button10text{
+        margin-left: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        box-sizing: border-box;
+        font-weight: bolder;
+        color: white;
+        text-align: start;
+      }
+      .button11 .button11text{
+        padding-left: 1%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        box-sizing: border-box;
+        font-weight: bolder;
+        color: white;
+        text-align: start;
+        margin-left: -30px;
+      }
+      .button12 .button12text{
+        padding-left: 1%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        box-sizing: border-box;
+        font-weight: bolder;
+        color: white;
+        text-align: start;
+        margin-left: -30px;
+      }
+      .endbuttons{
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+      }
+      .buttons{
+        display: block;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+      }
+      .hline1 hr{
+        display: none;        
+    }
+    .hline2 hr{
+        display: none;      
+    }
+    .section5{
+        padding-top: 100px;
+        display: block;
+        flex-direction: column;
+    }
+    .spacing{
+        width: 100%;
+        height: 100px;
+        background-color: whitesmoke;
+    }
+      .footersection{
+        margin-top: -5%;
+        display: block;
+        flex-direction: column;
+      }
+      .lasttext{
+        display: none;
+    }
+    .lastline hr{
+        width: 100%;
+        height: 0.5vh;
+        background-color: whitesmoke;
+    }
+    #checkbtn{
+        align-items: center;
+        padding-top: 10px;
+        font-size: 2.8rem;
+        float: bottom;
+        display: block;
+        cursor: pointer;
+        box-sizing: border-box;
+    }
+    .navbar-headfirst .navbar-list{
+        width: 100%;
+        height: 50vh;
+        background-color:  rgb(211, 253, 255);
+        position: fixed;
+        top: 125px;
+        right: 10%;
+        box-sizing: border-box;
+        padding-left: 45px;
+        margin-left: 10%;
+        margin-right: 10;
+        left: -110%;   
+    }
+    .navbar-headfirst ul li{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .firsttext{
+        font-size: 1.1rem;
+        color: whitesmoke;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #check:checked ~ .navbar-list{
+        right: 10%;
+    }
+    /*
+    .menu-icon{
+        margin-top: -15%;
+        padding: 1.2rem;
+        font-size: 2.3rem;
+        color:  rgb(2, 144, 245);
+        display: flex;
+        text-align: end;
+    }*/
+    .submaincontent{
+        display: none;
+    }
+    .paragraphcontent{
+        padding: 0.1rem;
+    }
+    .button10text, .button11text, .button12text{
+        display: inline-block;
+    }
+}
+@media screen and (min-width: 5470px) and (max-width: 6550px)
+{
+    /*25%*/
+    * 
+    {            /*For space on the right side*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    }
+    html, body {
+    height: 100vh; 
+    overflow-x: hidden; 
+    }
+    .Contact-info{
+        padding-top: 1%;
+        font-size: 4rem;
+        height: 7vh;
+        padding-bottom: 1%;
+    }
+    nav{
+        width: 100%;
+       }
+    ul li{
+        padding: 1rem;
+    }
+    ul li a{
+        display: inline-flex;
+        font-size: 3.5rem;
+    }
+    .logo{
+        padding: 1rem;
+        font-size: 4rem;
+    }
+    .overall{
+        position: relative;
+        height: 100vh;
+    }
+    .section,.section1{
+        position: relative;
+    }
+    #checkbtn{
+        position: relative;
+        transform: translateY(-100px);
+        font-size: 3rem;
+        display: none;
+    }
+    .content .heading1{
+        font-size: 2.2rem;
+        margin-top: 90%;
+        line-height: 1.1;
+        transform: translateX(250%);
+    }
+    .paragraphcontent{
+        margin-top: 25%;
+        font-size: 2.9rem;
+        text-align: justify;
+        line-height: 1.4;
+        transform: translateX(190%);
+        margin-bottom: 15%;
+    }
+    .button1 button{
+        padding-top: 4%;
+        padding-bottom: 4%;
+        font-size: 1.9rem;
+        width: 4vw;
+        transform: translateX(395%);
+    }
+    .content{
+        margin-top: 4%;
+    }
+    .img{
+        max-width: 25vw;
+        width: 30vw;
+        height: auto;
+        margin-right: 20%;
+        transform: translateY(-5%);
+    }
+    .btn1 button{
+        position: absolute;
+        max-width: 40rem;
+        width: 37rem;
+        font-size: 2.5rem;
+        margin-top: 25%;
+        transform: translateX(250%);
+        height: 16vh;
+        z-index: 10;
+    }
+    .btn2 button
+    {
+        position: absolute;
+        max-width: 40rem;
+        width: 37rem;
+        font-size: 2.5rem;
+        margin-top: 25%;
+        transform: translateX(340%);
+        height: 16vh;
+        z-index: 10;
+    }
+    .btn3 button{
+        position: absolute;
+        max-width: 40rem;
+        width: 37rem;
+        font-size: 2.5rem;
+        margin-top: 25%;
+        transform: translateX(430%);
+        height: 16vh;
+        z-index: 10;
+    }
+    .btn2 button, .btn3 button{
+        margin-top: 25.2%;
+    }
+    .section2{
+        transform: translateY(-22%);
+        z-index: 1;
+    }
+    .paragraphcontent1{
+        margin-top: 15%;
+        font-size: 3.5rem;
+        line-height: 1.5;
+        text-align: justify;
+        margin-bottom: 15%;
+    }
+    .content1{
+        margin-top: 5.5%;
+        margin-left: 20%;
+    }
+    .content1 h1{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    .button2 button{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 3%;
+        padding-right: 3%;
+        font-size: 2.4rem;
+        width: 5vw;
+    }
+    .buttons{
+        margin-left: 34.5%;
+       
+    }
+    .img1{
+        margin-right: 10%;
+    }
+    .img1{
+        margin-top: 5%;
+        max-width: 40vw;
+        width: 30vw;
+    }
+    .section3{
+        position: relative;
+        transform: translateY(-22%);
+    }
+    .img2{
+        max-width: 30vw;
+        width: 23vw;
+        margin-left: 15%;
+    }
+    .content2{
+        margin-top: 5%;
+        margin-right: 22%;
+    }
+    .heading3{
+        font-size: 3rem;
+        line-height: 1.3;
+        margin-bottom: 10%;
+    }
+    .paragraphcontent2{
+        font-size: 3rem;
+        text-align: justify;
+        line-height: 1.5;
+        margin-left: 20%;
+        word-spacing: 2.5px;
+        margin-bottom: 5%;
+    }
+    .button3 button{
+        font-size: 3rem;
+        width: 6vw;
+        margin-left:26%;
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+    }
+    .heading4 h1{
+        font-size: 6rem;
+        margin-bottom: 2%;
+    }
+    .button4 button, .button5 button, .button6 button{
+        font-size: 2.5rem;
+        width: 25rem;
+    }
+    .button4 .icon, .button5 .icon, .button6 .icon{
+        font-size: 3.5rem;
+    }
+    .button7 button{
+        font-size: 2.2rem;
+        width: 4.5vw;
+        padding: 1.2rem;
+        margin-top: 2%;
+    }
+    .endcontentofsection{
+        position: relative;
+    }
+    .info h2{
+        margin-top: 4rem;
+        font-size: 4rem;
+        position: relative;
+        transform: translateX(42.5%);
+        margin-bottom: 2%;
+    }
+    .heading5{
+        font-size: 3rem;
+        margin-bottom: 5rem;
+    }
+    .section5{
+        position: relative;
+    }
+    .lastbutton button{
+        position: relative;
+        font-size: 2rem;
+        width: 3vw;
+        margin-left: 41%;
+        margin-top: 0.5%;
+        margin-bottom: 1%;
+    }
+    .arrowbuttons{
+        margin-top: 2rem;
+    }
+    .arrowbuttons button{
+        font-size: 2rem;
+    }
+    .fheading{
+        font-size: 3rem;
+        margin-bottom: 1%;
+    }
+    .button10 button, .button11 button, .button12 button{
+        font-size: 2rem;
+    }
+    .follow p{
+        margin-top: 1.5%;
+        font-size: 3.5rem;
+        margin-bottom: 1.0%;
+    }
+    .endbuttons{
+        position: relative;
+    }
+    .buttons{
+        position: relative;
+        transform: translateX(5.5%);
+    }
+    .firsttext p,.secondtext p, .thirdtext p{
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    .secondtext p{
+        transform: translateX(-40%);
+    }
+    .thirdtext p{
+        transform: translateX(-80%);
+    }
+    .combinedicons{
+        font-size: 4rem;
+    }
+    .lastline hr{
+        transform: translateX(340%);
+        margin-bottom: 1%;
+        margin-top: 1%;
+    }
+    #check{
+        display: none;
+    }
+    .line p{
+        font-size: 2.5rem;
+    }
+    .forms textarea{
+        width: 90%; 
+        max-width: 100%; 
+        text-align: center; 
+    }
+}
+@media screen and (min-width: 4281px) and (max-width: 5470px)
+{
+    /*33%*/
+    * 
+    {            /*For space on the right side*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    }
+    html, body {
+    height: 100vh; 
+    overflow-x: hidden; 
+    }
+    .Contact-info{
+        padding-top: 1%;
+        font-size: 2.5rem;
+        height: 7vh;
+        padding-bottom: 1%;
+    }
+    .overall{
+        position: relative;
+        height: 100vh;
+    }
+    .section,.section1{
+        position: relative;
+    }
+    #checkbtn{
+        position: relative;
+        transform: translateY(-65px);
+        font-size: 3rem;
+        display: none;
+    }
+    nav ul li{
+        margin-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    nav{
+        width: 100%;
+       }
+    .logo{
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+    ul li a{
+        font-size: 2.5rem;
+    }
+    .content .heading1{
+        line-height: 1.1;
+        font-size: 2rem;
+        word-spacing: 20px;
+        margin-top: 90%;
+        transform: translateX(195%);
+    }
+    .paragraphcontent{
+        margin-top: 25%;
+        font-size: 2.7rem;
+        line-height: 1.4;
+        transform: translateX(150%);
+        margin-bottom: 25%;
+    }
+    .button1 button{
+        padding-top: 4%;
+        padding-bottom: 4%;
+        font-size: 2rem;
+        width: 6vw;
+        transform: translateX(276%);
+    }
+    .img{
+        max-width: 25vw;
+        width: 30vw;
+        height: auto;
+        margin-right: 20%;
+        transform: translateY(-5%);
+    }
+    .btn1 button{
+        position: absolute;
+        font-size: 2.5rem;
+        margin-top: 21.5%;
+        transform: translateX(180%);
+        height: 18vh;
+        z-index: 10;
+        max-width: 33rem;
+        width: 33rem;
+    }
+    .btn2 button{
+        position: absolute;
+        font-size: 2.5rem;
+        margin-top: 21.5%;
+        transform: translateX(270%);
+        height: 18vh;
+        z-index: 10;
+        max-width: 33rem;
+        width: 33rem;
+    }
+    .btn3 button{
+        position: absolute;
+        font-size: 2.5rem;
+        margin-top: 21.5%;
+        transform: translateX(360%);
+        height: 18vh;
+        z-index: 10;
+        max-width: 33rem;
+        width: 33rem;
+    }
+    .btn2 button, .btn3 button{
+        margin-top: 21.8%;
+
+    }
+    .section1{
+        height: 50vh;
+    }
+    .section2{
+        transform: translateY(-21%);
+        z-index: 1;
+    }
+    
+    .paragraphcontent1{
+        font-size: 3rem;
+        line-height: 1.5;
+        text-align: justify;
+        margin-bottom: 20%;
+    }
+    .content1{
+        margin-top: 5%;
+        margin-left: 15%;
+    }
+    .content1 h1{
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 15%;
+    }
+    .button2 button{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 3%;
+        padding-right: 3%;
+        font-size: 2.2rem;
+        width: 5vw;
+    }
+    .buttons{
+        margin-left: 34.5%;
+       
+    }
+    .img1{
+        margin-right: 10%;
+    }
+    .img1{
+        margin-top: 5%;
+        max-width: 40vw;
+        width: 30vw;
+    }
+    .section3{
+        position: relative;
+        transform: translateY(-21%);
+    }
+    .img2{
+        max-width: 30vw;
+        width: 23vw;
+        margin-left: 15%;
+    }
+    .content2{
+        margin-top: 2%;
+        margin-right: 22%;
+    }
+    .heading3{
+        font-size: 2.8rem;
+        margin-bottom: 10%;
+    }
+    .paragraphcontent2{
+        font-size: 2.7rem;
+        text-align: justify;
+        line-height: 1.5;
+        margin-left: 18%;
+        word-spacing: 2.5px;
+        margin-bottom: 7%;
+    }
+    .button3 button{
+        font-size: 2.3rem;
+        width: 6vw;
+        margin-left: 17%;
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+    }
+    .heading4 h1{
+        font-size: 4rem;
+        margin-bottom: 3%;
+    }
+    .heading5 h1{
+        font-size: 3rem;
+        margin-bottom: 2%;
+    }
+    .button4 button, .button5 button, .button6 button{
+        font-size: 2.5rem;
+        width: 25rem;
+    }
+    .button4 .icon, .button5 .icon, .button6 .icon{
+        font-size: 3.5rem;
+    }
+    .arrowbuttons{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .arrowbuttons button{
+        font-size: 1.9rem;
+    }
+    .button7 button{
+        font-size: 1.8rem;
+        width: 5vw;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        margin-top: 2%;
+    }
+    .endcontentofsection{
+        position: relative;
+    }
+    .info h2{
+        font-size: 3rem;
+        position: relative;
+        transform: translateX(39.5%);
+        margin-bottom: 2%;
+    }
+    .section5{
+        position: relative;
+    }
+    .lastbutton button{
+        position: relative;
+        font-size: 2rem;
+        width: 3.5vw;
+        margin-left: 37.7%;
+        margin-top: 0.5%;
+        margin-bottom: 1%;
+    }
+    .fheading{
+        font-size: 3rem;
+        margin-bottom: 1.5%;
+        margin-bottom: 1%;
+    }
+    .button10 button, .button11 button, .button12 button{
+        font-size: 2rem;
+    }
+    .follow p{
+        margin-top: 1%;
+        font-size: 4rem;
+        margin-bottom: 1%;
+    }
+    .endbuttons{
+        position: relative;
+    }
+    .buttons{
+        position: relative;
+    }
+    .firsttext p,.secondtext p, .thirdtext p{
+        font-size: 2rem;
+    }
+    .secondtext p{
+        transform: translateX(-10%);
+    }
+    .thirdtext p{
+        transform: translateX(-35%);
+    }
+    .combinedicons{
+        font-size: 2.5rem;
+    }
+    .line p{
+        font-size: 2rem;
+    }
+    .lastline hr{
+        transform: translateX(245%);
+        margin-bottom: 1%;
+    }
+    #check{
+        display: none;
+    }
+    .forms textarea{
+        width: 95%; 
+        max-width: 100%; 
+        text-align: center; 
+    }
+}
+@media screen and (min-width: 2851px) and (max-width: 3450px) {
+    /* Reset margins and padding for consistent spacing */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html, body {
+        height: 100vh;
+        overflow-x: hidden;
+    }
+
+    .Contact-info {
+        padding-top: 1%;
+        font-size: 1.7rem;
+        height: 7vh;
+        padding-bottom: 1%;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    nav {
+        padding: 1rem;
+        width: 100%;
+    }
+
+    nav ul li {
+        margin-bottom: 1rem;
+    }
+
+    nav ul li a {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .overall {
+        position: relative;
+        height: 100vh;
+    }
+
+    .section, .section1 {
+        position: relative;
+    }
+
+    #checkbtn {
+        position: relative;
+        transform: translateY(-35px);
+        font-size: 3rem;
+        display: none;
+    }
+
+    .content .heading1 {
+        font-size: 1.8rem;
+        margin-top: 30%;
+        line-height: 1.1;
+        transform: translateX(100%);
+    }
+
+    .paragraphcontent {
+        margin-top: 25%;
+        font-size: 2.2rem;
+        text-align: justify;
+        word-spacing: 25px;
+        line-height: 1.4;
+        transform: translateX(75%);
+        margin-bottom: 25%;
+    }
+    .button1 button {
+        padding-top: 4%;
+        padding-bottom: 4%;
+        font-size: 2rem;
+        width: 9vw;
+        transform: translateX(135%); /* Adjusted to fit within viewport */
+    }
+    .img {
+        max-width: 25vw;
+        width: 30vw;
+        height: auto;
+        margin-right: 20%;
+        transform: translateY(-5%);
+    }
+    .btn1 button {
+        position: absolute;
+        font-size: 2.5rem;
+        margin-top: 12%;
+        transform: translateX(30%); /* Adjusted for proper spacing */
+        height: 26vh;
+        z-index: 10;
+        max-width: 33rem;
+        width: 33rem;
+    }    
+    .btn2 button {
+        position: absolute;
+        font-size: 2.5rem;
+        margin-top: 12%;
+        transform: translateX(115%); /* Adjusted for proper spacing */
+        height: 26vh;
+        z-index: 10;
+        max-width: 33rem;
+        width: 33rem;
+    }
+
+    .btn3 button {
+        position: absolute;
+        font-size: 2.5rem;
+        margin-top: 12%;
+        transform: translateX(200%); /* Adjusted for proper spacing */
+        height: 26vh;
+        z-index: 10;
+        max-width: 33rem;
+        width: 33rem;
+    }
+
+    .btn2 button, .btn3 button {
+        margin-top: 12.8%;
+    }
+
+    .section2 {
+        transform: translateY(-17%);
+        z-index: 1;
+    }
+
+    .paragraphcontent1 {
+        font-size: 2rem;
+        line-height: 1.5;
+        text-align: justify;
+        margin-bottom: 20%;
+    }
+
+    .content1 {
+        margin-top: 5%;
+        margin-left: 12%;
+    }
+
+    .content1 h1 {
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 10%;
+    }
+
+    .button2 button {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 3%;
+        padding-right: 3%;
+        font-size: 2.0rem;
+        width: 8vw;
+    }
+
+    .buttons {
+        margin-left: 34.5%;
+    }
+
+    .img1 {
+        margin-right: 10%;
+        margin-top: 5%;
+        max-width: 40vw;
+        width: 30vw;
+    }
+
+    .section3 {
+        position: relative;
+        transform: translateY(-16.5%);
+    }
+
+    .img2 {
+        max-width: 30vw;
+        width: 23vw;
+        margin-left: 15%;
+    }
+
+    .content2 {
+        margin-top: 2%;
+        margin-right: 10%;
+    }
+
+    .heading3 {
+        font-size: 2.0rem;
+    }
+
+    .paragraphcontent2 {
+        font-size: 2.0rem;
+        text-align: justify;
+        line-height: 1.5;
+        margin-left: 7%;
+        word-spacing: 2.5px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .button3 button {
+        font-size: 2.0rem;
+        width: 7vw;
+        margin-left: 25%;
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+    }
+
+    .heading4 h1 {
+        font-size: 4rem;
+        margin-bottom: 3%;
+    }
+
+    .heading5 h1 {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .button4 button, .button5 button, .button6 button {
+        font-size: 2.5rem;
+        width: 30rem;
+    }
+
+    .button4 .icon, .button5 .icon, .button6 .icon {
+        font-size: 3.5rem;
+    }
+    .button7 button {
+        font-size: 1.8rem;
+        width: 8vw;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        margin-top: 2%;
+    }
+    .endcontentofsection {
+        position: relative;
+    }
+    .info h2 {
+        position: relative;
+        transform: translateX(34%);
+        margin-bottom: 2%;
+    }
+    .section5 {
+        position: relative;
+    }
+
+    .lastbutton button {
+        position: relative;
+        font-size: 2rem;
+        width: 5vw;
+        margin-left: 31%;
+        margin-top: 2%;
+        margin-bottom: 1%;
+    }
+
+    .fheading {
+        font-size: 2.5rem;
+        margin-bottom: 2%;
+    }
+
+    .button10 button, .button11 button, .button12 button {
+        font-size: 2rem;
+    }
+
+    .follow p {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-size: 3.0rem;
+    }
+
+    .endbuttons {
+        position: relative;
+    }
+
+    .buttons {
+        position: relative;
+        transform: translateX(-12.5%);
+    }
+
+    .firsttext p, .secondtext p, .thirdtext p {
+        font-size: 1.2rem;
+    }
+
+    .secondtext p {
+        transform: translateX(-20%);
+    }
+
+    .thirdtext p {
+        transform: translateX(-40%);
+    }
+
+    .combinedicons {
+        font-size: 2.5rem;
+    }
+
+    .line p {
+        font-size: 1.5rem;
+    }
+
+    .lastline hr {
+        transform: translateX(145%);
+    }
+
+    .forms textarea {
+        width: 95%;
+        max-width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2850px)
+{
+  /*67%*/
+  *{            /*For space on the right side*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    }
+
+    html, body {
+    height: 100vh; 
+    overflow-x: hidden; 
+    }
+  .Contact-info{
+    padding-top: 1%;
+    font-size: 1.3rem;
+    height: 7vh;
+    padding-bottom: 1%;
+}
+.navbar-list .list-items a{
+    display: inline-flex;
+    font-size: 1.5rem;
+}
+.navbar-headfirst{
+    padding-top: 1%;
+    font-size: 2rem;
+    padding-bottom: 1%;
+}
+.overall{
+    position: relative;
+    height: 100vh;
+}
+.section,.section1{
+    position: relative;
+}
+#checkbtn{
+    position: relative;
+    transform: translateY(-35px);
+    font-size: 3rem;
+    display: none;
+}
+ nav ul li{
+        padding-bottom: 1rem;
+    }
+nav{
+    width: 100%;
+   }
+.content .heading1{
+    font-size: 1.5rem;
+    margin-top: 15%;
+    line-height: 1.1;
+    transform: translateX(52%);
+}
+.paragraphcontent{
+    margin-top: 20%;
+    font-size: 1.65rem;
+    text-align: justify;
+    word-spacing: 15px;
+    line-height: 1.4;
+    transform: translateX(40%);
+}
+.button1 button{
+    margin-top: 20%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-size: 1.7rem;
+    width: 10vw;
+    transform: translateX(85%);
+}
+.img{
+    max-width: 30vw;
+    width: 30vw;
+    height: auto;
+    margin-right: 15%;
+    transform: translateY(-5%);
+}
+.btn1 button , .btn2 button ,.btn3 button{
+    font-size: 1.5rem;
+    margin-top: 5%;
+    transform: translateX(120%);
+    height: 25vh;
+    z-index: 10;
+}
+.btn2 button, .btn3 button{
+    margin-top: 5.7%;
+}
+.section2{
+    transform: translateY(-8%);
+    z-index: 1;
+}
+.content2{
+    margin-bottom: 15%;
+}
+.paragraphcontent1{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+.content1{
+    margin-top: 8%;
+    margin-left: 12%;
+}
+.content1 h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.button2 button{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 2.0rem;
+    width: 10vw;
+    margin-top: 10%;
+}
+.maincontent1{
+    margin-bottom: 4%;
+}
+.buttons{
+    margin-left: 34.5%;
+   
+}
+.img1{
+    margin-right: 10%;
+}
+.img1{
+    margin-top: 10%;
+    max-width: 40vw;
+    width: 30vw;
+    max-height: 40vh;
+    height: 40vh;
+}
+.section3{
+    position: relative;
+    transform: translateY(-16.5%);
+}
+.img2{
+    max-width: 30vw;
+    width: 23vw;
+    margin-left: 7%;
+}
+.content2{
+    margin-top: 2%;
+    margin-right: 10%;
+}
+.heading3{
+    font-size: 1.5rem;
+}
+.paragraphcontent2{
+    margin-top: 8%;
+    font-size: 1.8rem;
+    text-align: justify;
+    line-height: 1.5;
+    word-spacing: 2.5px;
+}
+.button3 button{
+    font-size: 1.5rem;
+    width: 8vw;
+    margin-left: 32%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+.heading4 h1{
+    font-size: 2.0rem;
+    margin-bottom: 5%;
+}
+.button4 button, .button5 button, .button6 button{
+    font-size: 2.5rem;
+    width: 30rem;
+}
+.button4 .icon, .button5 .icon, .button6 .icon{
+    font-size: 2.5rem;
+}
+.button7 button{
+    font-size: 1.8rem;
+    width: 10vw;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 2%;
+}
+.endcontentofsection{
+    position: relative;
+}
+.info h2{
+    position: relative;
+    transform: translateX(28.5%);
+    margin-bottom: 2%;
+}
+.section5{
+    position: relative;
+}
+.lastbutton button{
+    position: relative;
+    font-size: 2rem;
+    width: 8vw;
+    margin-left: 24%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.fheading{
+    font-size: 2rem;
+}
+.button10 button, .button11 button, .button12 button{
+    font-size: 1.8rem;
+}
+.follow p{
+    margin-top: 3%;
+    font-size: 2.5rem;
+}
+.endbuttons{
+    position: relative;
+}
+.buttons{
+    margin-top: 2%;
+    position: relative;
+    transform: translateX(-24%);
+}
+.firsttext p,.secondtext p, .thirdtext p{
+    font-size: 1.1rem;
+}
+.combinedicons{
+    font-size: 2rem;
+}
+.line p{
+    font-size: 1.2rem;
+}
+.lastline hr{
+    transform: translateX(95%);
+}
+.forms textarea{
+    width: 95%; 
+    max-width: 100%; 
+    text-align: center;
+    padding: 0.5rem; 
+    margin-left: 0.5rem
+}
+}
+@media screen and (min-width: 1950px) and (max-width: 2200px)
+{
+    /*75%*/
+    *{            /*For space on the right side*/
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;  
+        }
+        html, body {
+        height: 100vh; 
+        overflow-x: hidden; 
+        }
+    .Contact-info{
+        padding-top: 1%;
+        font-size: 1.2rem;
+        height: 7vh;
+        padding-bottom: 1%;
+    }
+     nav ul li{
+        padding-bottom: 1rem;
+    }
+    .overall{
+        position: relative;
+        height: 100vh;
+    }
+    .section,.section1{
+        position: relative;
+    }
+    #checkbtn{
+        position: relative;
+        transform: translateY(-35px);
+        font-size: 3rem;
+        display: none;
+    }
+    nav{
+        width: 100%;
+       }
+    .content .heading1{
+        font-size: 1.2rem;
+        line-height: 1.2;
+        margin-top: 30%;
+        transform: translateX(50%);
+    }
+    .paragraphcontent{
+        margin-top: 15%;
+        font-size: 1.5rem;
+        text-align: justify;
+        word-spacing: 25px;
+        line-height: 1.4;
+        transform: translateX(38%);
+        margin-bottom: 15%;
+    }
+    .button1 button{
+        padding-top: 4%;
+        padding-bottom: 4%;
+        font-size: 1.0rem;
+        width: 7vw;
+        transform: translateX(135%);
+    }
+    .img{
+        max-width: 29vw;
+        width: 30vw;
+        height: auto;
+        margin-right: 12%;
+        transform: translateY(-5%);
+    }
+    .btn1 button , .btn2 button ,.btn3 button{
+        font-size: 1.2rem;
+        margin-top: 8%;
+        height: 25vh;
+        z-index: 10;
+        margin-left: 12%;
+    }
+    .btn2 button,.btn3 button{
+        margin-top: 8.8%;
+    }
+    .section2{
+        transform: translateY(-5%);
+        z-index: 1;
+    }
+    .btn1 button , .btn2 button ,.btn3 button{
+        transform: translateX(-100%);
+    }
+    .paragraphcontent1{
+        font-size: 1.5rem;
+        line-height: 1.5;
+        text-align: justify;
+        margin-bottom: 10%;
+    }
+    .content1{
+        margin-top: 5%;
+        margin-left: 8%;
+    }
+    .content1 h1{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .button2 button{
+        padding-top: 3%;
+        padding-bottom: 3%;
+        padding-left: 3%;
+        padding-right: 3%;
+        font-size: 1.5rem;
+        width: 8vw;
+    }
+    .buttons{
+        margin-left: 34.5%;
+       
+    }
+    .img1{
+        margin-right: 2%;
+    }
+    .img1{
+        margin-top: 5%;
+        max-width: 40vw;
+        width: 35vw;
+    }
+    .section3{
+        position: relative;
+        transform: translateY(-16.5%);
+    }
+    .img2{
+        max-width: 30vw;
+        width: 23vw;
+        margin-left: 15%;
+    }
+    .content2{
+        margin-top: 2%;
+        margin-right: 10%;
+    }
+    .heading3{
+        font-size: 1.5rem;
+        margin-bottom: 10%;
+        line-height: 1.2;
+    }
+    .paragraphcontent2{
+        font-size: 1.5rem;
+        text-align: justify;
+        line-height: 1.5;
+        word-spacing: 2.5px;
+        margin-bottom: 5%;
+    }
+    .button3 button{
+        font-size: 1.5rem;
+        width: 8vw;
+        margin-left: 32%;
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+    }
+    .heading4 h1{
+        font-size: 2.5rem;
+        margin-bottom: 2%;
+    }
+    .btn1 button , .btn2 button ,.btn3 button{
+        transform: translateY(-50%);
+    }
+    .button4 button, .button5 button, .button6 button{
+        font-size: 2.0rem;
+        width: 25rem;
+    }
+    .button4 .icon, .button5 .icon, .button6 .icon{
+        font-size: 2.5rem;
+    }
+    .button7 button{
+        font-size: 1.5rem;
+        width: 9vw;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        margin-top: 2%;
+    }
+    .heading5 h1{
+        margin-bottom: 2%;
+    }
+    .endcontentofsection{
+        position: relative;
+    }
+    .info h2{
+        position: relative;
+        transform: translateX(25.5%);
+        margin-bottom: 2%;
+    }
+    .forms textarea{
+        width: 20vw;
+    }
+    .section5{
+        position: relative;
+    }
+    .lastbutton button{
+        position: relative;
+        font-size: 1.4rem;
+        width: 5vw;
+        margin-left: 20.5%;
+        margin-top: 2%;
+        margin-bottom: 1%;
+    }
+    .fheading{
+        font-size: 1.5rem;
+        margin-bottom: 2%;
+    }
+    .button10 button, .button11 button, .button12 button{
+        font-size: 1.8rem;
+    }
+    .follow p{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-size: 2.0rem;
+    }
+    .endbuttons{
+        position: relative;
+    }
+    .buttons{
+        position: relative;
+        transform: translateX(-29%);
+    }
+    .firsttext p,.secondtext p, .thirdtext p{
+        font-size: 1.2rem;
+    }
+    .combinedicons{
+        font-size: 1.6rem;
+    }
+    .lastline hr{
+        transform: translateX(82%);
+    }
+    .line p{
+        font-size: 1.2rem;
+    }
+    .forms textarea{
+        margin-left: 0.5rem;
+        width: 95%; 
+        max-width: 100%; 
+        text-align: center; 
+    }
+}
+@media screen and (min-width: 1800px) and (max-width: 1950px)
+{
+    /*80*/
+    * {            /*For space on the right side*/
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;  
+    }
+    
+    html, body {
+        height: 100vh; 
+        overflow-x: hidden; 
+    }
+    .Contact-info{
+        padding-top: 1%;
+        font-size: 1.2rem;
+        height: 7vh;
+        padding-bottom: 1%;
+    }
+    nav ul li{
+        padding-bottom: 1rem;
+    }
+    .overall{
+        position: relative;
+        height: 100vh;
+    }
+    .section,.section1{
+        position: relative;
+    }
+    #checkbtn{
+        position: relative;
+        transform: translateY(-10px);
+        font-size: 3rem;
+        display: none;
+    }
+    nav{
+        width: 100%;
+       }
+    .content .heading1{
+        font-size: 1.2rem;
+        line-height: 1.1;
+        margin-top: 10%;
+        transform: translateX(40%);
+        margin-bottom: 15%;
+        word-spacing: 25px;
+    }
+    .paragraphcontent{
+        margin-top: 5%;
+        font-size: 1.2rem;
+        text-align: justify;
+        word-spacing: 15px;
+        line-height: 1.4;
+        transform: translateX(30%);
+        margin-bottom: 10%;
+    }
+    .button1 button{
+        padding-top: 3%;
+        padding-bottom: 3%;
+        font-size: 1.5rem;
+        width: 10vw;
+        transform: translateX(75%);
+    }
+    .img{
+        max-width: 28vw;
+        width: 30vw;
+        height: auto;
+        margin-right: 10%;
+        transform: translateY(-15%);
+    }
+    .btn1 button , .btn2 button ,.btn3 button{
+        font-size: 1.5rem;
+        transform: translateX(60%);
+        height: 28vh;
+        z-index: 10;
+    }
+    .section2{
+        transform: translateY(0%);
+        z-index: 1;
+    }
+    .paragraphcontent1{
+        margin-top: 12%;
+        font-size: 1.35rem;
+        line-height: 1.2;
+        text-align: justify;
+        margin-bottom: 15%;
+    }
+    .content1{
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .content1 h1{
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 5%;
+    }
+    .button2 button{
+        padding-top: 3%;
+        padding-bottom: 3%;
+        padding-left: 1%;
+        padding-right: 1%;
+        font-size: 1.5rem;
+        width: 10vw;
+    }
+    .buttons{
+        margin-left: 34.5%;
+       
+    }
+    .img1{
+        margin-right: 5%;
+    }
+    .maincontent1 .img1{
+        margin-top: 7%;
+        max-width: 30vw;
+        width: 28vw;
+        max-height: 40vh;
+    }
+    .maincontent1{
+        margin-bottom: 10%;
+    }
+    .section3{
+        position: relative;
+        transform: translateY(-16.5%);
+    }
+    .img2{
+        max-width: 30vw;
+        width: 28vw;
+        margin-left: 5%;
+        margin-bottom: 0%;
+    }
+    .content2{
+        margin-top: 2%;
+        margin-right: 0%;
+    }
+    .heading3{
+        font-size: 1.5rem;
+    }
+    .paragraphcontent2{
+        margin-top: 10%;
+        font-size: 1.2rem;
+        text-align: justify;
+        line-height: 1.5;
+        margin-left: 0%;
+        word-spacing: 2.5px;
+    }
+    .button3 button{
+        font-size: 1.2rem;
+        width: 8vw;
+        margin-left: 32%;
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+    }
+    .heading4 h1{
+        position: relative;
+        font-size: 2.5rem;
+        transform: translateY(-300%)
+    }
+    .button4 button, .button5 button, .button6 button{
+        font-size: 1.5rem;
+        width: 23rem;
+    }
+    .button4 .icon, .button5 .icon, .button6 .icon{
+        font-size: 2.5rem;
+    }
+    .button7 button{
+        font-size: 1.2rem;
+        width: 9vw;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        margin-top: 2%;
+    }
+    .endcontentofsection{
+        position: relative;
+    }
+    .info h2{
+        position: relative;
+        transform: translateX(24%);
+        margin-bottom: 2%;
+    }
+    .section5{
+        position: relative;
+    }
+    .lastbutton button{
+        position: relative;
+        font-size: 1.2rem;
+        width: 8vw;
+        margin-left: 18%;
+        margin-top: 2%;
+        margin-bottom: 1%;
+    }
+    .fheading{
+        font-size: 1.5rem;
+    }
+    .button10 button, .button11 button, .button12 button{
+        font-size: 1.5rem;
+    }
+    .follow p{
+        margin-top: 2%;
+        font-size: 2rem;
+    }
+    .endbuttons{
+        position: relative;
+    }
+    .buttons{
+        position: relative;
+        transform: translateX(-33%);
+    }
+    .firsttext p,.secondtext p, .thirdtext p{
+        font-size: 1.0rem;
+    }
+    .combinedicons{
+        font-size: 1.5rem;
+    }
+    .line p{
+        font-size: 1.2rem;
+    }
+    .lastline hr{
+        transform: translateX(75%);
+    }
+    .forms textarea{
+        width: 95%; 
+        max-width: 100%; 
+        text-align: center;
+        margin-left: 0.5rem; 
+    }
+}
+@media screen and (min-width: 1600px) and (max-width: 1800px)
+{
+    /* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and borders are included in width/height */
+}
+/* Optionally, set the height of body and html to 100% */
+html, body {
+    height: 100vh; /* Ensures full height of the viewport */
+    overflow-x: hidden; /* Prevents horizontal scrolling if content overflows */
+}
+    .Contact-info{
+        padding-top: 1%;
+        font-size: 1.1rem;
+        height: 7vh;
+    }
+     nav ul li{
+        padding-bottom: 1rem;
+    }
+    .overall{
+        position: relative;
+        height: 100vh;
+    }
+    .section,.section1{
+        position: relative;
+    }
+    #checkbtn{
+        position: relative;
+        transform: translateY(8px);
+        font-size: 2rem;
+    }
+    nav{
+        width: 100%;
+       }
+    .heading1 h1{
+        font-size: 2.5rem;
+        line-height: 1.1;
+    }
+    .img{
+        max-width: 40vw;
+        width: 32vw;
+    }
+    .btn1 button , .btn2 button ,.btn3 button{
+        font-size: 1.2rem;
+        margin-left: 5%;
+        height: 30vh;
+        z-index: 10;
+    }
+    .btn1 button , .btn2 button ,.btn3 button{
+        transform: translatey(-50%);
+    }
+    .paragraphcontent1{
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+    .img1{
+        margin-top: 2%;
+        max-width: 35vw;
+        width: 30vw;
+    }
+    .img2{
+        margin-left: 5%;
+        max-width: 30vw;
+        width: 30vw;
+    }
+    .paragraphcontent2{
+        text-align: center;
+        margin-top: 10%;
+        font-size: 1.2rem; 
+    }
+    .button3 button{
+        font-size: 1.2rem;
+        transform: translateX(95%);
+    }
+    .button7 button{
+        margin-top: 5%;
+    }
+    .info{
+        margin-left: 19%;
+        margin-bottom: 1%;
+    }
+    .lastbutton button{
+        margin-left: 13.5%;
+    }
+    .buttons{
+        transform: translateX(5.5%);
+    }
+    .content1{
+        margin-left: 5%;
+    }
+    .lastline hr{
+        transform: translateX(58%);
+    }
+    .follow p{
+        margin-top: 3%;
+    }
+    .forms textarea{
+        width: 90%; 
+        max-width: 100%; 
+        text-align: center;
+        margin-left: 0.5rem; 
+    }
+}
