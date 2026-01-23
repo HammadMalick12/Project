@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iylus Dashboard.</title>
+    <link rel="stylesheet" href="subhistory.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <section>
+    <div class="overall">
+        <div class="head">
+            <div class="logo">
+                <h2>PMD</h2>
+                <div class="logo1">
+                    <h3>Professional</h3>
+                    <span><p>Monitoring Dashboard</p></span>
+                </div>
+            </div>
+            <div class="icons">
+                <div class="a">
+                    <!-- Calendar Icon with Hoverable Card -->
+                    <div class="icon-container">
+                        <i class="fa fa-calendar" id="calendarIcon"></i>
+                        <div class="card">
+                            <div class="c1">
+                                <h4>Meet Safe</h4>
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="card1">
+                                <p><b>10:00 am - 10:15am</b></p>
+                                <div class="c2">
+                                    <i class="fab fa-whatsapp"></i>
+                                    <p><b>+923149740488</b></p>
+                                </div>
+                            </div>
+                            <div class="hline">
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Other Icons -->
+                     <div class="bell-container">
+                    <i class="fa fa-bell"></i>
+                    <div class="card3">
+                        <div class=" c3">
+                            <h4><b>Alert Panel</b></h4>
+                        </div>
+                        <div class="c4">
+                        </div>
+                    </div>
+                    </div>
+                     <!-- Other Icons -->
+                    <div class="whatsapp-container">
+                    <i class="fab fa-whatsapp"></i>
+                    <div class="card4">
+                        <div class="c5">
+                            <h4><b>Police Helpline</b></h4>
+                        </div>
+                        <div class="c6">
+                            <div class="s1">
+                            <input id="sea" type="text" placeholder="Search.."></div>
+                            <i  id="a" class="fa fa-search"></i>
+                            <div class="c7">
+                                <i class="fa-solid fa-bars"></i>
+                            </div>
+                        </div>
+                        <div class="c7">
+                        </div>
+                    </div>
+                </div>
+                <!-- Other Icons -->
+                 <div class="envelope-container">
+                    <i class="fa fa-envelope"></i>
+                    <div class="card5">
+                        <div class="c8">
+                            <h4>Responses</h4>
+                        </div>
+                        <div class="c9">
+
+                        </div>
+                    </div>
+                </div> 
+                  <!-- Ending section of this div -->
+                </div>
+            </div>
+                <button id="btn" type="button">
+                    <img src="asset/user.png" alt="user image" >
+                    <h2>Iylus User</h2>
+                    <div class="dropdown">
+                        <a><i id="arr" class="fa-solid fa-arrow-down"></i></a>
+                        <div class="dropdown-content">
+                            <div class="sa">
+                            <i class="fa fa-gear"></i>
+                            <a id="a">Settings</a>
+                            </div>
+                            <div class="l">
+                            <i class="fa fa-sign-out"></i><a href="#" id="a">Log Out</a>
+                            </div>
+                    </div>
+                </button>
+            </div>
+            <div class="hrline">
+                <hr>
+            </div>
+    </div>
+</section>
+<section>
+    <div class="nav">
+        <div class="sidebar">
+        <div class="dashboard">
+            <a href="index.html"><i class="fa fa-industry"></i></a>
+            <h3><b>Dashboard</b></h3>        
+        </div>
+        <div class="History">
+            <a href="history.html"><i class="fa fa-cog"></i></a>
+            <h3><b>History</b></h3>        
+        </div>
+        <div class="virus">
+            <a href="insight.html"><i class="fas fa-virus"></i></a>
+            <h3><b>Insight</b></h3>        
+        </div>
+        </div>
+        <div>
+        <div class="h">
+            <h4>History</h4>
+        </div>
+        <div class="bar">
+            <div class="ar">
+                <a href="history.html" id="arrr">Iyzil Events</a>
+            </div>
+            <div class="ar1">
+                <a href="subhistory.html" id="ie">Home Events</a>
+            </div>
+            <div class="ar2">
+                <a href="homelogs.html" id="hl">Home logs</a>
+            </div>
+            <div class="ar3">
+                <a href="activeusers.html" id="aue">Active user Events</a>
+            </div>
+        </div>
+        <div class="bline">
+            <hr>
+        </div>
+        <div class="nsextion">
+            <div class="dropdown1">
+                <button type="button" class="dropbtn">Filter by  <i class="arrow down"></i></button>
+                <div class="dropdown-content1">
+                <a><p>Name</p></a>
+                <a><p>Email</p></a>
+                <a><p>Phone</p></a>
+                </div>
+            </div>
+              <div class="search2">
+                <input id="sea2" type="text" placeholder="Search">
+              </div>  
+              <div class="searchbutton3">
+                <button id="sb1" type="button"><i class="fa fa-search"></i></button>
+              </div>   
+              <div class="cal">
+                <span>From:</span>
+                <span><input type="date" id="cal"></span>
+              </div> 
+              <div class="cal1">
+                <span>To:</span>
+                <span><input type="date" id="cal"></span>
+              </div>      
+              <div class="callogo">
+                <a href="" onclick="open()"><i id="callogo" class="fa fa-calendar"></i></a>
+              </div>
+        </div>
+        <div class="extraspace">
+            <h3>Extra space</h3>
+        </div>
+        <div class="tablesection">
+            <table>
+                <tr>
+                    <th>#SR</th>
+                    <th>Name</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                    <th>Alarm type</th>
+                    <th>Subscription Plan</th>
+                    <th>Alarm Status</th>
+                    <th>Triggered Time</th>
+                </tr>
+                <tr>
+                    <td id="f">No event Found.</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+</section>
+<script src="new.js">
+</script>
+</body>
+</html>

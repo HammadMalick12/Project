@@ -1,0 +1,1716 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head{
+    display: flex;
+    background-color: whitesmoke;
+    padding: 0.5rem;
+    justify-content: space-between;
+}
+.hrline hr{
+    height: 0.025rem;
+    background-color: navy;
+}
+.logo{
+    display: flex;
+}
+.logo1{
+    transform: translateX(5%);
+    color: navy;
+    line-height: 1;
+    padding-top: 0.9rem;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+#btn{
+    display:flex;
+}
+.a {
+    margin-top: 1.5rem;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    display: flex;       
+    gap: 4.5rem;           
+    font-size: 1.5rem;
+    color:  grey;
+    transform: translateX(110%);     
+}
+.a i {
+    margin: 0;           
+    padding-bottom: 1rem;
+}
+.logo h2{
+    margin-top: 1rem;
+    font-size: 2.0rem;
+    color: navy;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#btn img{
+    height: 4vh;
+    width: 2.5vw;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+#btn {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    padding: 0; 
+    border: none; 
+    background-color: transparent;
+    margin-right: 0.5rem; 
+    text-align: center;
+}
+#arr{
+    padding: 1rem;
+}
+#btn h2{
+    font-size: 0.8rem;
+}
+i.fa-whatsapp{
+    color: grey;
+}
+.sidebar{
+    max-width: 10rem;
+    width: 8rem;
+    background-color:navy;
+    margin: 0px;
+    height: 90vh;
+}
+.dashboard h3, .History h3,.virus h3{
+    color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+}
+.sidebar{
+    position: relative;
+}
+.dashboard i,.virus i{
+    margin-top: 1.5rem;
+    color: whitesmoke;
+    font-size: 1.75rem;
+    transform: translateX(150%);
+}
+.nav{
+    display: flex;
+}
+.maploc{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-color: whitesmoke;
+}
+.maploc iframe{
+    width: 100%;
+    height: 75.5vh;
+}
+.History i{
+    margin-top: 1.5rem;
+    color: whitesmoke;
+    font-size: 1.75rem;
+    transform: translateX(175%);
+}
+.topicon{
+    display: flex;
+    gap: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+.topheading h2{
+    margin: 0px;
+    margin-left: 0.7rem;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: navy;
+    padding: 1.0rem;
+    text-align: start;
+}
+.h i,.s i, .t i,.sh i,.c i{
+    font-size: 1.5rem;
+}
+.topicon{
+    padding: 0.5rem;
+    margin-left: 1.1rem;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 9rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 100%;
+    transform: translateX(-75%); 
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+#a{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: rgb(140, 140, 140);
+}
+.sa,.l{
+    display: flex; 
+    font-size: 1.2rem;
+    color: grey;
+}
+.sa i, .l i{
+    padding: 0.5rem;
+}
+.set h3{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:navy;    
+}
+.set{
+    padding: 0.5rem;
+}
+.firstsec{
+    display: block;
+    background-color: white;
+    max-width: 38rem;
+    width: 38rem;
+    height: fit-content;
+    padding: 1rem;
+    box-shadow: 0px 4px 8px whitesmoke(0, 0, 0, 0.1);
+    border: 2px solid white;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.p h2{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: navy;
+}
+.hline hr{
+    margin-top: 0.5rem;
+}
+.p1 p{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: 0.6rem;
+}
+#fname{
+    max-width: 38rem;
+    width: 36rem;
+    padding: 0.5rem;
+}
+.formsection{
+    box-sizing: border-box;
+    display: flex;
+    gap: 1.5rem;
+    margin-left: 1rem;
+    background-color: whitesmoke;
+    padding-top: 1.5rem;
+}
+.space{
+    margin-top: 1.5rem;
+}
+.space1{
+    margin-top: 6.95rem;
+}
+.lastsec i{
+    transform: translateY(55%);
+    font-size: 10rem;
+    color: grey;
+}
+.lastsec{
+    padding: 0px;
+    display: flex;
+    margin-left: 20rem;
+    transform: translateY(-135%);
+    gap: 10rem;
+    margin-bottom: 0px;
+}
+.firstcont p, .secondcont p, .thirdcont p{
+    font-size: 1.0rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+   
+}
+.firstcont p,.secondcont p, .thirdcont p{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+#f1,#f2,#f3{
+    padding: 0.4rem;
+    max-width: 38vw;
+    width: 38vw;
+}
+#b1{
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    border-color: grey;
+}
+.u{
+    padding-top: 0.9rem;
+}
+.f5{
+    transform: translateY(25%);
+}
+.d h3{
+    display: none; 
+}
+.logo i{
+    margin-top: 5rem;
+    font-size: 10rem;
+    margin-bottom: 3rem;
+    color: grey;
+}
+.logo{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.thirdsection{
+    margin-top: -5rem;
+}
+.pdetails{
+    display: block;
+
+}
+.f5{
+    text-align: start;
+    justify-content: center;
+    align-items: start;
+}
+.line hr{
+    background-color: navy;
+    width: 100%;
+    color: navy;
+    height: 0.2vh;
+    margin-bottom: 1.5rem;
+    border-radius: 0.2rem;
+}
+.line5 hr{
+    height: 0.2vh;
+    color: white;
+    background-color: navy;
+}
+@media screen and (min-width: 5470px) and (max-width: 6550px)
+{
+    .logo h2{
+        padding: 2rem;
+        font-size: 5rem;
+    }
+    .logo1{
+        font-size: 4rem;
+    }
+    .a{
+        display: flex;
+        font-size: 5rem;
+        gap: 15rem;
+    }
+    .icons{
+        display: flex;
+        align-items: center;
+    }
+    #btn{
+        margin-right: 3rem;
+        padding: 0px;
+    }
+    #btn h2{
+        font-size: 2.5rem;
+    }
+    #btn img{
+        font-size: 2rem;
+    }
+    #arr{
+        font-size: 2.5rem;
+    }
+    .dropdown-content{
+        height: 7vh;
+        width: 6vw;
+        margin-right: 5rem;
+    }
+    #a{
+        font-size: 3.35rem;
+    }
+    .sa i, .l i{
+        font-size: 3rem;
+        padding: 1.5rem;
+    }
+    .sidebar{
+        display: block;
+        max-width: 6%;
+        width: 6%;
+        height: 93vh;
+        max-height: 93vh;
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        box-sizing: content-box;
+        text-align: center;
+        align-items: center; 
+    }
+    .dashboard h3,.History h3,.virus h3{
+        font-size: 2.5rem;
+        margin-top: 3rem;
+    }
+    .dashboard i, .History i, .virus i{
+        font-size: 5rem;
+        margin-top: 4rem;
+        text-align: start;
+        margin-right: 17rem;
+        padding: 0px;
+    }
+    .p{
+        text-align: start;
+        padding: 2rem;
+    }
+    .p h2{
+        font-size: 4rem;
+    }
+    .p1{
+        text-align: start;
+        padding: 3rem;
+    }
+    .p1 p{
+        font-size: 5rem;
+    }
+    #fname{
+        text-align: start;
+        margin-left: 3rem;
+        max-width: 30vw;
+        width: 30vw;
+        padding: 2rem;
+    }
+    .formsection{
+        gap: 15rem;
+        text-align: center;
+    }
+    .firstsec{
+        max-width: 40vw;
+        width: 40vw;
+        height: 91vh;
+    }
+    .p2{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .line5 hr{
+        margin-top: 15rem;
+    }
+    .line5{
+        padding: 3rem;
+    }
+    .logo{
+        display: flex;
+        padding: 3rem;
+        margin-top: 2rem;
+        text-align: center;
+        justify-content: center;
+    }
+    .logo i{
+        font-size: 35rem;
+    }
+    .firstcont p, .secondcont p,.thirdcont p{
+        font-size: 5rem;
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+    }
+    .firstcont,.secondcont,.thirdcont{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        text-align: start; 
+    }
+    .f5{
+        justify-content: start;
+        align-items: start;
+        text-align: start;
+        padding: 0px;
+        margin-left: 5rem;
+    }
+    #f1,#f2,#f3{
+        max-width: 35vw;
+        width: 35vw;
+        padding: 2rem;
+        border-color: black;
+    }
+    .u{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 5rem;
+        padding: 0px;
+    }
+    #b1{
+        max-width: 10vw;
+        width: 10vw;
+        padding: 2rem;
+        font-size: 3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;       
+    }
+    .hline hr{
+        max-width: 40vw;
+        width: 40vw;
+    }
+}
+@media screen and (min-width:4281px) and (max-width:5470px) 
+{
+    /*33*/
+    .logo h2{
+        padding: 1.5rem;
+        font-size: 3rem;
+    }
+    .logo1{
+        font-size: 3rem;
+    }
+    .a{
+        display: flex;
+        font-size: 5rem;
+        gap: 10rem;
+    }
+    .a i{
+        font-size: 4rem;
+    }
+    .icons{
+        display: flex;
+        align-items: center;
+    }
+    #btn{
+        margin-right: 3rem;
+        padding: 0px;
+    }
+    #btn h2{
+        font-size: 2.5rem;
+    }
+    #btn img{
+        font-size: 2rem;
+    }
+    #arr{
+        font-size: 2.5rem;
+    }
+    .dropdown-content{
+        height: 8vh;
+        width: 7vw;
+        margin-right: 5rem;
+    }
+    #a{
+        margin-top: 0.5rem;
+        font-size: 2.35rem;
+    }
+    .sa i, .l i{
+        font-size: 2.3rem;
+        padding: 1.5rem;
+    }
+    .sidebar{
+        display: block;
+        max-width: 6%;
+        width: 6%;
+        height: 93vh;
+        max-height: 93vh;
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        box-sizing: content-box;
+        text-align: center;
+        align-items: center; 
+    }
+    .dashboard h3,.History h3,.virus h3{
+        font-size: 2.2rem;
+        margin-top: 3rem;
+    }
+    .dashboard i, .History i, .virus i{
+        font-size: 4rem;
+        margin-top: 4rem;
+        text-align: start;
+        margin-right: 13.5rem;
+        padding: 0px;
+    }
+    .p{
+        text-align: start;
+        padding: 2rem;
+    }
+    .p h2{
+        font-size: 3rem;
+    }
+    .p1{
+        text-align: start;
+        padding: 1.2rem;
+    }
+    .p1 p{
+        font-size: 3rem;
+    }
+    #fname{
+        text-align: start;
+        margin-left: 3rem;
+        max-width: 30vw;
+        width: 30vw;
+        padding: 2rem;
+    }
+    .formsection{
+        gap: 15rem;
+        text-align: center;
+    }
+    .firstsec{
+        max-width: 40vw;
+        width: 40vw;
+        height: 90vh;
+    }
+    .p2{
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .line5 hr{
+        margin-top: 5rem;
+    }
+    .line5{
+        padding: 3rem;
+    }
+    .logo{
+        display: flex;
+        padding: 3rem;
+        margin-top: 2rem;
+        text-align: center;
+        justify-content: center;
+    }
+    .logo i{
+        font-size: 25rem;
+    }
+    .firstcont p, .secondcont p,.thirdcont p{
+        font-size: 3.5rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+    .firstcont,.secondcont,.thirdcont{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        text-align: start; 
+    }
+    .f5{
+        justify-content: start;
+        align-items: start;
+        text-align: start;
+        padding: 0px;
+        margin-left: 5rem;
+    }
+    #f1,#f2,#f3{
+        max-width: 35vw;
+        width: 35vw;
+        padding: 1.5rem;
+        border-color: black;
+    }
+    .u{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 5rem;
+        padding: 0px;
+    }
+    #b1{
+        max-width: 10vw;
+        width: 10vw;
+        padding: 1.2rem;
+        font-size: 3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;       
+    }
+    .hline hr{
+        max-width: 40vw;
+        width: 40vw;
+    }   
+}
+@media screen and (min-width:2851px) and (max-width:3450px) 
+{
+    /*50*/
+    .logo h2{
+        padding: 0rem;
+        font-size: 2.5rem;
+    }
+    .logo1{
+        font-size: 2rem;
+    }
+    .a{
+        display: flex;
+        font-size: 2.2rem;
+        gap: 7.5rem;
+    }
+    .a i{
+        font-size: 2.75rem;
+    }
+    .icons{
+        display: flex;
+        align-items: center;
+    }
+    #btn{
+        margin-right: 2rem;
+        padding: 0px;
+    }
+    #btn h2{
+        font-size: 2.0rem;
+    }
+    #btn img{
+        font-size: 1.5rem;
+    }
+    #arr{
+        font-size: 1.8rem;
+    }
+    .dropdown-content{
+        height: 10vh;
+        width: 8vw;
+        margin-right: 5rem;
+    }
+    #a{
+        margin-top: 0.5rem;
+        font-size: 1.7rem;
+    }
+    .sa i, .l i{
+        font-size: 2rem;
+        padding: 1.2rem;
+    }
+    .sidebar{
+        display: block;
+        max-width: 6%;
+        width: 6%;
+        height: 90vh;
+        max-height: 90vh;
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        box-sizing: content-box;
+        text-align: center;
+        align-items: center; 
+    }
+    .dashboard h3,.History h3,.virus h3{
+        font-size: 1.5rem;
+        margin-top: 3rem;
+    }
+    .dashboard i, .History i, .virus i{
+        font-size: 4rem;
+        margin-top: 4rem;
+        text-align: start;
+        margin-right: 13.5rem;
+        padding: 0px;
+    }
+    .p{
+        text-align: start;
+        padding: 1rem;
+    }
+    .p h2{
+        font-size: 2rem;
+    }
+    .p1{
+        text-align: start;
+        padding: 1.2rem;
+    }
+    .p1 p{
+        font-size: 2rem;
+    }
+    #fname{
+        text-align: start;
+        margin-left: 3rem;
+        max-width: 30vw;
+        width: 30vw;
+        padding: 1.3rem;
+    }
+    .formsection{
+        gap: 7.5rem;
+        text-align: center;
+    }
+    .firstsec{
+        max-width: 40vw;
+        width: 40vw;
+        height: 85vh;
+        max-height: 85vh;
+    }
+    .p2{
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .line5 hr{
+        margin-top: 1.5rem;
+    }
+    .line5{
+        padding: 1.5rem;
+    }
+    .logo{
+        display: flex;
+        padding: 1rem;
+        margin-top: 1.5rem;
+        text-align: center;
+        justify-content: center;
+    }
+    .logo i{
+        font-size: 15rem;
+    }
+    .firstcont p, .secondcont p,.thirdcont p{
+        font-size: 2.5rem;
+        margin-top: 1.0rem;
+        margin-bottom: 1.5rem;
+    }
+    .firstcont,.secondcont,.thirdcont{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        text-align: start; 
+    }
+    .f5{
+        justify-content: start;
+        align-items: start;
+        text-align: start;
+        padding: 0px;
+        margin-left: 5rem;
+    }
+    #f1,#f2,#f3{
+        max-width: 35vw;
+        width: 35vw;
+        padding: 0.8rem;
+        border-color: black;
+    }
+    .u{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 1.3rem;
+        padding: 0px;
+    }
+    #b1{
+        max-width: 10vw;
+        width: 10vw;
+        padding: 1.2rem;
+        font-size: 1.75rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;       
+    }
+    .hline hr{
+        max-width: 40vw;
+        width: 40vw;
+    }
+}
+@media screen and (min-width: 2000px) and (max-width: 2850px)
+{
+    /*67*/
+    .logo h2{
+        padding: 0rem;
+        font-size: 1.75rem;
+    }
+    .logo1{
+        font-size: 1.45rem;
+    }
+    .a{
+        display: flex;
+        font-size: 2.0rem;
+        gap: 5.75rem;
+    }
+    .a i{
+        font-size: 2.25rem;
+    }
+    .icons{
+        display: flex;
+        align-items: center;
+    }
+    #btn{
+        margin-right: 1.5rem;
+        padding: 0px;
+    }
+    #btn h2{
+        font-size: 1.4rem;
+    }
+    #btn img{
+        font-size: 1.25rem;
+    }
+    #arr{
+        font-size: 1.5rem;
+    }
+    .dropdown-content{
+        text-align: center;
+        justify-content: center;
+        height: 12vh;
+        width: 9vw;
+        margin-right: 5rem;
+    }
+    #a{
+        margin-top: 0.5rem;
+        font-size: 1.35rem;
+    }
+    .sa i, .l i{
+        font-size: 1.75rem;
+        padding: 1.2rem;
+    }
+    .sidebar{
+        display: block;
+        max-width: 6%;
+        width: 6%;
+        height: 90vh;
+        max-height: 90vh;
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        box-sizing: content-box;
+        text-align: center;
+        align-items: center; 
+    }
+    .dashboard h3,.History h3,.virus h3{
+        font-size: 1.15rem;
+        margin-top: 3rem;
+    }
+    .dashboard i, .History i, .virus i{
+        font-size: 3rem;
+        margin-top: 4rem;
+        text-align: center;
+        margin-right: 10.25rem;
+        padding: 0px;
+    }
+    .p{
+        text-align: start;
+        padding: 0.5rem;
+    }
+    .p h2{
+        font-size: 1.5rem;
+    }
+    .p1{
+        text-align: start;
+        padding: 0.25rem;
+    }
+    .p1 p{
+        font-size: 1.5rem;
+    }
+    #fname{
+        text-align: start;
+        margin-left: 3rem;
+        max-width: 30vw;
+        width: 30vw;
+        padding: 1.0rem;
+    }
+    .formsection{
+        gap: 6rem;
+        text-align: center;
+    }
+    .firstsec{
+        max-width: 40vw;
+        width: 40vw;
+        height: 83vh;
+        max-height: 83vh;
+    }
+    .p2{
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .line5 hr{
+        margin-top: 1.0rem;
+    }
+    .line5{
+        padding: 1.5rem;
+    }
+    .logo{
+        display: flex;
+        padding: 1rem;
+        margin-top: 1rem;
+        text-align: center;
+        justify-content: center;
+    }
+    .logo i{
+        font-size: 12rem;
+    }
+    .firstcont p, .secondcont p,.thirdcont p{
+        font-size: 1.55rem;
+        margin-top: 0.5rem;
+        margin-bottom: 1.0rem;
+    }
+    .firstcont,.secondcont,.thirdcont{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        text-align: start; 
+    }
+    .f5{
+        justify-content: start;
+        align-items: start;
+        text-align: start;
+        padding: 0px;
+        margin-left: 5rem;
+    }
+    #f1,#f2,#f3{
+        max-width: 35vw;
+        width: 35vw;
+        padding: 0.65rem;
+        border-color: black;
+    }
+    .u{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 1rem;
+        padding: 0px;
+    }
+    #b1{
+        max-width: 10vw;
+        width: 10vw;
+        padding: 0.6rem;
+        font-size: 1.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;       
+    }
+    .hline hr{
+        max-width: 40vw;
+        width: 40vw;
+    }
+}
+@media screen and (min-width: 1950px) and (max-width: 2200px)
+{
+ /*75*/
+ .logo h2{
+    padding: 0rem;
+    font-size: 1.55rem;
+}
+.logo1{
+    font-size: 1.35rem;
+}
+.a{
+    display: flex;
+    font-size: 2.0rem;
+    gap: 5.5rem;
+}
+.a i{
+    font-size: 2rem;
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+#btn{
+    margin-right: 1.5rem;
+    padding: 0px;
+}
+#btn h2{
+    font-size: 1.25rem;
+}
+#btn img{
+    font-size: 1.25rem;
+}
+#arr{
+    font-size: 1.25rem;
+}
+.dropdown-content{
+    text-align: center;
+    justify-content: center;
+    height: 12vh;
+    width: 10vw;
+    margin-right: 5rem;
+}
+#a{
+    margin-top: 0.5rem;
+    font-size: 1.25rem;
+}
+.sa i, .l i{
+    font-size: 1.5rem;
+    padding: 1.2rem;
+}
+.sidebar{
+    display: block;
+    max-width: 6%;
+    width: 6%;
+    height: 90vh;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    box-sizing: content-box;
+    text-align: center;
+    align-items: center; 
+}
+.dashboard h3,.History h3,.virus h3{
+    font-size: 1.15rem;
+    margin-top: 2.5rem;
+}
+.dashboard i, .History i, .virus i{
+    font-size: 3rem;
+    margin-top: 3rem;
+    text-align: center;
+    margin-right: 10.25rem;
+    padding: 0px;
+}
+.p{
+    text-align: start;
+    padding: 0.5rem;
+}
+.p h2{
+    font-size: 1.35rem;
+}
+.p1{
+    text-align: start;
+    padding: 0.15rem;
+}
+.p1 p{
+    font-size: 1.35rem;
+}
+#fname{
+    text-align: start;
+    margin-left: 3rem;
+    max-width: 30vw;
+    width: 30vw;
+    padding: 0.5rem;
+}
+.formsection{
+    gap: 6rem;
+    text-align: center;
+}
+.firstsec{
+    max-width: 40vw;
+    width: 40vw;
+    height: 83vh;
+    max-height: 83vh;
+}
+.p2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.line5 hr{
+    margin-top: 1.0rem;
+}
+.line5{
+    padding: 1.0rem;
+}
+.logo{
+    display: flex;
+    padding: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+.logo i{
+    font-size: 08rem;
+}
+.firstcont p, .secondcont p,.thirdcont p{
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.0rem;
+}
+.firstcont,.secondcont,.thirdcont{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    text-align: start; 
+}
+.f5{
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    padding: 0px;
+    margin-left: 5rem;
+}
+#f1,#f2,#f3{
+    max-width: 35vw;
+    width: 35vw;
+    padding: 0.65rem;
+    border-color: black;
+}
+.u{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 0px;
+}
+#b1{
+    max-width: 10vw;
+    width: 10vw;
+    padding: 0.45rem;
+    font-size: 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;       
+}
+.hline hr{
+    max-width: 40vw;
+    width: 40vw;
+}   
+}
+@media screen and (min-width: 1800px) and (max-width: 1950px)
+{
+    /*80*/
+ .logo h2{
+    padding: 0rem;
+    font-size: 1.35rem;
+}
+.logo1{
+    font-size: 1.15rem;
+}
+.a{
+    display: flex;
+    font-size: 2.0rem;
+    gap: 5rem;
+}
+.a i{
+    font-size: 1.60rem;
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+#btn{
+    margin-right: 1.5rem;
+    padding: 0px;
+}
+#btn h2{
+    font-size: 1.10rem;
+}
+#btn img{
+    font-size: 1.25rem;
+}
+#arr{
+    font-size: 1.15rem;
+}
+.dropdown-content{
+    text-align: center;
+    justify-content: center;
+    height: 12vh;
+    width: 10vw;
+    margin-right: 5rem;
+}
+#a{
+    margin-top: 0.5rem;
+    font-size: 1.25rem;
+}
+.sa i, .l i{
+    font-size: 1.35rem;
+    padding: 1.2rem;
+}
+.sidebar{
+    display: block;
+    max-width: 6%;
+    width: 6%;
+    height: 90vh;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    box-sizing: content-box;
+    text-align: center;
+    align-items: center; 
+}
+.dashboard h3,.History h3,.virus h3{
+    font-size: 1.10rem;
+    margin-top: 2.5rem;
+}
+.dashboard i, .History i, .virus i{
+    font-size: 2.25rem;
+    margin-top: 3rem;
+    text-align: center;
+    justify-content: center;
+    margin-right: 7.75rem;
+    padding: 0px;
+}
+.p{
+    text-align: start;
+    padding: 0.5rem;
+}
+.p h2{
+    font-size: 1.20rem;
+}
+.p1{
+    text-align: start;
+    padding: 0.15rem;
+}
+.p1 p{
+    font-size: 1.20rem;
+}
+#fname{
+    text-align: start;
+    margin-left: 3rem;
+    max-width: 30vw;
+    width: 30vw;
+    padding: 0.5rem;
+}
+.formsection{
+    gap: 6rem;
+    text-align: center;
+}
+.firstsec{
+    max-width: 40vw;
+    width: 40vw;
+    height: 83vh;
+    max-height: 83vh;
+}
+.p2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.line5 hr{
+    margin-top: 1.0rem;
+}
+.line5{
+    padding: 1.0rem;
+}
+.logo{
+    display: flex;
+    padding: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+.logo i{
+    font-size: 7.5rem;
+}
+.firstcont p, .secondcont p,.thirdcont p{
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.0rem;
+}
+.firstcont,.secondcont,.thirdcont{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    text-align: start; 
+}
+.f5{
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    padding: 0px;
+    margin-left: 5rem;
+}
+#f1,#f2,#f3{
+    max-width: 35vw;
+    width: 35vw;
+    padding: 0.55rem;
+    border-color: black;
+}
+.u{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 0px;
+}
+#b1{
+    max-width: 10vw;
+    width: 10vw;
+    padding: 0.35rem;
+    font-size: 1.15rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;       
+}
+.hline hr{
+    max-width: 40vw;
+    width: 40vw;
+}   
+}
+@media screen and (min-width: 1600px) and (max-width: 1800px)
+{
+    /*90*/
+ .logo h2{
+    padding: 0rem;
+    font-size: 1.15rem;
+}
+.logo1{
+    font-size: 1.10rem;
+}
+.a{
+    display: flex;
+    font-size: 2.0rem;
+    gap: 4rem;
+}
+.a i{
+    font-size: 1.60rem;
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+#btn{
+    margin-right: 1.5rem;
+    padding: 0px;
+}
+#btn h2{
+    font-size: 1.05rem;
+}
+#btn img{
+    font-size: 1.25rem;
+}
+#arr{
+    font-size: 1.15rem;
+}
+.dropdown-content{
+    text-align: center;
+    justify-content: center;
+    height: 13vh;
+    width: 10vw;
+    margin-right: 5rem;
+}
+#a{
+    margin-top: 0.33rem;
+    font-size: 1.05rem;
+}
+.sa i, .l i{
+    font-size: 1.15rem;
+    padding: 1.15rem;
+}
+.sidebar{
+    display: block;
+    max-width: 6%;
+    width: 6%;
+    height: 90vh;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    box-sizing: content-box;
+    text-align: center;
+    align-items: center; 
+}
+.dashboard h3,.History h3,.virus h3{
+    font-size: 1.0rem;
+    margin-top: 2.5rem;
+}
+.dashboard i, .History i, .virus i{
+    font-size: 2.3rem;
+    margin-top: 3rem;
+    text-align: center;
+    justify-content: center;
+    margin-right: 7.75rem;
+    padding: 0px;
+}
+.p{
+    text-align: start;
+    padding: 0.5rem;
+}
+.p h2{
+    font-size: 1.10rem;
+}
+.p1{
+    text-align: start;
+    padding: 0.15rem;
+}
+.p1 p{
+    font-size: 1.10rem;
+}
+#fname{
+    text-align: start;
+    margin-left: 3rem;
+    max-width: 30vw;
+    width: 30vw;
+    padding: 0.3rem;
+}
+.formsection{
+    gap: 5rem;
+    text-align: center;
+}
+.firstsec{
+    max-width: 40vw;
+    width: 40vw;
+    height: 82vh;
+    max-height: 82vh;
+}
+.p2{
+    margin-top: 0.33rem;
+    margin-bottom: 0.33rem;
+}
+.line5 hr{
+    margin-top: 0.5rem;
+}
+.line5{
+    padding: 1.0rem;
+}
+.logo{
+    display: flex;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    justify-content: center;
+}
+.logo i{
+    font-size: 7rem;
+}
+.firstcont p, .secondcont p,.thirdcont p{
+    font-size: 1.05rem;
+    margin-top: 0.1rem;
+    margin-bottom: 1.0rem;
+}
+.firstcont,.secondcont,.thirdcont{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    text-align: start; 
+}
+.f5{
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    padding: 0px;
+    margin-left: 5rem;
+}
+#f1,#f2,#f3{
+    max-width: 35vw;
+    width: 35vw;
+    padding: 0.25rem;
+    border-color: black;
+}
+.u{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 0px;
+}
+#b1{
+    max-width: 10vw;
+    width: 10vw;
+    padding: 0.5rem;
+    font-size: 1.0rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;       
+}
+.hline hr{
+    transform: translateY(45%);
+    max-width: 40vw;
+    width: 40vw;
+}   
+}
+@media screen and (min-width: 1200px) and (max-width: 1399px)
+{
+   .logo h2{
+    padding: 0rem;
+    font-size: 1.2rem;
+    }
+.logo1{
+    font-size: 1rem;
+}
+.a{
+    display: flex;
+    font-size: 1.75rem;
+    gap: 2.5rem;
+    width: 100%;
+}
+.a i{
+    font-size: 1.60rem;
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+#btn{
+    margin-right: 1.5rem;
+    padding: 0px;
+}
+#btn h2{
+    font-size: 1.05rem;
+}
+#btn img{
+    font-size: 1.25rem;
+}
+#arr{
+    font-size: 1.15rem;
+}
+.dropdown-content{
+    text-align: center;
+    justify-content: center;
+    height: 13vh;
+    width: 10vw;
+    margin-right: 5rem;
+}
+#a{
+    margin-top: 0.33rem;
+    font-size: 1.05rem;
+}
+.sa i, .l i{
+    font-size: 1.15rem;
+    padding: 1.15rem;
+}
+.sidebar{
+    width: 100%;
+    display: block;
+    max-width: 6%;
+    width: 6%;
+    height: 90vh;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    box-sizing: content-box;
+    text-align: center;
+    align-items: center; 
+}
+.dashboard h3,.History h3,.virus h3{
+    font-size: 0.85rem;
+    margin-top: 2rem;
+}
+.dashboard i, .History i, .virus i{
+    font-size: 2.3rem;
+    margin-top: 3rem;
+    text-align: center;
+    justify-content: center;
+    margin-right: 7.75rem;
+    padding: 0px;
+}
+.p{
+    text-align: start;
+    padding: 0.5rem;
+}
+.p h2{
+    font-size: 1.10rem;
+}
+.p1{
+    text-align: start;
+    padding: 0.15rem;
+}
+.p1 p{
+    font-size: 1.10rem;
+}
+#fname{
+    text-align: start;
+    margin-left: 3rem;
+    max-width: 30vw;
+    width: 30vw;
+    padding: 0.3rem;
+    border-color: black;
+}
+.formsection{
+    gap: 5rem;
+    text-align: center;
+}
+.firstsec{
+    max-width: 40vw;
+    width: 40vw;
+    height: 82vh;
+    max-height: 82vh;
+}
+.p2{
+    margin-top: 0.33rem;
+    margin-bottom: 0.33rem;
+}
+.line5 hr{
+    margin-top: 0.5rem;
+}
+.line5{
+    padding: 1.0rem;
+}
+.logo{
+    display: flex;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    justify-content: center;
+}
+.logo i{
+    font-size: 7rem;
+}
+.firstcont p, .secondcont p,.thirdcont p{
+    font-size: 1.05rem;
+    margin-top: 0.1rem;
+    margin-bottom: 1.0rem;
+}
+.firstcont,.secondcont,.thirdcont{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    text-align: start; 
+}
+.f5{
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    padding: 0px;
+    margin-left: 5rem;
+}
+#f1,#f2,#f3{
+    max-width: 30vw;
+    width: 30vw;
+    padding: 0.25rem;
+    border-color: black;
+}
+.u{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 0px;
+}
+#b1{
+    max-width: 10vw;
+    width: 10vw;
+    padding: 0.5rem;
+    font-size: 1.0rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;       
+}
+.hline hr{
+    transform: translateY(45%);
+    max-width: 40vw;
+    width: 40vw;
+}      
+}
+@media screen and (min-width: 700px) and (max-width: 1024px)
+{
+    .logo h2 {
+        font-size: 0.9rem;
+    }
+    .logo1
+    { 
+        font-size: 0.85rem;
+    }
+    .a{
+        font-size: 1rem;
+        gap: 1.75rem;
+    }
+    .sidebar{
+        min-width: 5.35rem;
+        width: 5.35rem;
+        max-height: 100vh;
+        height: 100vh;
+    }
+    .dashboard i,.History i,.virus i{
+        font-size: 1.2rem;
+    }
+    .dashboard h3,.History h3,.virus h3{
+        font-size: 0.65rem;
+    }
+    .History h3,.virus h3{
+        transform: translateX(15%);
+    }
+    .dashboard, .History, .virus {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column; /* Keep icons and text aligned vertically */
+    }
+    #fname{
+        max-width: 32vw;
+        width: 32vw;
+    }
+    #f1,#f2,#f3{
+        max-width: 32vw;
+        width: 32vw;
+    }
+    .logo i{
+        font-size: 6rem;
+    }
+    .pdetails{
+        max-width: 35vw;
+        width: 35vw;
+        width: 100%;
+        display: block;
+    }
+    .firstsec{
+        width: 100%;
+        max-width: 35vw;
+        width: 35vw;
+    }
+
+}

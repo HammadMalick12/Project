@@ -1,0 +1,2823 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head{
+    display: flex;
+    background-color: whitesmoke;
+    padding: 0.5rem;
+    justify-content: space-between;
+}
+.hrline hr{
+    height: 0.025rem;
+    background-color: navy;
+}
+.logo{
+    display: flex;
+}
+.logo1{
+    transform: translateX(5%);
+    color: navy;
+    line-height: 1;
+    padding-top: 0.9rem;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+#btn{
+    display:flex;
+}
+.a {
+    margin-top: 1.5rem;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    display: flex;       
+    gap: 4.5rem;           
+    font-size: 1.5rem;
+    color:  grey;
+    transform: translateX(110%);     
+}
+.a i {
+    margin: 0;           
+    padding-bottom: 1rem;
+}
+.logo h2{
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    color: navy;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#btn img{
+    height: 4vh;
+    width: 2.5vw;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+#btn {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    padding: 0; 
+    border: none; 
+    background-color: transparent;
+    margin-right: 0.5rem; 
+    text-align: center;
+}
+#arr{
+    padding: 1rem;
+}
+#btn h2{
+    font-size: 0.8rem;
+}
+i.fa-whatsapp{
+    color: grey;
+}
+.sidebar{
+    max-width: 10rem;
+    width: 8rem;
+    background-color:navy;
+    margin: 0px;
+    height: 90vh;
+}
+.dashboard h3, .History h3,.virus h3{
+    color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+}
+.sidebar{
+    position: relative;
+}
+.dashboard i,.virus i{
+    margin-top: 1.5rem;
+    color: whitesmoke;
+    font-size: 1.6rem;
+    transform: translateX(150%);
+}
+.nav{
+    display: flex;
+}
+.maploc{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-color: whitesmoke;
+}
+.maploc iframe{
+    width: 100%;
+    height: 75.5vh;
+}
+.History i{
+    margin-top: 1.5rem;
+    color: whitesmoke;
+    font-size: 1.6rem;
+    transform: translateX(175%);
+}
+.topicon{
+    display: flex;
+    gap: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+.topheading h2{
+    margin: 0px;
+    margin-left: 0.7rem;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: navy;
+    padding: 1.0rem;
+    text-align: start;
+}
+.h i,.s i, .t i,.sh i,.c i{
+    font-size: 1.5rem;
+}
+.topicon{
+    padding: 0.5rem;
+    margin-left: 1.1rem;
+}
+.htext h2,.stext h2 ,.ttext h2,.shtext h2,.ctext h2{
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+}
+.htext,.stext,.ttext,.shtext,.ctext{
+    margin-left: 0.5rem;
+    padding: 0;
+    text-align: start;
+}
+.htext p,.stext p,.ttext p,.shtext p,.ctext p{
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h,.s,.t,.sh,.c{
+    margin: 0px;
+    display: flex;
+}
+.h i, .htext{
+    color: rgb(8, 8, 124);
+}
+.s i, .stext{
+    color: rgb(127, 216, 127);
+}
+.t i, .ttext{
+    color: lightcoral;
+}
+.c i, .ctext{
+    color: rgb(26, 163, 127);
+}
+.sh i,.shtext{
+    color: rgb(93, 93, 216);
+}
+.topbar{
+    background-color: white;
+    box-shadow:  0 4px 8px rgba(255, 255, 255, 0.885);
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 9rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 100%;
+    margin-top: 1.1rem;
+    transform: translateX(-65%); 
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content.showData {
+    display: block; /* Show when 'showData' is added */
+}
+
+#a{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: rgb(140, 140, 140);
+}
+.sa,.l{
+    display: flex; 
+    font-size: 1.2rem;
+    color: grey;
+}
+.sa i, .l i{
+    padding: 0.5rem;
+}
+.icon-container {
+    position: relative;
+    display: inline-block;
+}
+.card {
+    display: none;
+    position: absolute;
+    top: 1.5rem; /* Adjust position as needed */
+    left: -9rem;
+    width: 17rem;
+    right: 5rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 0.2rem;
+    height: 25vh;
+    z-index: 1;
+}
+.icon-container:hover .card 
+{
+    display: block;
+}
+.c1{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: navy;
+}
+.c1 h4,.c1 i{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: whitesmoke;
+}
+.c1 h4{
+    margin-top: 0.3rem;
+    margin-left: 0.5rem;
+}
+.c1 i{
+    margin-top: 0.4rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+.card1{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    margin-top: 0.8rem;
+}
+.card1 p{
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.c2{
+    display: flex;
+}
+.c2 i{
+    font-size: 1rem;
+    padding: 0.1rem;
+}
+.c2 p{
+    font-size: 0.8rem;
+    padding: 0.1rem;
+}
+.hline hr {
+    margin-top: 0.4rem;
+   color: black;
+}
+.bell-container {
+    position: relative;
+    display: inline-block;
+}
+.card3 {
+    display: none;
+    position: absolute;
+    top: 1.5rem; /* Adjust position as needed */
+    left: -8rem;
+    width: 17rem;
+    right: 5rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 0.2rem;
+    height: 25vh;
+    z-index: 1;
+}
+.bell-container:hover .card3
+{
+    display: block;
+}
+.c3 h4{
+    font-size: 1.2rem;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    background-color: navy;
+}
+.whatsapp-container {
+    position: relative;
+    display: inline-block;
+}
+.card4 {
+    display: none;
+    position: absolute;
+    top: 1.5rem; /* Adjust position as needed */
+    left: -8rem;
+    width: 17rem;
+    right: 5rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 0.2rem;
+    height: 35vh;
+    z-index: 1;
+}
+.whatsapp-container:hover .card4
+{
+    display: block;
+}
+.c5 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: whitesmoke;
+    background-color: navy;
+    padding: 1rem;
+}
+.c6{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+}
+#sea {
+    width: 10rem; /* Adjust the width as needed */
+    height: 1.2rem; /* Adjust the height as needed */
+    padding: 0.4rem; /* Adjust padding to control the spacing inside the input */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem; /* Adjust text size if needed */
+}
+.c6 i{
+    margin: 0px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: grey;
+}
+.c7 i{
+    font-size: 1.5rem;
+    color: grey;
+    transform: translateY(-10%);
+}
+.envelope-container {
+    position: relative;
+    display: inline-block;
+}
+.card5 {
+    display: none;
+    position: absolute;
+    top: 1.5rem; /* Adjust position as needed */
+    left: -9rem;
+    width: 17rem;
+    right: 5rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 0.2rem;
+    height: 25vh;
+    z-index: 1;
+}
+.envelope-container:hover .card5 
+{
+    display: block;
+}
+.c8{
+    background-color: navy;
+    border-radius: 4px;
+    padding: 0.5rem;
+}
+.c8 h4{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.sidebar{
+    position: relative;
+}
+.sidebar1{
+    position: absolute;
+    top: 22rem;
+    left: 8.0%;
+}
+.sb i{
+    font-size: 2.15rem;
+    color: white;
+    margin-top: 0.5rem;
+}
+.sb{
+    background-color: navy;
+    width: 5vw;
+    height: 7vh;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+.flexscreen{
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+    padding: 1rem;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7rem;
+}
+.flexscreen a{
+    font-size: 0.8rem;
+    color: navy;
+}
+.search2{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    padding: 0px;
+}
+.serach3 button{
+    background-color: navy;
+}
+.search3 i{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+.search3{
+    background-color: navy;
+}
+/* The container for the switch and label text */
+.switch {
+    display: flex;        /* Flexbox to align the switch and text in a row */
+    align-items: center;  /* Vertically center the switch and text */
+    gap: 15px;            /* Space between the toggle switch and the text */
+}
+
+/* Hide the default checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+/* Create the slider (toggle switch bar) */
+.sliderround1 {
+    position: relative;
+    width: 30px;         /* Width of the toggle switch */
+    height: 15px;        /* Height of the toggle switch */
+    background-color: navy;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+/* The circle inside the slider */
+.sliderround1:before {
+    content: "";
+    position: absolute;
+    height: 11px;        /* Size of the circle */
+    width: 11px;         /* Size of the circle */
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+/* Toggle the slider background color when checked */
+input:checked + .sliderround1 {
+    background-color: #4CAF50;
+}
+/* Move the circle to the right when checked */
+input:checked + .sliderround1:before {
+    transform: translateX(15px); /* Adjusted for smaller size */
+}
+/* Style the label text */
+.label-text {
+    font-size: 14px;
+    color: #333;
+}
+.label-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    color: navy;
+}
+.switch{
+    padding: 1rem;
+}
+ /* Your CSS code here */
+ .sidescreen {
+    position: relative;
+    display: inline-block;
+}
+.innerview {
+    display: none; /* Initially hidden */
+    position: absolute;
+    top: 0rem; /* Adjust position as needed */
+    left: 0rem;
+    width: 17rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 0.2rem;
+    height: 100vh;
+    z-index: 1;
+    transition: transform 0.5s ease-in-out;
+}
+.dropdown-content {
+    display: none; /* Hide by default */
+}
+.dropdown-content.showData {
+    display: block; /* Show when 'showData' is added */
+}
+.ee{
+    position: absolute;
+    background-color: lightgrey;
+    border-radius: 0.5rem;
+    padding: 1rem; /* Add padding to make the content inside visible */
+    top: 25rem; /* Adjust the position so it's visible on the screen */
+    left: 17.3rem; /* Adjust the position as needed */
+    max-height: 2.5vh;
+    height: 2.5vh;
+    max-width: 1vw;
+    width: 1vw;
+}
+#larr i {
+    font-size: 1.5rem; /* Increase the font size of the arrow */
+    color: navy;     /* Set the arrow color */
+    transform: translateX(-10%);
+}
+@media screen and (min-width: 5470px) and (max-width: 6550px)
+{
+     /*25%*/
+     .logo h2{
+        font-size: 6rem;
+        padding: 2rem;
+     }
+     .logo1 h3,p{
+        font-size: 4rem;
+        padding: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+     }
+     .icon-container i,.bell-container i,.whatsapp-container i,.envelope-container i{
+        font-size: 5rem;
+     }
+     .a{
+        margin-top: 3rem;
+        display: flex;
+        gap: 15rem;
+        padding: 0px;
+     }
+     .card5 {
+        display: none;
+        position: absolute;
+        top: 5.5rem; /* Adjust position as needed */
+        left: -15rem;
+        width: 35rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 25vh;
+        z-index: 1;
+    }
+    .card4 {
+        display: none;
+        position: absolute;
+        top: 5.5rem; /* Adjust position as needed */
+        left: -15rem;
+        width: 35rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 35vh;
+        z-index: 1;
+    }
+    .card3 {
+        display: none;
+        position: absolute;
+        top: 5.5rem; /* Adjust position as needed */
+        left: -15rem;
+        width: 35rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 25vh;
+        z-index: 1;
+    }
+    .card {
+        display: none;
+        position: absolute;
+        top: 5.5rem; /* Adjust position as needed */
+        left: -15rem;
+        width: 35rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 25vh;
+        z-index: 1;
+    }
+    .card1 p,.c2 i,.c2 p{
+        font-size: 2.5rem;
+    }
+    .c1 h4{
+        font-size: 3.5rem;
+    }
+    .c3 h4{
+        font-size: 3.5rem;
+    }
+    .c5 h4{
+        font-size: 3rem;
+    }
+    #sea{
+        width: 25vw;
+        padding: 1.2rem;
+    }
+    .c6{
+        padding: 1rem;
+    }
+    .c6 i{
+        font-size: 3.5rem;
+    }
+    .c8 h4{
+        padding: 1rem;
+        font-size: 3.2rem;
+    }
+    #btn h2{
+        font-size: 3rem;
+    }
+    #arr{
+        padding: 1rem;
+        font-size: 3rem;
+    }
+    .dropdown-content{
+        width: 6vw;
+        height: 5vh;
+    }
+    #a{
+        font-size: 3rem;
+        padding: 0.5rem;
+    }
+    .sa i,.l i{
+        font-size: 3rem;
+        padding: 1rem;
+    }
+    .dashboard h3, .History h3,.virus h3{
+        font-size: 3rem;
+        margin-top: 5rem;
+    }
+    .sidebar{
+        max-width: 15vw;
+        width: 10vw;
+    }
+    .dashboard i,.History i,.virus i{
+        font-size: 7.5rem;
+        margin-top: 5rem;
+    }
+    .sb i{
+        margin-top: 2.5rem;
+        font-size: 7rem;
+    }
+   .innerview{
+    max-width: 15vw;
+    width: 12vw;
+   } 
+   .label-text{
+    font-size: 3.5rem;
+   }
+   .sliderround1{
+    width: 5rem;
+    padding: 0.5rem;
+   }
+   .flexscreen{
+    padding-top: 5rem;
+    margin-top: 4rem;
+    gap: 3.5rem;
+    margin-left: 1rem;
+   }
+   .flexscreen a{
+    font-size: 1.5rem;
+    font-weight: bold;
+   }
+   .switch{
+    margin-top: 5rem;
+   }
+   .search2{
+    margin-top: 5rem;
+    margin-left: 6rem;
+   }
+   .topheading h2{
+    font-size: 4.5rem;
+    padding: 2.5rem;
+   }
+   .h i,.s i,.t i,.sh i,.c i{
+    font-size: 7rem;
+   }
+   .topicon{
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+   }
+   .htext p,.stext p,.ttext p,.shtext p,.ctext p{
+    font-size: 3.2rem;
+   }
+   .htext h2,.stext h2,.ttext h2,.shtext h2,.ctext h2{
+    font-size: 3rem;
+   }
+   #s{
+    width: 7vw;
+    padding: 1rem;
+   }
+   #bu{
+    padding: 0.8rem;
+   }
+   #bu i{
+    font-size: 3rem;
+   }
+   .ee{
+    position: absolute;
+    background-color: lightgrey;
+    border-radius: 0.5rem;
+    padding: 1rem; /* Add padding to make the content inside visible */
+    top: 45rem; /* Adjust the position so it's visible on the screen */
+    left: 46.5rem; /* Adjust the position as needed */
+    max-height: 3vh;
+    height: 3vh;
+    max-width: 1.25vw;
+    width: 1.25vw;
+}
+#larr i {
+    font-size: 3rem; /* Increase the font size of the arrow */
+    color: navy;     /* Set the arrow color */
+    transform: translateX(1rem);
+}
+}
+@media screen and (min-width: 4281px) and (max-width: 5470px)
+{
+    /*33%*/
+    .logo h2{
+        font-size: 4rem;
+        padding: 0px;
+        margin-left: 1rem;
+        margin-top: 3rem;
+     }
+     .logo1 h3,p{
+        line-height: 2rem;
+        font-size: 3rem;
+        padding: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+     }
+     .icon-container i,.bell-container i,.whatsapp-container i,.envelope-container i{
+        font-size: 4rem;
+     }
+     .a{
+        margin-top: 3rem;
+        display: flex;
+        gap: 12rem;
+        padding: 0px;
+        margin: 1rem;
+        margin-top: 3rem;
+     }
+     .card5 {
+        display: none;
+        position: absolute;
+        top: 6.5rem; /* Adjust position as needed */
+        left: -15rem;
+        width: 35rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 25vh;
+        z-index: 1;
+    }
+    .card4 {
+        display: none;
+        position: absolute;
+        top: 6.5rem; /* Adjust position as needed */
+        left: -15rem;
+        width: 35rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 35vh;
+        z-index: 1;
+    }
+    .card3 {
+        display: none;
+        position: absolute;
+        top: 6.5rem; /* Adjust position as needed */
+        left: -15rem;
+        width: 35rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 25vh;
+        z-index: 1;
+    }
+    .card {
+        display: none;
+        position: absolute;
+        top: 6.5rem; /* Adjust position as needed */
+        left: -15rem;
+        width: 35rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 25vh;
+        z-index: 1;
+    }
+    .card1 p,.c2 i,.c2 p{
+        font-size: 2.0rem;
+    }
+    .c1 h4{
+        font-size: 3.0rem;
+    }
+    .c3 h4{
+        font-size: 3.0rem;
+    }
+    .c5 h4{
+        font-size: 3rem;
+    }
+    #sea{
+        width: 25vw;
+        padding: 1.2rem;
+    }
+    .c6{
+        padding: 1rem;
+    }
+    .c6 i{
+        font-size: 3.5rem;
+    }
+    .c8 h4{
+        padding: 1rem;
+        font-size: 3.2rem;
+    }
+    #btn h2{
+        font-size: 2.5rem;
+        padding: 1rem;
+        margin: 0px;
+    }
+    #arr{
+        padding: 1rem;
+        font-size: 3rem;
+    }
+    .dropdown-content{
+        padding: 2rem;
+        width: 7vw;
+        height: 6vh;
+    }
+    #a{
+        font-size: 3rem;
+        padding: 0.5rem;
+    }
+    .sa i,.l i{
+        font-size: 3rem;
+        padding: 1rem;
+    }
+    .dashboard h3, .History h3,.virus h3{
+        font-size: 2.5rem;
+        margin-top: 4rem;
+    }
+    .sidebar{
+        max-width: 15vw;
+        width: 10vw;
+        height: 92.5vh;
+    }
+    .dashboard i,.History i,.virus i{
+        font-size: 5.7rem;
+        margin-top: 5rem;
+    }
+    .sb i{
+        margin-top: 1.7rem;
+        font-size: 6rem;
+    }
+   .innerview{
+    max-width: 17vw;
+    width: 16.5vw;
+   } 
+   .label-text{
+    font-size: 1.8rem;
+   }
+   .sliderround1{
+    width: 5rem;
+    padding: 0.6rem;
+   }
+   .flexscreen{
+    padding-top: 5rem;
+    margin-top: 4rem;
+    gap: 3.5rem;
+    margin-left: 1rem;
+   }
+   .flexscreen a{
+    font-size: 1.5rem;
+    font-weight: bold;
+   }
+   .switch{
+    margin-top: 5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   }
+   .search2{
+    margin-top: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   }
+   .topheading h2{
+    font-size: 3rem;
+    padding: 2.5rem;
+   }
+   .h i,.s i,.t i,.sh i,.c i{
+    font-size: 5rem;
+   }
+   .topicon{
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+   }
+   .htext p,.stext p,.ttext p,.shtext p,.ctext p{
+    font-size: 2.5rem;
+   }
+   .htext h2,.stext h2,.ttext h2,.shtext h2,.ctext h2{
+    font-size: 3rem;
+   }
+   #s{
+    width: 7vw;
+    padding: 1rem;
+   }
+   #bu{
+    padding: 0.8rem;
+   }
+   #bu i{
+    font-size: 1.3rem;
+   }
+   .map iframe{
+    height: 75vh;
+   }
+   .ee{
+    position: absolute;
+    background-color: lightgrey;
+    border-radius: 0.5rem;
+    padding: 1rem; /* Add padding to make the content inside visible */
+    top: 45rem; /* Adjust the position so it's visible on the screen */
+    left: 47.5rem; /* Adjust the position as needed */
+    max-height: 3vh;
+    height: 3vh;
+    max-width: 1.25vw;
+    width: 1.25vw;
+}
+#larr i {
+    font-size: 3rem; /* Increase the font size of the arrow */
+    color: navy;     /* Set the arrow color */
+}
+}
+@media screen and (min-width: 2851px) and (max-width: 3450px)
+{
+    /*50%*/
+    .logo{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo h2{
+        font-size: 2.5rem;
+        padding: 0px;
+        margin-left: 1rem;
+     }
+     .logo1{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+     }
+     .logo1 h3,p{
+        line-height:1rem;
+        font-size: 2rem;
+        padding: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+     }
+     .icon-container i,.bell-container i,.whatsapp-container i,.envelope-container i{
+        font-size: 3rem;
+     }
+     .a{
+        margin-top: 3rem;
+        display: flex;
+        gap: 8rem;
+        padding: 0px;
+        margin: 1rem;
+        margin-top: 3rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+     }
+     .card5 {
+        display: none;
+        position: absolute;
+        top: 5.5rem; /* Adjust position as needed */
+        left: -15rem;
+        width: 35rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 25vh;
+        z-index: 1;
+    }
+    .card4 {
+        display: none;
+        position: absolute;
+        top: 5.5rem; /* Adjust position as needed */
+        left: -15rem;
+        width: 35rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 35vh;
+        z-index: 1;
+    }
+    .card3 {
+        display: none;
+        position: absolute;
+        top: 5.5rem; /* Adjust position as needed */
+        left: -15rem;
+        width: 35rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 25vh;
+        z-index: 1;
+    }
+    .card {
+        display: none;
+        position: absolute;
+        top: 5.5rem; /* Adjust position as needed */
+        left: -15rem;
+        width: 35rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 25vh;
+        z-index: 1;
+    }
+    .card1 p,.c2 i,.c2 p{
+        font-size: 1.5rem;
+    }
+    .c2{
+        margin-top: 1rem;
+    }
+    .c1 h4{
+        font-size: 2.5rem;
+    }
+    .c3 h4{
+        font-size: 2.5rem;
+    }
+    .c5 h4{
+        font-size: 2.5rem;
+    }
+    #sea{
+        width: 25vw;
+        padding: 1.2rem;
+    }
+    .c6{
+        padding: 1rem;
+    }
+    .c6 i{
+        font-size: 3.5rem;
+    }
+    .c8 h4{
+        padding: 1rem;
+        font-size: 2.5rem;
+    }
+    #btn h2{
+        font-size: 1.6rem;
+        padding: 1rem;
+        margin: 0px;
+    }
+    #arr{
+        margin: 0px;
+        padding: 1rem;
+        font-size: 2rem;
+    }
+    #btn{
+        justify-content: end;
+        align-items: end;
+        padding: 1rem;
+        margin: 0px;
+    }
+    .dropdown-content{
+        padding: 1rem;
+        width: 8vw;
+        height: 7vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #a{
+        font-size: 2rem;
+        padding: 0.5rem;
+    }
+    .sa i,.l i{
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    .dashboard h3, .History h3,.virus h3{
+        font-size: 1.8rem;
+        margin-top: 2.0rem;
+    }
+    .sidebar{
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+        max-width: 15vw;
+        width: 10vw;
+        height: 90vh;
+    }
+    .dashboard i,.History i,.virus i{
+        font-size:3.85rem;
+        margin-top: 4rem;
+    }
+    .sb i{
+        margin-top: 1.7rem;
+        font-size: 3.5rem;
+    }
+   .innerview{
+    max-width: 17vw;
+    width: 17vw;
+   } 
+   .label-text{
+    font-size: 2rem;
+   }
+   .sliderround1{
+    width: 3.5rem;
+    padding: 0.4rem;
+   }
+   .flexscreen{
+    padding-top: 5rem;
+    margin-top: 4rem;
+    gap: 2rem;
+    margin-left: 1rem;
+   }
+   .flexscreen a{
+    font-size: 1.1rem;
+    font-weight: bold;
+   }
+   .switch{
+    margin-top: 5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   }
+   .search2{
+    margin-top: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   }
+   .topheading{
+    text-align: start;
+    justify-content: center;
+    align-items: start;
+   }
+   .topheading h2{
+    font-size: 2.2rem;
+    padding: 2.5rem;
+   }
+   .h i,.s i,.t i,.sh i,.c i{
+    font-size: 5rem;
+   }
+   .topicon{
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+   }
+   .htext,.shtext,.stext,.ttext,.ctext{
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+   }
+   .htext p,.stext p,.ttext p,.shtext p,.ctext p{
+    font-size: 1.8rem;
+   }
+   .htext h2,.stext h2,.ttext h2,.shtext h2,.ctext h2{
+    font-size: 2.3rem;
+   }
+   #s{
+    width: 7vw;
+    padding: 1rem;
+   }
+   #bu{
+    padding: 0.8rem;
+   }
+   #bu i{
+    font-size: 1.3rem;
+   }
+   .map iframe{
+    height: 73vh;
+    max-height: 73vh;
+   }
+   .topicon{
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+    padding: 1rem;
+    margin: 0px;
+   }  
+   .ee{
+    position: absolute;
+    background-color: lightgrey;
+    border-radius: 0.5rem;
+    padding: 1rem; /* Add padding to make the content inside visible */
+    top: 45rem; /* Adjust the position so it's visible on the screen */
+    left: 32.75rem; /* Adjust the position as needed */
+    max-height: 3vh;
+    height: 3vh;
+    max-width: 1.25vw;
+    width: 1.25vw;
+}
+#larr i {
+    font-size: 2.5rem; /* Increase the font size of the arrow */
+    color: navy;     /* Set the arrow color */
+}
+}
+@media screen and (min-width: 2000px) and (max-width: 2850px)
+{
+    /*67%*/
+    .logo{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo h2{
+        font-size: 2rem;
+        padding: 0px;
+        margin-left: 1rem;
+     }
+     .logo1{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+     }
+     .logo1 h3,p{
+        line-height:0.3;
+        font-size: 1.5rem;
+        padding: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+     }
+     .icon-container i,.bell-container i,.whatsapp-container i,.envelope-container i{
+        font-size: 2rem;
+     }
+     .a{
+        margin-top: 3rem;
+        display: flex;
+        gap: 6rem;
+        padding: 0px;
+        margin: 1rem;
+        margin-top: 3rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+     }
+     .card5 {
+        display: none;
+        position: absolute;
+        top: 4.2rem; /* Adjust position as needed */
+        left: -12rem;
+        width: 25rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 25vh;
+        z-index: 1;
+    }
+    .card4 {
+        display: none;
+        position: absolute;
+        top: 4.2rem; /* Adjust position as needed */
+        left: -12rem;
+        width: 25rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 35vh;
+        z-index: 1;
+    }
+    .card3 {
+        display: none;
+        position: absolute;
+        top: 4.2rem; /* Adjust position as needed */
+        left: -12rem;
+        width: 25rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 25vh;
+        z-index: 1;
+    }
+    .card {
+        display: none;
+        position: absolute;
+        top: 4.2rem; /* Adjust position as needed */
+        left: -12rem;
+        width: 25rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 25vh;
+        z-index: 1;
+    }
+    .card1 p,.c2 i,.c2 p{
+        font-size: 1.2rem;
+    }
+    .c2{
+        margin-top: 1rem;
+    }
+    .c1 h4{
+        font-size: 1.5rem;
+    }
+    .c3 h4{
+        font-size: 1.5rem;
+    }
+    .c5 h4{
+        font-size: 1.5rem;
+    }
+    #sea{
+        width: 25vw;
+        padding: 1.2rem;
+    }
+    .c6{
+        padding: 1rem;
+    }
+    .c6 i{
+        font-size: 2.5rem;
+    }
+    .c8 h4{
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+    #btn h2{
+        font-size: 1.35rem;
+        padding: 1rem;
+        margin: 0px;
+    }
+    #arr{
+        margin: 0px;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+    #btn{
+        justify-content: end;
+        align-items: end;
+        padding: 1rem;
+        margin: 0px;
+    }
+    .dropdown-content{
+        padding: 1rem;
+        width: 8vw;
+        height: 8.5vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #a{
+        font-size: 1.4rem;
+        padding: 0.5rem;
+    }
+    .sa i,.l i{
+        font-size: 1.75rem;
+        padding: 0.5rem;
+    }
+    .dashboard h3, .History h3,.virus h3{
+        font-size: 1.35rem;
+        margin-top: 2.0rem;
+    }
+    .sidebar{
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+        max-width: 15vw;
+        width: 10vw;
+        height: 90vh;
+        max-height: 90vh;
+    }
+    .dashboard i,.History i,.virus i{
+        font-size: 2.8rem;
+        margin-top: 3rem;
+    }
+    .sb i{
+        margin-top: 1.3rem;
+        font-size: 2.5rem;
+    }
+   .innerview{
+    max-width: 17vw;
+    width: 17vw;
+   } 
+   .label-text{
+    font-size: 1.4rem;
+   }
+   .sliderround1{
+    width: 1.5rem;
+    padding: 0.3rem;
+   }
+   .flexscreen{
+    padding-top: 2rem;
+    margin-top: 1rem;
+    gap: 0.4rem;
+    margin-left: 0.35rem;
+   }
+   .flexscreen a{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.0rem;
+    font-weight: bold;
+   }
+   .switch{
+    margin-top: 5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   }
+   .search2{
+    margin-top: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   }
+   .topheading{
+    text-align: start;
+    justify-content: center;
+    align-items: start;
+   }
+   .topheading h2{
+    font-size: 1.8rem;
+    padding: 1rem;
+   }
+   .h i,.s i,.t i,.sh i,.c i{
+    font-size: 2.5rem;
+   }
+   .topicon{
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+   }
+   .htext,.shtext,.stext,.ttext,.ctext{
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+   }
+   .htext p,.stext p,.ttext p,.shtext p,.ctext p{
+    font-size: 1.4rem;
+    transform: translateX(-11%);
+   }
+   .htext h2,.stext h2,.ttext h2,.shtext h2,.ctext h2{
+    font-size: 2.3rem;
+   }
+   #s{
+    width: 7vw;
+    padding: 1rem;
+   }
+   #bu{
+    padding: 0.8rem;
+   }
+   #bu i{
+    font-size: 1.3rem;
+   }
+   .map iframe{
+    height: 73.5vh;
+    max-height: 73.5vh;
+   }
+   .topicon{
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+    padding: 1rem;
+    margin: 0px;
+   }
+   .ee{
+    position: absolute;
+    background-color: lightgrey;
+    border-radius: 0.5rem;
+    padding: 1rem; /* Add padding to make the content inside visible */
+    top: 45rem; /* Adjust the position so it's visible on the screen */
+    left: 24.75rem; /* Adjust the position as needed */
+    max-height: 3vh;
+    height: 3vh;
+    max-width: 1.25vw;
+    width: 1.25vw;
+}
+#larr i {
+    font-size: 2rem; /* Increase the font size of the arrow */
+    color: navy;     /* Set the arrow color */
+}
+}
+@media screen and (min-width: 1950px) and (max-width: 2200px)
+{
+    /*75%*/
+    .logo{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo h2{
+        font-size: 2rem;
+        padding: 0px;
+        margin-left: 1rem;
+     }
+     .logo1{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+     }
+     .logo1 h3,p{
+        line-height:0.2;
+        font-size: 1.3rem;
+        padding: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+     }
+     .icon-container i,.bell-container i,.whatsapp-container i,.envelope-container i{
+        font-size: 1.8rem;
+     }
+     .a{
+        margin-top: 3rem;
+        display: flex;
+        gap: 6rem;
+        padding: 0px;
+        margin: 1rem;
+        margin-top: 3rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+     }
+     .card5 {
+        display: none;
+        position: absolute;
+        top: 3rem; /* Adjust position as needed */
+        left: -12rem;
+        width: 25rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 25vh;
+        z-index: 1;
+    }
+    .card4 {
+        display: none;
+        position: absolute;
+        top: 3rem; /* Adjust position as needed */
+        left: -12rem;
+        width: 25rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 35vh;
+        z-index: 1;
+    }
+    .card3 {
+        display: none;
+        position: absolute;
+        top: 3rem; /* Adjust position as needed */
+        left: -12rem;
+        width: 25rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 25vh;
+        z-index: 1;
+    }
+    .card {
+        display: none;
+        position: absolute;
+        top: 3rem; /* Adjust position as needed */
+        left: -12rem;
+        width: 25rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 25vh;
+        z-index: 1;
+    }
+    .card1 p,.c2 i,.c2 p{
+        font-size: 1.2rem;
+    }
+    .c2{
+        margin-top: 1rem;
+    }
+    .c1 h4{
+        font-size: 1.5rem;
+    }
+    .c3 h4{
+        font-size: 1.5rem;
+    }
+    .c5 h4{
+        font-size: 1.5rem;
+    }
+    #sea{
+        width: 20vw;
+        padding: 0.8rem;
+    }
+    .c6{
+        padding: 1rem;
+    }
+    .c6 i{
+        font-size: 1.6rem;
+    }
+    .c8 h4{
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+    .c7 i{
+        margin-top: 0.2rem;
+        font-size: 1.8rem;
+    }
+    #btn h2{
+        font-size: 1.2rem;
+        padding: 1rem;
+        margin: 0px;
+    }
+    #arr{
+        margin: 0px;
+        padding: 1rem;
+        font-size: 1.35rem;
+    }
+    #btn{
+        justify-content: end;
+        align-items: end;
+        padding: 1rem;
+        margin: 0px;
+    }
+    .dropdown-content{
+        padding: 1rem;
+        width: 8.5vw;
+        height: 9vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #a{
+        font-size: 1.4rem;
+        padding: 0.3rem;
+    }
+    .sa i,.l i{
+        font-size: 1.7rem;
+        padding: 0.5rem;
+    }
+    .dashboard h3, .History h3,.virus h3{
+        font-size: 1.35rem;
+        margin-top: 2.0rem;
+    }
+    .sidebar{
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+        max-width: 15vw;
+        width: 10vw;
+        height: 90vh;
+        max-height: 90vh;
+    }
+    .dashboard i,.History i,.virus i{
+        font-size: 2.5rem;
+        margin-top: 3rem;
+    }
+    .sb i{
+        margin-top: 1.1rem;
+        font-size: 2.3rem;
+    }
+   .innerview{
+    max-width: 17vw;
+    width: 17vw;
+   } 
+   .label-text{
+    font-size: 1.4rem;
+   }
+   .sliderround1{
+    width: 1.5rem;
+    padding: 0.3rem;
+   }
+   .flexscreen{
+    padding-top: 2rem;
+    margin-top: 1rem;
+    gap: 0.4rem;
+    margin-left: 0.35rem;
+   }
+   .flexscreen a{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: bold;
+   }
+   .switch{
+    margin-top: 5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   }
+   .search2{
+    margin-top: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   }
+   .topheading{
+    text-align: start;
+    justify-content: center;
+    align-items: start;
+   }
+   .topheading h2{
+    font-size: 1.5rem;
+    padding: 1rem;
+   }
+   .h i,.s i,.t i,.sh i,.c i{
+    font-size: 2.5rem;
+   }
+   .topicon{
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+   }
+   .htext,.shtext,.stext,.ttext,.ctext{
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+   }
+   .htext p,.stext p,.ttext p,.shtext p,.ctext p{
+    font-size: 1.2rem;
+    transform: translateX(-11%);
+   }
+   .htext h2,.stext h2,.ttext h2,.shtext h2,.ctext h2{
+    font-size: 2.0rem;
+   }
+   #s{
+    width: 7vw;
+    padding: 1rem;
+   }
+   #bu{
+    padding: 0.8rem;
+   }
+   #bu i{
+    font-size: 1.3rem;
+   }
+   .map iframe{
+    height: 73.5vh;
+    max-height: 73.5vh;
+   }
+   .topicon{
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+    padding: 1rem;
+    margin: 0px;
+   }
+   .ee{
+    position: absolute;
+    background-color: lightgrey;
+    border-radius: 0.5rem;
+    padding: 1rem; /* Add padding to make the content inside visible */
+    top: 35rem; /* Adjust the position so it's visible on the screen */
+    left: 22rem; /* Adjust the position as needed */
+    max-height: 3vh;
+    height: 3vh;
+    max-width: 1.25vw;
+    width: 1.25vw;
+}
+#larr i {
+    font-size: 1.75rem; /* Increase the font size of the arrow */
+    color: navy;     /* Set the arrow color */
+}
+}
+@media screen and (min-width: 1800px) and (max-width: 1950px)
+{
+     /*80%*/
+     .logo{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo h2{
+        font-size: 2rem;
+        padding: 0px;
+        margin-left: 1rem;
+     }
+     .logo1{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+     }
+     .logo1 h3,p{
+        line-height:0.2;
+        font-size: 1.3rem;
+        padding: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+     }
+     .icon-container i,.bell-container i,.whatsapp-container i,.envelope-container i{
+        font-size: 1.6rem;
+     }
+     .a{
+        margin-top: 3rem;
+        display: flex;
+        gap: 5rem;
+        padding: 0px;
+        margin: 1rem;
+        margin-top: 3rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+     }
+     .card5 {
+        display: none;
+        position: absolute;
+        top: 3rem; /* Adjust position as needed */
+        left: -12rem;
+        width: 25rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 25vh;
+        z-index: 1;
+    }
+    .card4 {
+        display: none;
+        position: absolute;
+        top: 3rem; /* Adjust position as needed */
+        left: -12rem;
+        width: 25rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 35vh;
+        z-index: 1;
+    }
+    .card3 {
+        display: none;
+        position: absolute;
+        top: 3rem; /* Adjust position as needed */
+        left: -12rem;
+        width: 25rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 25vh;
+        z-index: 1;
+    }
+    .card {
+        display: none;
+        position: absolute;
+        top: 3rem; /* Adjust position as needed */
+        left: -12rem;
+        width: 25rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 25vh;
+        z-index: 1;
+    }
+    .card1 p,.c2 i,.c2 p{
+        font-size: 1.2rem;
+    }
+    .c2{
+        margin-top: 1rem;
+    }
+    .c1 h4{
+        font-size: 1.5rem;
+    }
+    .c3 h4{
+        font-size: 1.5rem;
+    }
+    .c5 h4{
+        font-size: 1.5rem;
+    }
+    #sea{
+        width: 20vw;
+        padding: 0.8rem;
+    }
+    .c6{
+        padding: 1rem;
+    }
+    .c6 i{
+        font-size: 1.6rem;
+    }
+    .c8 h4{
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+    .c7 i{
+        margin-top: 0.2rem;
+        font-size: 1.8rem;
+    }
+    #btn h2{
+        font-size: 1.15rem;
+        padding: 1rem;
+        margin: 0px;
+    }
+    #arr{
+        margin: 0px;
+        padding: 1rem;
+        font-size: 1.25rem;
+    }
+    #btn{
+        justify-content: end;
+        align-items: end;
+        padding: 1rem;
+        margin: 0px;
+    }
+    .dropdown-content{
+        padding: 1rem;
+        width: 8.5vw;
+        height: 9vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #a{
+        font-size: 1.35rem;
+        padding: 0.4rem;
+    }
+    .sa i,.l i{
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+    .dashboard h3, .History h3,.virus h3{
+        font-size: 1.35rem;
+        margin-top: 2.0rem;
+    }
+    .sidebar{
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+        max-width: 15vw;
+        width: 10vw;
+        height: 90vh;
+        max-height: 90vh;
+    }
+    .dashboard i,.History i,.virus i{
+        font-size: 2.4rem;
+        margin-top: 2.5rem;
+    }
+    .sb i{
+        margin-top: 1.0rem;
+        font-size: 2rem;
+    }
+   .innerview{
+    max-width: 17vw;
+    width: 17vw;
+   } 
+   .label-text{
+    font-size: 1.4rem;
+   }
+   .sliderround1{
+    width: 1.5rem;
+    padding: 0.3rem;
+   }
+   .flexscreen{
+    padding-top: 2rem;
+    margin-top: 1rem;
+    gap: 0.4rem;
+    margin-left: 0.35rem;
+   }
+   .flexscreen a{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: bold;
+   }
+   .switch{
+    margin-top: 5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   }
+   .search2{
+    margin-top: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   }
+   .topheading{
+    text-align: start;
+    justify-content: center;
+    align-items: start;
+   }
+   .topheading h2{
+    font-size: 1.5rem;
+    padding: 1rem;
+   }
+   .h i,.s i,.t i,.sh i,.c i{
+    font-size: 2.5rem;
+   }
+   .topicon{
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+   }
+   .htext,.shtext,.stext,.ttext,.ctext{
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+   }
+   .htext p,.stext p,.ttext p,.shtext p,.ctext p{
+    font-size: 1.2rem;
+    transform: translateX(-11%);
+   }
+   .htext h2,.stext h2,.ttext h2,.shtext h2,.ctext h2{
+    font-size: 2.0rem;
+   }
+   #s{
+    width: 7vw;
+    padding: 1rem;
+   }
+   #bu{
+    padding: 0.8rem;
+   }
+   #bu i{
+    font-size: 1.3rem;
+   }
+   .map iframe{
+    height: 72vh;
+    max-height: 72vh;
+   }
+   .topicon{
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+    padding: 1rem;
+    margin: 0px;
+   }  
+   .ee{
+    position: absolute;
+    background-color: lightgrey;
+    border-radius: 0.5rem;
+    padding: 1rem; /* Add padding to make the content inside visible */
+    top: 35rem; /* Adjust the position so it's visible on the screen */
+    left: 20.75rem; /* Adjust the position as needed */
+    max-height: 3vh;
+    height: 3vh;
+    max-width: 1.25vw;
+    width: 1.25vw;
+}
+#larr i {
+    font-size: 1.75rem; /* Increase the font size of the arrow */
+    color: navy;     /* Set the arrow color */
+}
+}
+@media screen and (min-width: 1600px) and (max-width: 1800px)
+{
+     /*90%*/
+     .logo{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo h2{
+        font-size: 1.5rem;
+        padding: 0px;
+        margin-left: 1rem;
+     }
+     .logo1{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+     }
+     .logo1 h3,p{
+        line-height: 0.1;
+        font-size: 1.1rem;
+        padding: 0.7rem;
+        font-family: Arial, Helvetica, sans-serif;
+     }
+     .icon-container i,.bell-container i,.whatsapp-container i,.envelope-container i{
+        font-size: 1.6rem;
+     }
+     .a{
+        margin-top: 3rem;
+        display: flex;
+        gap: 4.2rem;
+        padding: 0px;
+        margin: 1rem;
+        margin-top: 3rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+     }
+     .card5 {
+        display: none;
+        position: absolute;
+        top: 3rem; /* Adjust position as needed */
+        left: -8.5rem;
+        width: 18rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 25vh;
+        z-index: 1;
+    }
+    .card4 {
+        display: none;
+        position: absolute;
+        top: 3rem; /* Adjust position as needed */
+        left: -8.5rem;
+        width: 20rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 35vh;
+        z-index: 1;
+    }
+    .card3 {
+        display: none;
+        position: absolute;
+        top: 3rem; /* Adjust position as needed */
+        left: -9.5rem;
+        width: 20rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 25vh;
+        z-index: 1;
+    }
+    .card {
+        display: none;
+        position: absolute;
+        top: 3rem; /* Adjust position as needed */
+        left: -9.5rem;
+        width: 20rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 25vh;
+        z-index: 1;
+    }
+    .card1 p,.c2 i,.c2 p{
+        font-size: 0.9rem;
+    }
+    .c2 i{
+        transform: translateY(-35%);
+    }
+    .c2{
+        margin-top: 1rem;
+    }
+    .c1 h4{
+        font-size: 1.5rem;
+    }
+    .c3 h4{
+        font-size: 1.5rem;
+    }
+    .c5 h4{
+        font-size: 1.5rem;
+    }
+    #sea{
+        width: 20vw;
+        padding: 0.8rem;
+    }
+    .c6{
+        padding: 1rem;
+    }
+    .c6 i{
+        font-size: 1.6rem;
+    }
+    .c8 h4{
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+    .c7 i{
+        margin-top: 0.2rem;
+        font-size: 1.8rem;
+    }
+    #btn h2{
+        font-size: 1.15rem;
+        padding: 1rem;
+        margin: 0px;
+    }
+    #arr{
+        margin: 0px;
+        padding: 1rem;
+        font-size: 1.15rem;
+    }
+    #btn{
+        justify-content: end;
+        align-items: end;
+        padding: 1rem;
+        margin: 0px;
+    }
+    .dropdown-content{
+        padding: 1rem;
+        width: 8.5vw;
+        height: 9vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #a{
+        font-size: 1.20rem;
+        padding: 0.4rem;
+    }
+    .sa i,.l i{
+        font-size: 1.3rem;
+        padding: 0.5rem;
+    }
+    .dashboard h3, .History h3,.virus h3{
+        font-size: 1.15rem;
+        margin-top: 1.0rem;
+    }
+    .sidebar{
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+        max-width: 15vw;
+        width: 10vw;
+        height: auto;
+        max-height: auto;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+    .dashboard i,.History i,.virus i{
+        font-size: 2.1rem;
+        margin-top: 2rem;
+    }
+    .sb i{
+        text-align: center;
+        margin-top: 0.8rem;
+        padding: 0px;
+        font-size: 2rem;
+    }
+   .innerview{
+    max-width: 17vw;
+    width: 17vw;
+   } 
+   .label-text{
+    font-size: 1.1rem;
+   }
+   .sliderround1{
+    width: 1.5rem;
+    padding: 0.3rem;
+   }
+   .flexscreen{
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: 1rem;
+    gap: 0.2rem;
+    margin-left: 0.10rem;
+   }
+   .flexscreen a{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+   }
+   .switch{
+    margin-top: 5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   }
+   .search2{
+    padding: 0px;
+    margin-top: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   }
+   .topheading{
+    text-align: start;
+    justify-content: center;
+    align-items: start;
+   }
+   .topheading h2{
+    font-size: 1.25rem;
+    padding: 1rem;
+   }
+   .h i,.s i,.t i,.sh i,.c i{
+    font-size: 1.6rem;
+   }
+   .topicon{
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+   }
+   .htext,.shtext,.stext,.ttext,.ctext{
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+   }
+   .htext p,.stext p,.ttext p,.shtext p,.ctext p{
+    font-size: 1.0rem;
+    transform: translateX(-11%);
+   }
+   .htext h2,.stext h2,.ttext h2,.shtext h2,.ctext h2{
+    font-size: 1.5rem;
+   }
+   #s{
+    width: 7vw;
+    padding: 0.5rem;
+   }
+   #bu{
+    padding: 0.32rem;
+   }
+   #bu i{
+    font-size: 1.3rem;
+   }
+   .map iframe{
+    height: 73vh;
+    max-height: 73vh;
+   }
+   .topicon{
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+    padding: 1rem;
+    margin: 0px;
+   }
+   .ee{
+    position: absolute;
+    background-color: lightgrey;
+    border-radius: 0.5rem;
+    padding: 1rem; /* Add padding to make the content inside visible */
+    top: 30rem; /* Adjust the position so it's visible on the screen */
+    left: 18.35rem; /* Adjust the position as needed */
+    max-height: 3vh;
+    height: 3vh;
+    max-width: 1.25vw;
+    width: 1.25vw;
+}
+#larr i {
+    font-size: 1.75rem; /* Increase the font size of the arrow */
+    color: navy;     /* Set the arrow color */
+}
+}
+@media screen and (min-width: 1200px) and (max-width: 1350px){
+    .logo{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo h2{
+        font-size: 1.25rem;
+        padding: 0px;
+        margin-left: 1rem;
+     }
+     .logo1{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+     }
+     .logo1 h3,p{
+        line-height: 0.1;
+        font-size: 1rem;
+        padding: 0.7rem;
+        font-family: Arial, Helvetica, sans-serif;
+     }
+     .icon-container i,.bell-container i,.whatsapp-container i,.envelope-container i{
+        font-size: 1.35rem;
+     }
+     .a{
+        margin-top: 3rem;
+        display: flex;
+        gap: 2.75rem;
+        padding: 0px;
+        margin: 1rem;
+        margin-top: 3rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+     }
+     .card5 {
+        display: none;
+        position: absolute;
+        top: 1.5rem; /* Adjust position as needed */
+        left: -8.5rem;
+        width: 18rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 25vh;
+        z-index: 1;
+    }
+    .card4 {
+        display: none;
+        position: absolute;
+        top: 1.5rem; /* Adjust position as needed */
+        left: -8.5rem;
+        width: 20rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 35vh;
+        z-index: 1;
+    }
+    .card3 {
+        display: none;
+        position: absolute;
+        top: 1.5rem; /* Adjust position as needed */
+        left: -9.5rem;
+        width: 20rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 25vh;
+        z-index: 1;
+    }
+    .card {
+        display: none;
+        position: absolute;
+        top: 1.5rem; /* Adjust position as needed */
+        left: -9.5rem;
+        width: 20rem;
+        right: 5rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 25vh;
+        z-index: 1;
+    }
+    .card1 p,.c2 i,.c2 p{
+        font-size: 0.9rem;
+    }
+    .c2 i{
+        transform: translateY(-35%);
+    }
+    .c2{
+        margin-top: 1rem;
+    }
+    .c1 h4{
+        font-size: 1.5rem;
+    }
+    .c3 h4{
+        font-size: 1.5rem;
+    }
+    .c5 h4{
+        font-size: 1.5rem;
+    }
+    #sea{
+        width: 20vw;
+        padding: 0.8rem;
+    }
+    .c6{
+        padding: 1rem;
+    }
+    .c6 i{
+        font-size: 1.6rem;
+    }
+    .c8 h4{
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+    .c7 i{
+        margin-top: 0.2rem;
+        font-size: 1.8rem;
+    }
+    #btn h2{
+        font-size: 1.15rem;
+        padding: 1rem;
+        margin: 0px;
+    }
+    #arr{
+        margin: 0px;
+        padding: 1rem;
+        font-size: 1.15rem;
+    }
+    #btn{
+        justify-content: end;
+        align-items: end;
+        padding: 1rem;
+        margin: 0px;
+    }
+    .dropdown-content{
+        padding: 1rem;
+        width: 8.5vw;
+        height: 9vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #a{
+        font-size: 1.20rem;
+        padding: 0.4rem;
+    }
+    .sa i,.l i{
+        font-size: 1.3rem;
+        padding: 0.5rem;
+    }
+    .dashboard h3, .History h3,.virus h3{
+        font-size: 1.1rem;
+        margin-top: 1.0rem;
+    }
+    .sidebar{
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+        max-width: 15vw;
+        width: 10vw;
+        height: auto;
+        max-height: auto;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+    .dashboard i,.History i,.virus i{
+        font-size: 1.7rem;
+        margin-top: 2rem;
+    }
+    .sb i{
+        text-align: center;
+        margin-top: 0.8rem;
+        padding: 0px;
+        font-size: 2rem;
+    }
+   .innerview{
+    max-width: 17vw;
+    width: 17vw;
+   } 
+   .label-text{
+    font-size: 1.1rem;
+   }
+   .sliderround1{
+    width: 1.5rem;
+    padding: 0.3rem;
+   }
+   .flexscreen{
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: 1rem;
+    gap: 0.2rem;
+    margin-left: 0.10rem;
+   }
+   .flexscreen a{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+   }
+   .switch{
+    margin-top: 5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   }
+   .search2{
+    padding: 0px;
+    margin-top: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   }
+   .topheading{
+    text-align: start;
+    justify-content: center;
+    align-items: start;
+   }
+   .topheading h2{
+    font-size: 1.25rem;
+    padding: 1rem;
+   }
+   .h i,.s i,.t i,.sh i,.c i{
+    font-size: 1.6rem;
+   }
+   .topicon{
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+   }
+   .htext,.shtext,.stext,.ttext,.ctext{
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+   }
+   .htext p,.stext p,.ttext p,.shtext p,.ctext p{
+    font-size: 1.0rem;
+    transform: translateX(-11%);
+   }
+   .htext h2,.stext h2,.ttext h2,.shtext h2,.ctext h2{
+    font-size: 1.5rem;
+   }
+   #s{
+    width: 7vw;
+    padding: 0.5rem;
+   }
+   #bu{
+    padding: 0.32rem;
+   }
+   #bu i{
+    font-size: 1.3rem;
+   }
+   .map iframe{
+    height: 73vh;
+    max-height: 73vh;
+   }
+   .topicon{
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+    padding: 1rem;
+    margin: 0px;
+   }
+   .ee{
+    position: absolute;
+    background-color: lightgrey;
+    border-radius: 0.5rem;
+    padding: 1rem; /* Add padding to make the content inside visible */
+    top: 30rem; /* Adjust the position so it's visible on the screen */
+    left: 15.25rem; /* Adjust the position as needed */
+    max-height: 3vh;
+    height: 3vh;
+    max-width: 1.25vw;
+    width: 1.25vw;
+}
+#larr i {
+    font-size: 1.5rem; /* Increase the font size of the arrow */
+    color: navy;     /* Set the arrow color */
+}   
+}
+@media screen and (min-width: 655px) and (max-width: 1024px)
+{
+    .logo h2{
+        font-size: 1rem;
+        padding: 0px;
+    }
+    .logo1{
+        font-size: 0.85rem;
+        text-align: center;
+    }
+    .a{
+        font-size: 1rem;
+        width: 100%;
+        max-width: 8vw;
+        width: 8vw;
+        gap: 1.5rem;
+        margin: 1rem;
+    }
+    #btn h2{
+        font-size: 0.8rem;
+    }
+    .dashboard i,.History i,.virus i{
+        font-size: 1.55rem;
+        margin-top: 2rem;
+        padding: 0px;
+    }
+    .sidebar1{
+        width: 3rem;
+        background-color: navy;
+        border-radius: 0.25rem;
+    }
+    .sb i{
+        font-size: 2rem;
+    }
+    .sb{
+        padding: 0.33rem;
+    }
+    .topheading h2{
+        font-size: 1rem;
+    }
+    .topicon{
+        display: flex;
+        max-width:10vw;
+        gap: 1rem;
+    }
+    .h i,.s i,.t i,.sh i,.c i{
+        font-size: 0.8rem;
+    }
+    .htext h2,.stext h2,.ttext h2,.shtext h2,.ctext h2{
+        font-size: 1rem;
+    }
+    .htext p,.stext p,.ttext p,.shtext p,.ctext p{
+        font-size: 0.75rem;
+    }
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+      }
+}
+@media screen and (min-width: 320px) and (max-width: 654px){
+    .logo h2{
+        font-size: 1rem;
+        padding: 0px;
+    }
+    .logo1{
+        font-size: 0.85rem;
+        text-align: center;
+    }
+    .a{
+        font-size: 0.75rem;
+        width: 100%;
+        max-width: 6vw;
+        width: 6vw;
+        gap: 1.5rem;
+        margin: 1rem;
+        display: none;
+    }
+    #btn h2{
+        font-size: 0.8rem;
+    }
+    .dashboard i,.History i,.virus i{
+        font-size: 1.15rem;
+        margin-top: 2rem;
+        padding: 0px;
+    }
+    .sidebar1{
+        width: 3rem;
+        background-color: navy;
+        border-radius: 0.25rem;
+        display: none;
+    }
+    .sb i{
+        font-size: 2rem;
+    }
+    .sb{
+        padding: 0.33rem;
+    }
+    .topheading h2{
+        font-size: 1rem;
+    }
+    .topicon {
+        display: flex;
+        width: 4vw;
+        max-width: 4vw;
+        justify-content: space-between;
+        width: 100%;
+        gap: 0.33rem;
+        transform: translateX(-10%); 
+      }
+    .h i,.s i,.t i,.sh i,.c i{
+        font-size: 0.5rem;
+    }
+    .htext h2,.stext h2,.ttext h2,.shtext h2,.ctext h2{
+        font-size: 0.5rem;
+    }
+    .htext p,.stext p,.ttext p,.shtext p,.ctext p{
+        font-size: 0.30rem;
+    }
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        max-width: 5rem;
+        width: 5rem;
+        height: 95vh;
+        max-height: 95vh;
+      }
+      .sidebar h3,.History h3,.virus h3{
+        font-size: 0.65rem;
+      }
+}

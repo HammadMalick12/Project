@@ -1,0 +1,1915 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head{
+    display: flex;
+    background-color: whitesmoke;
+    padding: 0.5rem;
+    justify-content: space-between;
+}
+.hrline hr{
+    height: 0.025rem;
+    background-color: navy;
+}
+.logo{
+    display: flex;
+}
+.logo1{
+    transform: translateX(5%);
+    color: navy;
+    line-height: 1;
+    padding-top: 0.9rem;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+#btn{
+    display:flex;
+}
+.aaa {
+    margin-top: 1.5rem;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    display: flex;       
+    gap: 4rem;           
+    font-size: 1.5rem;
+    color:  grey;
+    transform: translateX(110%);     
+}
+.aaa i {
+    margin: 0;           
+    padding-bottom: 1rem;
+}
+.logo h2{
+    margin-top: 1rem;
+    font-size: 2.0rem;
+    color: navy;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#btn img{
+    height: 4vh;
+    width: 2.5vw;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+#btn {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    padding: 0; 
+    border: none; 
+    background-color: transparent;
+    margin-right: 0.5rem; 
+    text-align: center;
+}
+#arr{
+    padding: 1rem;
+}
+#btn h2{
+    font-size: 0.8rem;
+}
+i.fa-whatsapp{
+    color: grey;
+}
+.sidebar{
+    max-width: 10rem;
+    width: 8rem;
+    background-color:navy;
+    margin: 0px;
+    height: 90vh;
+}
+.dashboard h3, .History h3,.virus h3{
+    color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+}
+.sidebar{
+    position: relative;
+}
+.dashboard i,.virus i{
+    margin-top: 1.5rem;
+    color: whitesmoke;
+    font-size: 1.6rem;
+    transform: translateX(150%);
+}
+.nav{
+    display: flex;
+}
+.maploc{
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    margin: 0px;
+    border-color: whitesmoke;
+}
+.maploc iframe{
+    width: 95%;
+    height: 55vh;
+    margin: 0;
+    border: 2px solid black; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    background-color: white; 
+    position: relative;
+}
+.History i{
+    margin-top: 1.5rem;
+    color: whitesmoke;
+    font-size: 1.6rem;
+    transform: translateX(175%);
+}
+.topicon{
+    display: flex;
+    gap: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+.topheading h2{
+    margin: 0px;
+    margin-left: 0.7rem;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: navy;
+    padding: 1.0rem;
+    text-align: start;
+}
+.h i,.s i, .t i,.sh i,.c i{
+    font-size: 1.5rem;
+}
+.topicon{
+    padding: 0.5rem;
+    margin-left: 1.1rem;
+}
+.htext h2,.stext h2 ,.ttext h2,.shtext h2,.ctext h2{
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+}
+.htext,.stext,.ttext,.shtext,.ctext{
+    margin-left: 0.5rem;
+    padding: 0;
+    text-align: start;
+}
+.htext p,.stext p,.ttext p,.shtext p,.ctext p{
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h,.s,.t,.sh,.c{
+    margin: 0px;
+    display: flex;
+}
+.h i, .htext{
+    color: rgb(8, 8, 124);
+}
+.s i, .stext{
+    color: rgb(127, 216, 127);
+}
+.t i, .ttext{
+    color: lightcoral;
+}
+.c i, .ctext{
+    color: rgb(26, 163, 127);
+}
+.sh i,.shtext{
+    color: rgb(93, 93, 216);
+}
+.topbar{
+    background-color: white;
+    box-shadow:  0 4px 8px rgba(255, 255, 255, 0.885);
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 9rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 100%;
+    margin-top: 1.1rem;
+    transform: translateX(-75%); 
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+#a{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: rgb(140, 140, 140);
+}
+.sa,.l{
+    display: flex; 
+    font-size: 1.2rem;
+    color: grey;
+}
+.sa i, .l i{
+    padding: 0.5rem;
+}
+.icon-container {
+    position: relative;
+    display: inline-block;
+}
+.card {
+    display: none;
+    position: absolute;
+    top: 2rem; /* Adjust position as needed */
+    left: -9rem;
+    width: 17rem;
+    right: 5rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 0.2rem;
+    height: 25vh;
+    z-index: 1;
+}
+.icon-container:hover .card 
+{
+    display: none;
+}
+.c1{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: navy;
+}
+.c1 h4,.c1 i{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: whitesmoke;
+}
+.c1 h4{
+    margin-top: 0.3rem;
+    margin-left: 0.5rem;
+}
+.c1 i{
+    margin-top: 0.4rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+.card1{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    margin-top: 0.8rem;
+}
+.card1 p{
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.c2{
+    display: flex;
+}
+.c2 i{
+    font-size: 1rem;
+    padding: 0.1rem;
+}
+.c2 p{
+    font-size: 0.8rem;
+    padding: 0.1rem;
+}
+.hline hr {
+    margin-top: 0.4rem;
+   color: black;
+}
+.bell-container {
+    position: relative;
+    display: inline-block;
+}
+.card3 {
+    display: none;
+    position: absolute;
+    top: 2rem; /* Adjust position as needed */
+    left: -8rem;
+    width: 17rem;
+    right: 5rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 0.2rem;
+    height: 25vh;
+    z-index: 1;
+}
+.bell-container:hover .card3
+{
+    display: none;
+}
+.c3 h4{
+    font-size: 1.2rem;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    background-color: navy;
+}
+.whatsapp-container {
+    position: relative;
+    display: inline-block;
+}
+.card4 {
+    display: none;
+    position: absolute;
+    top: 2rem; /* Adjust position as needed */
+    left: -8rem;
+    width: 17rem;
+    right: 5rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 0.2rem;
+    height: 35vh;
+    z-index: 1;
+}
+.whatsapp-container:hover .card4
+{
+    display: none;
+}
+.c5 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: whitesmoke;
+    background-color: navy;
+    padding: 1rem;
+}
+.c6{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+}
+#sea {
+    width: 10rem; /* Adjust the width as needed */
+    height: 1.2rem; /* Adjust the height as needed */
+    padding: 0.4rem; /* Adjust padding to control the spacing inside the input */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem; /* Adjust text size if needed */
+}
+.c6 i{
+    margin: 0px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: grey;
+}
+.c7 i{
+    font-size: 1.5rem;
+    color: grey;
+    transform: translateY(-10%);
+}
+.envelope-container {
+    position: relative;
+    display: inline-block;
+}
+.card5 {
+    display: none;
+    position: absolute;
+    top: 2rem; /* Adjust position as needed */
+    left: -9rem;
+    width: 17rem;
+    right: 5rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 0.2rem;
+    height: 25vh;
+    z-index: 1;
+}
+.envelope-container:hover .card5 
+{
+    display: none;
+}
+.c8{
+    background-color: navy;
+    border-radius: 4px;
+    padding: 1rem;
+}
+.c8 h4{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.topheading{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1rem;
+    color: navy;
+}
+.cal{
+    margin-top: 1rem;
+}.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px; /* Reduced width */
+    height: 20px; /* Reduced height */
+    margin-right: 7rem; /* Adjusted gap between switches */
+    vertical-align: middle;
+}
+
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 1rem; /* Adjusted border-radius */
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px; /* Reduced size */
+    width: 16px; /* Reduced size */
+    left: 2px; /* Adjusted position */
+    bottom: 2px; /* Adjusted position */
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+input:checked + .slider {
+    background-color: #2196F3;
+}
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+input:checked + .slider:before {
+    -webkit-transform: translateX(20px); /* Adjusted translation for smaller size */
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+}
+/* Move the text out of the switch area */
+.slider.round {
+    border-radius: 1rem; /* Adjusted to match smaller switch size */
+    padding-right: 50px; /* Adjusted padding for text */
+    display: flex;
+    align-items: center; /* Vertically center the text */
+    justify-content: flex-end; /* Push the text to the right of the slider */
+    color: white; /* Text color */
+    font-size: 0.9rem; /* Reduced font size */
+    font-weight: bold;
+    margin-left: 0.8rem; /* Adjusted gap between toggle and text */
+}
+.slider.round:before {
+    border-radius: 50%;
+}
+.bottombar {
+    margin-top: 1rem;
+    background-color: rgb(34, 33, 33);
+    height: 1vh;
+    padding: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 4rem;
+    width: 4rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    margin-left: -0.75rem;
+    margin-top: 0.15rem;
+    height: auto;
+  }
+  .dropdown2:hover .dropdown-content2 {
+    display: block;
+    color: white;
+    background-color: rgb(33, 32, 32);
+  }
+  .dropdown2 span{
+    color: white;
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+  .a{
+    display: flex;
+    gap: 4rem;
+  }
+  .t{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 80%;
+    width: 80%;
+  }
+  #e{
+    font-size: 0.8rem;
+  }
+  @media  screen and (min-width: 5470px ) and (max-width: 6550px) 
+  {
+      .logo h2{
+          font-size: 4rem;
+          display: flex;
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+          padding: 1rem;
+      }
+      .logo1{
+          font-size: 3.5rem;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          padding: 1rem;
+      }
+      .head{
+          padding: 5rem;
+      }
+      .a{
+          font-size: 7rem;
+          gap: 18rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+      }
+      #btn h2{
+          font-size: 2.5rem;
+      }
+      #arr{
+          font-size: 3rem;
+      }
+      .dropdown-content{
+        display: block;
+        margin-top: 6.75rem;
+          height: 8vh;
+          width: 6vw;
+      }
+      .sa i, .l i{
+          font-size: 4rem;
+          padding: 1.5rem;
+      }
+      #a{
+          margin-top: 1.5rem;
+          font-size: 2.5rem;
+      }   
+      .dashboard i, .virus i,.History i{
+          margin-top: 7rem;
+          font-size: 6.25rem;
+      }
+      .dashboard h3, .virus h3, .History h3{
+          font-size: 3rem;
+          margin-top: 3rem;
+          margin-bottom: 3rem;
+      }
+      .sidebar {
+          max-width: 8vw;
+          width: 8vw;
+          height: 90vh;
+          max-height: 90vh;
+      }
+      .topheading{
+        margin-top: 7rem;
+        margin-bottom: 7rem;
+        padding: 0px;
+      }
+      .topheading h2{
+          padding: 1.5rem;
+          font-size: 5rem;
+          }
+
+      #birthday{
+        padding: 1rem;
+        font-size: 3rem;
+      }
+      .ar a,.ar1 a,.ar2 a, .ar3 a {
+          font-size: 3.5rem;
+      }
+      .bar{
+          padding: 3rem;
+      }
+      .dropdown1 button{
+          padding: 2rem;
+          font-size: 3rem;
+      }
+      .dropdown-content1{
+          height: 10vh;
+          width: 10vw;
+      }
+      .dropdown-content1 p{
+          font-size: 3rem;
+      }
+      #sea2{
+          padding: 1.25rem;
+      }
+      #sb1{
+          padding: 1.25rem;
+      }
+      #sb1 i{
+          font-size: 1.25rem;
+      }
+      #cal{
+          padding: 1rem;
+          font-size: 3rem;
+      }
+      .cal ,.cal1{
+          font-size: 3rem;
+          font-weight: bold;
+      }
+      .callogo{
+          display: none;
+      }
+      .searchbutton3{
+          margin-top: 1rem;
+      }
+      .bline hr{
+          margin-bottom: 3rem;
+          max-width: 90vw;
+          width: 90vw;
+      }
+      .tablesection {
+          display: flex;
+          justify-content: center; /* Horizontally centers the content */
+          align-items: center;     /* Vertically centers the content */
+          text-align: center;
+          max-width: 80vw;
+          width: 80vw;
+          margin: 0 auto;          /* Centers the entire section horizontally within the page */
+      }    
+      .card, .card3,.card4,.card5{
+          top: 5rem; /* Adjust position as needed */
+          left: -11rem;
+          width: 25rem;
+          right: 10rem;
+          background-color: #fff;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          border-radius: 8px;
+          padding: 0.2rem;
+          height: 15vh;
+          z-index: 10;
+      }
+      .c1 h4,.c3 h4,.c5 h4 ,.c8 h4{
+          font-size: 2.5rem;
+      }
+      .c6{
+          display: none;
+      }
+      #e{
+        font-size: 3rem;
+      }
+      .bottombar{
+        display: flex;
+        gap: 20rem;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+      }
+      .switch input{
+        padding: 7.5rem;
+      }
+      .dropdown-content2{
+        min-width: 8rem;
+        width: 12rem;
+      }
+      .dropdown-content2 a{
+        font-size: 2rem;
+        max-width: 10vw;
+        width: 10vw;
+        height: 9vh;
+        max-height: 8vh;
+      }
+      .dropdown2{
+        font-size: 2.5rem;
+      }
+  }
+  @media screen and (min-width:4281px) and (max-width:5470px)
+  {
+    .logo h2{
+        font-size: 3rem;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+    .logo1{
+        font-size: 3rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+    }
+    .head{
+        padding: 5rem;
+    }
+    .a{
+        font-size: 4rem;
+        gap: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #btn h2{
+        font-size: 2.25rem;
+    }
+    #arr{
+        font-size: 2.2rem;
+    }
+    .dropdown-content{
+        display: block;
+        margin-top: 6.75rem;
+        height: 10vh;
+        width: 8vw;
+    }
+    .sa i, .l i{
+        font-size: 3rem;
+        padding: 2rem;
+    }
+    #a{
+        margin-top: 1.5rem;
+        font-size: 2.5rem;
+    }   
+    .dashboard i, .virus i,.History i{
+        margin-top: 7rem;
+        font-size: 5rem;
+    }
+    .dashboard h3, .virus h3, .History h3{
+        font-size: 2.25rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .sidebar {
+        max-width: 8vw;
+        width: 8vw;
+        height: 87vh;
+        max-height: 87vh;
+    }
+    
+    .h h4{
+        padding: 0.5rem;
+        font-size: 3.5rem;
+    }
+    .ar a,.ar1 a,.ar2 a, .ar3 a {
+        font-size: 2.5rem;
+    }
+    .bar{
+        padding: 3rem;
+    }
+    .dropdown1 button{
+        padding: 2rem;
+        font-size: 3rem;
+    }
+    .dropdown-content1{
+        height: 10vh;
+        width: 10vw;
+    }
+    .dropdown-content1 p{
+        font-size: 2.25rem;
+    }
+    #sea2{
+        padding: 1.25rem;
+    }
+    #sb1{
+        padding: 1.25rem;
+    }
+    #sb1 i{
+        font-size: 1.25rem;
+    }
+    #cal{
+        padding: 1rem;
+        font-size: 3rem;
+    }
+    .cal ,.cal1{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    .callogo{
+        display: none;
+    }
+    .searchbutton3{
+        margin-top: 1rem;
+    }
+    .bline hr{
+        margin-bottom: 3rem;
+        max-width: 90vw;
+        width: 90vw;
+    }
+    .tablesection {
+        display: flex;
+        justify-content: center; /* Horizontally centers the content */
+        align-items: center;     /* Vertically centers the content */
+        text-align: center;
+        max-width: 80vw;
+        width: 80vw;
+        margin: 0 auto;          /* Centers the entire section horizontally within the page */
+    }    
+    tr th{
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+    tr td{
+        padding: 1rem;
+        font-size: 2rem;
+    }
+    .card, .card3,.card4,.card5{
+        top: 5rem; /* Adjust position as needed */
+        left: -11rem;
+        width: 25rem;
+        right: 10rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 20vh;
+        z-index: 1;
+    }
+    .c1 h4,.c3 h4,.c5 h4 ,.c8 h4{
+        font-size: 2.5rem;
+    }
+    .c6{
+        display: none;
+    }
+    #e{
+      font-size: 3rem;
+    }
+    .bottombar{
+      display: flex;
+      gap: 20rem;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
+    .switch input{
+      padding: 7.5rem;
+    }
+    .dropdown-content2 a{
+      font-size: 2rem;
+      max-width: 10vw;
+      width: 10vw;
+      height: 8vh;
+      max-height: 8vh;
+    }
+    .dropdown2{
+      font-size: 2.5rem;
+    }
+    .topheading{
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        padding: 0px;
+      }
+      .topheading h2{
+          padding: 1.5rem;
+          font-size: 5rem;
+        }
+      #birthday{
+        padding: 1rem;
+        font-size: 3rem;
+      } 
+      .dropdown-content2{
+        min-width: 8rem;
+        width: 12rem;
+      }
+  }
+  @media screen and (min-width: 2851px) and (max-width: 3450px)
+  {
+    .logo h2{
+        font-size: 2rem;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+    }
+    .logo1{
+        margin-top: 1rem;
+        font-size: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0.5rem;
+    }
+    .head{
+        padding: 2rem;
+    }
+    .a{
+        font-size: 2.5rem;
+        gap: 8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #btn h2{
+        font-size: 1.55rem;
+    }
+    #arr{
+        font-size: 1.75rem;
+    }
+    .dropdown-content{
+        display: block;
+        margin-top: 3.25rem;
+        height: 12vh;
+        width: 9vw;
+    }
+    .sa i, .l i{
+        font-size: 2rem;
+        padding: 1.5rem;
+    }
+    #a{
+        margin-top: 0.75rem;
+        font-size: 2rem;
+    }   
+    .dashboard i, .virus i,.History i{
+        margin-top: 4rem;
+        font-size: 3.2rem;
+    }
+    .dashboard h3, .virus h3, .History h3{
+        font-size: 1.75rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .sidebar {
+        max-width: 8vw;
+        width: 8vw;
+    }
+    .h h4{
+        padding: 1rem;
+        font-size: 2.5rem;
+    }
+    .bar{
+        padding: 1rem;
+    }
+    #cal{
+        padding: 1rem;
+        font-size: 1.75rem;
+    }
+    .cal ,.cal1{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .callogo{
+        display: none;
+    }
+    .card, .card3,.card4,.card5{
+        top: 3rem; /* Adjust position as needed */
+        left: -11rem;
+        width: 25rem;
+        right: 10rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 20vh;
+        z-index: 1;
+        display: none;
+    }
+    .c1 h4,.c3 h4,.c5 h4 ,.c8 h4{
+        font-size: 2.5rem;
+    }
+    .c6{
+        display: none;
+    }
+    #e{
+      font-size: 2rem;
+    }
+    .bottombar{
+      display: flex;
+      gap: 18rem;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
+    .switch input{
+      padding: 5.5rem;
+    }
+    .dropdown-content2 a{
+      font-size: 1rem;
+    }
+    .dropdown2{
+      font-size: 2rem;
+    }
+    .topheading{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        padding: 0px;
+      }
+      .topheading h2{
+          padding: 1rem;
+          font-size: 2.5rem;
+        }
+      #birthday{
+        padding: 0.55rem;
+        font-size: 1.5rem;
+      }   
+  }
+  @media screen and (min-width: 2000px) and (max-width: 2850px)
+  {
+    .logo h2{
+        font-size: 1.5rem;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+    }
+    .logo1{
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0.5rem;
+    }
+    .head{
+        padding: 1rem;
+    }
+    .a{
+        font-size: 2rem;
+        gap: 5.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #btn h2{
+        font-size: 1.25rem;
+    }
+    #arr{
+        font-size: 1.5rem;
+    }
+    .dropdown-content{
+        display: block;
+        margin-top: 2rem;
+        height: 12vh;
+        width: 9vw;
+    }
+    .sa i, .l i{
+        font-size: 1.5rem;
+        padding: 1.5rem;
+    }
+    #a{
+        margin-top: 0.75rem;
+        font-size: 1.25rem;
+    }   
+    .dashboard i, .virus i,.History i{
+        margin-top: 4rem;
+        font-size: 2.4rem;
+    }
+    .dashboard h3, .virus h3, .History h3{
+        font-size: 1.5rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .sidebar {
+        max-width: 8vw;
+        width: 8vw;
+        height: 90vh;
+        max-height: 90vh;
+    }
+    .h h4{
+        padding: 1rem;
+        font-size: 2rem;
+    }
+    .bar{
+        padding: 1rem;
+    }
+    #cal{
+        padding: 0.4rem;
+        font-size: 1.25rem;
+    }
+    .cal ,.cal1{
+        font-size: 1.35rem;
+        font-weight: bold;
+    }
+    .callogo{
+        display: none;
+    }
+    .card, .card3,.card4,.card5{
+        top: 3rem; /* Adjust position as needed */
+        left: -11rem;
+        width: 25rem;
+        right: 10rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 20vh;
+        z-index: 1;
+        display: none;
+    }
+    .c1 h4,.c3 h4,.c5 h4 ,.c8 h4{
+        font-size: 2.5rem;
+    }
+    .c6{
+        display: none;
+    }
+    #e{
+      font-size: 1.5rem;
+    }
+    .bottombar{
+      display: flex;
+      gap: 15rem;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
+    .switch input{
+      padding: 5.5rem;
+    }
+    .dropdown-content2{
+        transform: translateX(10%);
+    }
+    .dropdown-content2 a{
+      font-size: 1.1rem;
+      max-width: 10vw;
+      width: 10vw;
+      height: 5vh;
+      max-height: 5vh;
+    }
+    .dropdown2{
+      font-size: 1.5rem;
+    }
+    .topheading{
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+        padding: 0px;
+      }
+      .topheading h2{
+          padding: 1rem;
+          font-size: 2.5rem;
+        }
+      #birthday{
+        padding: 0.3rem;
+        font-size: 1.25rem;
+      }    
+  }
+  @media screen and (min-width: 1950px) and (max-width: 2200px)
+  {
+    /*75*/
+    .logo h2{
+        font-size: 1.25rem;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+    }
+    .logo1{
+        margin-top: 1rem;
+        font-size: 1.25rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0.5rem;
+    }
+    .head{
+        padding: 1rem;
+    }
+    .a{
+        font-size: 1.5rem;
+        gap: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #btn h2{
+        font-size: 1.15rem;
+    }
+    #arr{
+        font-size: 1.25rem;
+    }
+    .dropdown-content{
+        display: block;
+        margin-top: 1.75rem;
+        height: 13vh;
+        width: 9vw;
+    }
+    .sa i, .l i{
+        font-size: 1.5rem;
+        padding: 1.25rem;
+    }
+    #a{
+        margin-top: 0.5rem;
+        font-size: 1.35rem;
+    }   
+    .dashboard i, .virus i,.History i{
+        margin-top: 2.5rem;
+        font-size: 2.15rem;
+    }
+    .dashboard h3, .virus h3, .History h3{
+        font-size: 1.25rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .sidebar {
+        max-width: 8vw;
+        width: 8vw;
+        height: 90vh;
+        max-height: 90vh;
+    }
+    .h h4{
+        padding: 0.5rem;
+        font-size: 1.5rem;
+    }
+    .bar{
+        padding: 0.5rem;
+    }
+    #cal{
+        padding: 0.3rem;
+        font-size: 1.15rem;
+    }
+    .cal ,.cal1{
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+    .callogo{
+        display: none;
+    }
+    .card, .card3,.card4,.card5{
+        top: 3rem; /* Adjust position as needed */
+        left: -11rem;
+        width: 25rem;
+        right: 10rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 20vh;
+        z-index: 1;
+        display: none;
+    }
+    .c1 h4,.c3 h4,.c5 h4 ,.c8 h4{
+        font-size: 2.5rem;
+    }
+    .c6{
+        display: none;
+    }
+    #e{
+      font-size: 1.35rem;
+    }
+    .bottombar{
+      display: flex;
+      gap: 12rem;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
+    .switch input{
+      padding: 5.5rem;
+    }
+    .dropdown-content2{
+        transform: translateX(-3%)
+    }
+    .dropdown-content2 a{
+      font-size: 1.1rem;
+      max-width: 10vw;
+      width: 10vw;
+      height: 5vh;
+      max-height: 5vh;
+    }
+    .dropdown2{
+      font-size: 1.25rem;
+    }
+    .topheading{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 0px;
+      }
+      .topheading h2{
+          padding: 0.5rem;
+          font-size: 1.5rem;
+        }
+      #birthday{
+        padding: 0.35rem;
+        font-size: 1rem;
+      }
+  }
+  @media screen and (min-width: 1800px) and (max-width: 1950px){
+   /*80*/
+   .logo h2{
+    font-size: 1.25rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+.logo1{
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.5rem;
+}
+.head{
+    padding: 1rem;
+}
+.a{
+    font-size: 1.5rem;
+    gap: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#btn h2{
+    font-size: 1.15rem;
+}
+#arr{
+    font-size: 1.25rem;
+}
+.dropdown-content{
+    display: block;
+    margin-top: 1.75rem;
+    height: 13vh;
+    width: 9vw;
+}
+.sa i, .l i{
+    font-size: 1.25rem;
+    padding: 1rem;
+}
+#a{
+    margin-top: 0.25rem;
+    font-size: 1.15rem;
+}   
+.dashboard i, .virus i,.History i{
+    margin-top: 2.5rem;
+    font-size: 2rem;
+}
+.dashboard h3, .virus h3, .History h3{
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.sidebar {
+    max-width: 8vw;
+    width: 8vw;
+    height: 88vh;
+    max-height: 88vh;
+}
+.h h4{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+.bar{
+    padding: 0.35rem;
+}
+#cal{
+    padding: 0.3rem;
+    font-size: 1.15rem;
+}
+.cal ,.cal1{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.callogo{
+    display: none;
+}
+.card, .card3,.card4,.card5{
+    top: 3rem; /* Adjust position as needed */
+    left: -11rem;
+    width: 25rem;
+    right: 10rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 0.2rem;
+    height: 20vh;
+    z-index: 1;
+    display: none;
+}
+.c1 h4,.c3 h4,.c5 h4 ,.c8 h4{
+    font-size: 2.5rem;
+}
+.c6{
+    display: none;
+}
+#e{
+  font-size: 1.25rem;
+}
+.bottombar{
+  display: flex;
+  gap: 12rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.switch input{
+  padding: 5.5rem;
+}
+.dropdown-content2 a{
+  font-size: 1.1rem;
+  max-width: 10vw;
+  width: 10vw;
+  height: 5vh;
+  max-height: 5vh;
+}
+.dropdown2{
+  font-size: 1.25rem;
+}
+.topheading{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0px;
+  }
+  .topheading h2{
+      padding: 0.3rem;
+      font-size: 1.25rem;
+    }
+  #birthday{
+    padding: 0.25rem;
+    font-size: 1rem;
+  } 
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1800px){
+    /*90*/
+    .logo h2{
+        font-size: 1.25rem;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+    }
+    .logo1{
+        margin-top: 1rem;
+        font-size: 1.15rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0.5rem;
+    }
+    .head{
+        padding: 0.75rem;
+    }
+    .a{
+        font-size: 1.35rem;
+        gap: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #btn h2{
+        font-size: 1rem;
+    }
+    #arr{
+        font-size: 1.1rem;
+    }
+    .dropdown-content{
+        display: block;
+        margin-top: 1.35rem;
+        height: 13vh;
+        width: 9vw;
+    }
+    .sa i, .l i{
+        font-size: 1.5rem;
+        padding: 1.25rem;
+    }
+    #a{
+        margin-top: 0.5rem;
+        font-size: 0.9rem;
+    }   
+    .dashboard i, .virus i,.History i{
+        margin-top: 2.5rem;
+        font-size: 1.9rem;
+    }
+    .dashboard h3, .virus h3, .History h3{
+        font-size: 1.25rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .sidebar {
+        max-width: 8vw;
+        width: 8vw;
+        height: 88vh;
+        max-height: 88vh;
+    }
+    .h h4{
+        padding: 0.34rem;
+        font-size: 1.35rem;
+    }
+    .bar{
+        padding: 0.35rem;
+    }
+    #cal{
+        padding: 0.3rem;
+        font-size: 1rem;
+    }
+    .cal ,.cal1{
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+    .callogo{
+        display: none;
+    }
+    .card, .card3,.card4,.card5{
+        top: 3rem; /* Adjust position as needed */
+        left: -11rem;
+        width: 25rem;
+        right: 10rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 20vh;
+        z-index: 1;
+        display: none;
+    }
+    .c1 h4,.c3 h4,.c5 h4 ,.c8 h4{
+        font-size: 2.5rem;
+    }
+    .c6{
+        display: none;
+    }
+    #e{
+      font-size: 1.1rem;
+    }
+    .bottombar{
+      display: flex;
+      gap: 6rem;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
+    .switch input{
+      padding: 4rem;
+    }
+    .dropdown-content2{
+        max-height: 12vh;
+        height: 12vh;
+    }
+    .dropdown-content2 a{
+      font-size: 0.85rem;
+      height: 5vh;
+      max-height: 5vh;
+    }
+    .dropdown2{
+      font-size: 1rem;
+    }
+    .topheading{
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        padding: 0px;
+      }
+      .topheading h2{
+          padding: 0.2rem;
+          font-size: 1.25rem;
+        }
+      #birthday{
+        padding: 0.25rem;
+        font-size: 1rem;
+      } 
+  }
+  @media screen and (min-width: 1200px) and (max-width: 1399px)
+  {
+    /*90*/
+    .logo h2{
+        font-size: 1.1rem;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+    }
+    .logo1{
+        margin-top: 1rem;
+        font-size: 1rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0.5rem;
+    }
+    .head{
+        padding: 0.75rem;
+    }
+    .a{
+        font-size: 1.25rem;
+        gap: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #btn h2{
+        font-size: 1rem;
+    }
+    #arr{
+        font-size: 1rem;
+    }
+    .dropdown-content{
+        display: block;
+        margin-top: 1.25rem;
+        height: 13vh;
+        width: 9vw;
+    }
+    .sa i, .l i{
+        font-size: 1.5rem;
+        padding: 1.25rem;
+    }
+    #a{
+        margin-top: 0.5rem;
+        font-size: 0.8rem;
+    }   
+    .dashboard i, .virus i,.History i{
+        margin-top: 2.5rem;
+        font-size: 1.45rem;
+    }
+    .dashboard h3, .virus h3, .History h3{
+        font-size: 0.9rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .sidebar {
+        max-width: 8vw;
+        width: 8vw;
+        height: 88vh;
+        max-height: 88vh;
+    }
+    .h h4{
+        padding: 0.34rem;
+        font-size: 1.35rem;
+    }
+    .bar{
+        padding: 0.35rem;
+    }
+    #cal{
+        padding: 0.3rem;
+        font-size: 1rem;
+    }
+    .cal ,.cal1{
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+    .callogo{
+        display: none;
+    }
+    .card, .card3,.card4,.card5{
+        top: 3rem; /* Adjust position as needed */
+        left: -11rem;
+        width: 25rem;
+        right: 10rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 0.2rem;
+        height: 20vh;
+        z-index: 1;
+        display: none;
+    }
+    .c1 h4,.c3 h4,.c5 h4 ,.c8 h4{
+        font-size: 2.5rem;
+    }
+    .c6{
+        display: none;
+    }
+    #e{
+      font-size: 1.1rem;
+    }
+    .bottombar{
+      display: flex;
+      gap: 6rem;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
+    .switch input{
+      padding: 4rem;
+    }
+    .dropdown-content2{
+        max-height: 12vh;
+        height: 12vh;
+    }
+    .dropdown-content2 a{
+      font-size: 0.85rem;
+      height: 5vh;
+      max-height: 5vh;
+    }
+    .dropdown2{
+      font-size: 1rem;
+    }
+    .topheading{
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        padding: 0px;
+      }
+      .topheading h2{
+          padding: 0.2rem;
+          font-size: 1.25rem;
+        }
+      #birthday{
+        padding: 0.25rem;
+        font-size: 1rem;
+      } 
+  }
+  @media screen and (min-width:700px) and (max-width:1024px) {
+    .logo h2{
+        font-size: 1rem;
+        padding: 0px;
+    }
+    .logo1{
+        font-size: 0.85rem;
+        text-align: center;
+    }
+    #btn h2{
+        font-size: 0.8rem;
+    }
+    .dashboard i,.History i,.virus i{
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        padding: 0px;
+    }
+    .sidebar1{
+        width: 3rem;
+        background-color: navy;
+        border-radius: 0.25rem;
+    }
+    .sb i{
+        font-size: 2rem;
+    }
+    .sb{
+        padding: 0.33rem;
+    }
+    .topheading h2{
+        font-size: 1rem;
+    }
+    .topicon{
+        display: flex;
+        max-width:10vw;
+        gap: 1rem;
+    }
+    .h i,.s i,.t i,.sh i,.c i{
+        font-size: 0.8rem;
+    }
+    .htext h2,.stext h2,.ttext h2,.shtext h2,.ctext h2{
+        font-size: 1rem;
+    }
+    .htext p,.stext p,.ttext p,.shtext p,.ctext p{
+        font-size: 0.75rem;
+    }
+    .sidebar{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0px;
+    }
+    
+    .bline hr{
+        width: 100%;
+    }
+    .nsextion 
+    {
+        display: flex;
+        padding: 0.5rem;
+        gap: 0.5rem;
+    }
+    .sidebar{
+        height: 100vh;
+        max-height: 100vh;
+    }
+    #cal{
+        font-size: 0.6rem;
+    }
+    .cal,.cal1{
+        font-size: 0.6rem;
+        font-weight: bold;
+        display: none;
+    }
+    .searchbutton3{
+        transform: translateX(50%);
+    }
+    .dashboard,.virus,.History{
+        padding: 0px;
+        text-align: start;
+        align-items: center;
+        justify-content: center;
+    }
+    #sb1{
+        background-color: whitesmoke;
+        border-color: whitesmoke;
+    }
+    .searchbutton3 i{
+        color: navy;
+    }
+    .head{
+        position: relative;
+    }
+    .icons{
+        display: flex;
+    }
+    .aaa{
+        display: flex;
+        padding: 0px;
+        margin: 1rem auto;
+        gap: 2rem;
+        transform: translateX(-5%);
+    }
+    .topheading{
+        margin-top: 5rem;
+    }
+    .dropdown-content{
+        display: block;
+        margin-top: 1.25rem;
+    }
+  }
+@media screen and (min-width:320px) and (max-width:699px)
+{
+   .logo h2{
+    font-size: 0.75rem;
+   }
+   .logo1{
+    font-size: 0.65rem;
+    text-align: center;
+   }
+   .aaa{
+    display: flex;
+    gap: 0.6rem;
+    font-size: 0.8rem;
+    transform: translateX(-0.15rem);
+   }
+   #btn h2{
+    font-size: 0.6rem;
+   }
+   .dropdown i{
+    font-size: 0.6rem;
+   }
+   #btn{
+    transform: translateX(1rem);
+   }
+   .sidebar{
+    max-width: 4rem;
+    width: 4rem;
+   }
+   .dashboard h3,.History h3,.virus h3{
+    font-size: 0.55rem;
+   }
+   .dashboard i,.History i,.virus i{
+    font-size: 0.9rem;
+   }
+   .dashboard h3{
+    transform: translateX(-0.5rem);
+   }
+   .topheading h2{
+    font-size: 0.75rem;
+   }
+   .topheading{
+    margin-top: 1.5rem;
+    font-size: 0.55rem;
+    gap: 0.25rem;
+    transform: translateX(-1rem);
+   }
+   #birthday{
+    max-width: 10vw;
+    width: 10vw;
+   }
+   .bottombar{
+    display: none;
+   }
+   .sa i,.l i{
+    font-size: 0.85rem;
+   }
+   #a{
+    font-size: 0.75rem;
+   }
+   .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 6rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    transform: translateX(-65%);
+    height: 9vh; 
+    line-height: 0.1;
+}
+.custom-date-picker {
+    width: 100px; /* Adjust width of the input */
+    cursor: pointer; /* Pointer for better UX */
+}
+}
